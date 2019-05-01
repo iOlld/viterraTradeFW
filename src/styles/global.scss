@@ -1,0 +1,45 @@
+html{
+    font-size: 10px;
+}
+
+@media (min-width: 2400px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    html{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 1240px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 1020px) {
+    html{
+        font-size: 7px;
+    }
+}
+
+.body{
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    max-width: 192rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+a, ul, li{
+    text-decoration: none;
+    list-style: none;
+}

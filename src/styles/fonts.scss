@@ -1,0 +1,55 @@
+// HEADER FONTS
+.header__nav-fonts{
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(33, 33, 33);
+}
+
+// SCREEN_ONE FONTS
+.screenOne{
+
+    &__title-text{
+        font-size: 3.6rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    &__subtitle-text{
+        font-size: 5.2rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+
+}
+
+
+// TABS__FONTS
+.tabsLabelFonts{
+    font-size: 1.4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+// ICONS FONT AWESOME STYLE
+.mineStyleUserIcon{
+    color: #767777;
+    font-size: 1.5rem;
+}
+
+.mineStyleArrowDownIconRegistration{
+    color: #767777;
+    font-size: 1rem;
+    padding-left: 0.9rem;
+}
+
+.mineStyleArrowDownIconNav{
+    color: #818282;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}

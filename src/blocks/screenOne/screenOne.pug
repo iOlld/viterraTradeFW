@@ -1,0 +1,22 @@
+section.screenOne
+    .screenOne__wrap
+        p.screenOne__title-text|Торговая площадка пищевой промышленности
+        p.screenOne__subtitle-text|Более 200 000 актуальных предложений
+
+        .tabs_container
+            input(class="hide" type="radio" checked name="tabs" id="tab1")
+            label(class="tabsLabelFonts" for="tab1")|товары
+            .tab_content(id="tab_content_1")
+                form(class="screenOne__search-form" action="#" method="post")
+                    .screenOne__input-wrap
+                        input(class="screenOne__inputOne" type="text" id="searchOne" placeholder="Поиск...")
+                            label(for="searchOne")
+                    .screenOne__input-wrap
+
+            input(class="hide" type="radio" name="tabs" id="tab2")
+            label(class="tabsLabelFonts" for="tab2")|запросы
+            .tab_content(id="tab_content_2")|Содержимое запросы
+
+            input(class="hide" type="radio" name="tabs" id="tab3")
+            label(class="tabsLabelFonts" for="tab3")|тендеры
+            .tab_content(id="tab_content_3")|Содержимое тендеры

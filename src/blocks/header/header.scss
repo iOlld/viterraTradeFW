@@ -1,0 +1,94 @@
+.header{
+
+    &__wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 1.4rem;
+        padding-bottom: 3.8rem;
+        width: 80%;
+        // width: 62.5%;
+        // width: 61%;
+        margin: auto;
+        
+    }
+
+    // &__logo{
+
+    // }
+
+    &__logo-link{
+        display: flex;
+        background: url('../img/logo\ Viterra\ Trade\ 2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 5.5rem;
+        height: 4.2rem;
+        position: relative;
+
+        &::before{
+            content: "Viterra Trade";
+            position: absolute;
+            left: 7rem;
+            top: 2rem;
+            width: 17rem;
+            // font-family: 'Bernard-MT-Condensed';
+            font-size: 2.6rem;
+            font-weight: bold;
+            color: rgb(87, 84, 85);
+        }
+
+        &:after{
+            content: "Объединение надежных партнеров";
+            position: absolute;
+            width: 24rem;
+            top: 5rem;
+            font-family: 'Fira Sans Condensed', sans-serif;
+            font-size: 1.3rem;
+            color: rgb(87, 84, 85);
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__nav{
+        padding-left: 22rem;
+    }
+
+    &__nav-ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // padding-left: 17rem;
+    }
+
+    &__nav-li{
+        padding-right: 4rem;
+    }
+
+    &__registrationMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5.9rem;
+        height: 3.2rem;
+        border: 0.1rem solid #767777;
+        border-radius: 1.5rem;
+        transform: translateY(25%);
+    }
+
+}
+
+
+.Прямоугольник__скругл__углы_1 {
+    background-color: rgb(255, 124, 7);
+    position: absolute;
+    left: 1486px;
+    top: 32px;
+    width: 59px;
+    height: 32px;
+    z-index: 595;
+  }
+  

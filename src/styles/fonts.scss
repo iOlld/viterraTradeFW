@@ -1,6 +1,6 @@
 // HEADER FONTS
 .header__nav-fonts{
-    font-size: 1.5rem;
+    font-size: 1.67rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(33, 33, 33);
 }
@@ -9,7 +9,7 @@
 .screenOne{
 
     &__title-text{
-        font-size: 3.6rem;
+        font-size: 4rem;
         font-family: 'Source Sans Pro', sans-serif;
         color: #fff;
         text-align: center;
@@ -17,7 +17,7 @@
     }
 
     &__subtitle-text{
-        font-size: 5.2rem;
+        font-size: 5.78rem;
         font-family: 'Source Sans Pro', sans-serif;
         color: #fff;
         text-align: center;
@@ -29,7 +29,7 @@
 
 // TABS__FONTS
 .tabsLabelFonts{
-    font-size: 1.4rem;
+    font-size: 1.56rem;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -39,17 +39,19 @@
 // ICONS FONT AWESOME STYLE
 .mineStyleUserIcon{
     color: #767777;
-    font-size: 1.5rem;
+    font-size: 1.56rem;
 }
 
 .mineStyleArrowDownIconRegistration{
     color: #767777;
     font-size: 1rem;
+    // font-size: 0.78rem;
     padding-left: 0.9rem;
 }
 
 .mineStyleArrowDownIconNav{
     color: #818282;
     font-size: 1rem;
+    // font-size: 0.78rem;
     padding-left: 0.5rem;
 }

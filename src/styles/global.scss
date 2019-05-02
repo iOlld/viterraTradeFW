@@ -28,10 +28,19 @@ html{
 }
 
 .body{
+    display: flex;
+    flex-direction: column;
+    // box-sizing: border-box;
+    // margin: 0 auto;
     font-size: 1.6rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Fira Sans Condensed', sans-serif;
-    max-width: 192rem;
+    // max-width: 192rem;
+    max-width: 213rem;
+    // max-width: 1920px;
+    min-width: 32rem;
+    // min-width: 35.56rem;
+    // min-width: 320px;
 }
 
 *{

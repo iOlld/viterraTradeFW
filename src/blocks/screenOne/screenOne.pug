@@ -9,9 +9,13 @@ section.screenOne
             .tab_content(id="tab_content_1")
                 form(class="screenOne__search-form" action="#" method="post")
                     .screenOne__input-wrap
-                        input(class="screenOne__inputOne" type="text" id="searchOne" placeholder="Поиск...")
+                        input(class="screenOne__searchOne" type="text" id="searchOne" placeholder="Поиск...")
                         label(for="searchOne")
+                        input(class="screenOne__regionOne" type="text" id="regionOne" placeholder="Все регионы")
+                        label(for="regionOne")
                     .screenOne__input-wrap
+                        //- input(class="screenOne__inputOne" type="text" id="regionOne" placeholder="Все регионы")
+                        //- label(for="regionOne")
 
             input(class="hide" type="radio" name="tabs" id="tab2")
             label(class="tabsLabelFonts" for="tab2")|запросы

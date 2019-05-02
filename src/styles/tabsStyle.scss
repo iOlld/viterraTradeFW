@@ -29,6 +29,8 @@
     cursor: pointer;
 }
 .tab_content {
+    // display: flex;
+    // flex-direction: row;
     width: 100%;
     height: 15.89rem;
     padding: 3rem 0rem 0rem 3rem;
@@ -42,7 +44,11 @@
 
 .screenOne{
 
-    &__inputOne{
+    &__input-wrap{
+        display: flex;
+    }
+
+    &__searchOne{
         display: flex;
         width: 30rem;
         height: 5.56rem;
@@ -52,6 +58,7 @@
         position: relative;
         padding-left: 6.22rem;
         font-size: 1.56rem;
+        margin-right: 0.56rem;
         // z-index: 3;
 
         & + label::before{
@@ -63,10 +70,44 @@
             background-repeat: no-repeat;
             position: absolute;
             top: 32.8rem;
-            left: 26.8rem;
+            left: 26.2rem;
             width: 1.55rem;
             height: 1.55rem;
         }
 
     }
+
+    &__regionOne{
+        display: flex;
+        width: 30rem;
+        height: 5.56rem;
+        background: #f5f6f8;
+        border: none;
+        color: #999999;
+        position: relative;
+        padding-left: 6.22rem;
+        font-size: 1.56rem;
+        margin-right: 0.56rem;
+
+        & + label::before{
+            content: "";
+            background: url('../img/placeholder (16).png');
+            background-position: center;
+            -webkit-background-size: cover;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 32.8rem;
+            left: 57.2rem;
+            width: 1.55rem;
+            height: 1.55rem;
+        }
+
+    }
+
+    &__search-form{
+        display: flex;
+        flex-direction: row;
+    }
+
 }

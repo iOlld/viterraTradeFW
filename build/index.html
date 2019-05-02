@@ -17,21 +17,53 @@
           <nav class="header__nav">
             <ul class="header__nav-ul">
               <li class="header__nav-li"><a class="header__nav-link header__nav-fonts" href="#">
-                  Новости<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a></li>
+                  Новости<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a>
+                <ul class="header__nav-submenu-ul">
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу работу</a></li>
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу сатрудников</a></li>
+                </ul>
+              </li>
               <li class="header__nav-li"><a class="header__nav-link header__nav-fonts" href="#">
-                  Объявления<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a></li>
+                  Объявления<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a>
+                <ul class="header__nav-submenu-ul">
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу работу</a></li>
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу сатрудников</a></li>
+                </ul>
+              </li>
               <li class="header__nav-li"><a class="header__nav-link header__nav-fonts" href="#">
-                  Реестр компаний<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a></li>
+                  Реестр компаний<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a>
+                <ul class="header__nav-submenu-ul">
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу работу</a></li>
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу сатрудников</a></li>
+                </ul>
+              </li>
               <li class="header__nav-li"><a class="header__nav-link header__nav-fonts" href="#">
-                  Курсы Online<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a></li>
+                  Курсы Online<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a>
+                <ul class="header__nav-submenu-ul">
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу работу</a></li>
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу сатрудников</a></li>
+                </ul>
+              </li>
               <li class="header__nav-li"><a class="header__nav-link header__nav-fonts" href="#">
-                  Трудоустройство<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a></li>
+                  Трудоустройство<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a>
+                <ul class="header__nav-submenu-ul">
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу работу</a></li>
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу сатрудников</a></li>
+                </ul>
+              </li>
               <li class="header__nav-li"><a class="header__nav-link header__nav-fonts" href="#">
-                  Проекты<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a></li>
+                  Проекты<i class="fas fa-chevron-down mineStyleArrowDownIconNav"></i></a>
+                <ul class="header__nav-submenu-ul">
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу работу</a></li>
+                  <li class="header__nav-submenu-li"><a class="header__nav-submenu-link header__nav-submenu-fonts" href="#">Ищу сатрудников</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
-          <div class="header__registrationMenu"><i class="fas fa-user mineStyleUserIcon"></i>
+          <div class="header__registrationMenu-wrap">
+            <div class="header__registrationMenu"><i class="fas fa-user mineStyleUserIcon"></i>
 <i class="fas fa-chevron-down mineStyleArrowDownIconRegistration"></i>
+            </div>
           </div>
         </div>
       </header>
@@ -45,8 +77,10 @@
             <div class="tab_content" id="tab_content_1">
               <form class="screenOne__search-form" action="#" method="post">
                 <div class="screenOne__input-wrap">
-                  <input class="screenOne__inputOne" type="text" id="searchOne" placeholder="Поиск..."/>
+                  <input class="screenOne__searchOne" type="text" id="searchOne" placeholder="Поиск..."/>
                   <label for="searchOne"></label>
+                  <input class="screenOne__regionOne" type="text" id="regionOne" placeholder="Все регионы"/>
+                  <label for="regionOne"></label>
                 </div>
                 <div class="screenOne__input-wrap"></div>
               </form>

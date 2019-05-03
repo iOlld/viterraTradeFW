@@ -73,24 +73,86 @@
           <p class="screenOne__subtitle-text">Более 200 000 актуальных предложений</p>
           <div class="tabs_container">
             <input class="hide" type="radio" checked="checked" name="tabs" id="tab1"/>
-            <label class="tabsLabelFonts" for="tab1">товары</label>
+            <label class="tabsLabelFonts" for="tab1" title="ТОВАРЫ">товары</label>
             <div class="tab_content" id="tab_content_1">
               <form class="screenOne__search-form" action="#" method="post">
-                <div class="screenOne__input-wrap">
-                  <input class="screenOne__searchOne" type="text" id="searchOne" placeholder="Поиск..."/>
-                  <label for="searchOne"></label>
-                  <input class="screenOne__regionOne" type="text" id="regionOne" placeholder="Все регионы"/>
-                  <label for="regionOne"></label>
+                <div class="screenOne__input-container">
+                  <div class="screenOne__input-wrap">
+                    <input class="screenOne__searchProducts styleLabel" type="text" id="searchProducts" placeholder="Поиск..."/>
+                    <label for="searchProducts"></label>
+                    <input class="screenOne__regionProducts styleLabel" type="text" id="regionProducts" placeholder="Все регионы"/>
+                    <label for="regionProducts"></label>
+                  </div>
+                  <div class="screenOne__input-wrap">
+                    <input class="screenOne__minPriceProducts styleLabel" type="number" id="minPriceProducts" placeholder="От"/>
+                    <label for="minPriceProducts"></label>
+                    <input class="screenOne__maxPriceProducts styleLabel" type="number" id="maxPriceProducts" placeholder="До"/>
+                    <label for="maxPriceProducts"></label>
+                    <div class="screenOne__btn-wrap">
+                      <input class="screenOne__btn" type="button" value="Поиск"/>
+                    </div>
+                  </div>
                 </div>
-                <div class="screenOne__input-wrap"></div>
+                <div class="screenOne__checkBox-wrap">
+                  <input class="checkbox" type="checkbox" name="exactMatch" id="screenOneCheckbox" checked="checked"/>
+                  <label for="screenOneCheckbox">Точное совпадение</label>
+                </div>
               </form>
             </div>
             <input class="hide" type="radio" name="tabs" id="tab2"/>
-            <label class="tabsLabelFonts" for="tab2">запросы</label>
-            <div class="tab_content" id="tab_content_2">Содержимое запросы</div>
+            <label class="tabsLabelFonts" for="tab2" title="ЗАПРОСЫ">запросы</label>
+            <div class="tab_content" id="tab_content_2">
+              <form class="screenOne__search-form" action="#" method="post">
+                <div class="screenOne__input-container">
+                  <div class="screenOne__input-wrap">
+                    <input class="screenOne__searchRequests styleLabel" type="text" id="searchRequests" placeholder="Поиск..."/>
+                    <label for="searchRequests"></label>
+                    <input class="screenOne__regionRequests styleLabel" type="text" id="regionRequests" placeholder="Все регионы"/>
+                    <label for="regionRequests"></label>
+                  </div>
+                  <div class="screenOne__input-wrap">
+                    <input class="screenOne__minPriceRequests styleLabel" type="number" id="minPriceRequests" placeholder="От"/>
+                    <label for="minPriceRequests"></label>
+                    <input class="screenOne__maxPriceRequests styleLabel" type="number" id="maxPriceRequests" placeholder="До"/>
+                    <label for="maxPriceRequests"></label>
+                    <div class="screenOne__btn-wrap">
+                      <input class="screenOne__btn" type="button" value="Поиск"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="screenOne__checkBox-wrap">
+                  <input class="checkbox" type="checkbox" name="exactMatch" id="screenOneCheckbox" checked="checked"/>
+                  <label for="screenOneCheckbox">Точное совпадение</label>
+                </div>
+              </form>
+            </div>
             <input class="hide" type="radio" name="tabs" id="tab3"/>
-            <label class="tabsLabelFonts" for="tab3">тендеры</label>
-            <div class="tab_content" id="tab_content_3">Содержимое тендеры</div>
+            <label class="tabsLabelFonts" for="tab3" title="ТЕНДЕРЫ">тендеры</label>
+            <div class="tab_content" id="tab_content_3">
+              <form class="screenOne__search-form" action="#" method="post">
+                <div class="screenOne__input-container">
+                  <div class="screenOne__input-wrap">
+                    <input class="screenOne__searchTenders styleLabel" type="text" id="searchTenders" placeholder="Поиск..."/>
+                    <label for="searchTenders"></label>
+                    <input class="screenOne__regionTenders styleLabel" type="text" id="regionTenders" placeholder="Все регионы"/>
+                    <label for="regionTenders"></label>
+                  </div>
+                  <div class="screenOne__input-wrap">
+                    <input class="screenOne__minPriceTenders styleLabel" type="number" id="minPriceTenders" placeholder="От"/>
+                    <label for="minPriceTenders"></label>
+                    <input class="screenOne__maxPriceTenders styleLabel" type="number" id="maxPriceTenders" placeholder="До"/>
+                    <label for="maxPriceTenders"></label>
+                    <div class="screenOne__btn-wrap">
+                      <input class="screenOne__btn" type="button" value="Поиск"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="screenOne__checkBox-wrap">
+                  <input class="checkbox" type="checkbox" name="exactMatch" id="screenOneCheckbox" checked="checked"/>
+                  <label for="screenOneCheckbox">Точное совпадение</label>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>

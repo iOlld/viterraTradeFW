@@ -1,0 +1,205 @@
+.tabs_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 107.78rem;
+    flex-wrap: wrap;
+}
+
+.hide, .tab_content {
+    display:none;
+}
+
+.hide + label {
+    height: 5.56rem;
+    width: 13.33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #575455;
+    color: #dddddd;
+    order:0;
+    margin:0 0.5rem -0.1rem 0;
+    cursor: pointer;
+}
+.hide:checked + label {
+    background-color :#fff;
+    color: rgb(33, 33, 33);
+    cursor: pointer;
+}
+.tab_content {
+    width: 100%;
+    height: 15.89rem;
+    padding: 3rem 0rem 0rem 3rem;
+    background: #fff;
+}
+
+.hide:checked + label + .tab_content {
+    display: flex;
+    order:1;
+}
+
+.screenOne{
+
+    &__input-container{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2.11rem;
+    }
+
+    &__input-wrap{
+        display: flex;
+        height: 5.56rem;
+    }
+
+    
+    &__search-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__searchProducts, &__searchRequests, &__searchTenders{
+        display: flex;
+        width: 29.89rem;
+        height: 5.56rem;
+        background: #f5f6f8;
+        border: none;
+        font-size: 1.56rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        padding-left: 6.22rem;
+        margin-right: 0.56rem;
+
+        & + label::before{
+            content: "";
+            background: url('../img/search (15).png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 2rem;
+            left: -28rem;
+            width: 1.55rem;
+            height: 1.55rem;
+        }
+
+    }
+
+    &__regionProducts, &__regionRequests, &__regionTenders{
+        display: flex;
+        width: 24.78rem;
+        height: 5.56rem;
+        background: #f5f6f8;
+        border: none;
+        font-size: 1.56rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        padding-left: 6.22rem;
+        margin-right: 0.56rem;
+
+        & + label::before{
+            content: "";
+            background: url('../img/placeholder (16).png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 1.95rem;
+            left: -22.8rem;
+            width: 1.55rem;
+            height: 1.55rem;
+        }
+
+        & + label::after{
+            content: "";
+            background: url('../img/arrow-point-to-right (1) копия 2.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 2.4rem;
+            left: -3rem;
+            width: 1.11rem;
+            height: 0.67rem;
+        }
+
+    }
+
+    &__minPriceProducts, &__maxPriceProducts, &__minPriceRequests, &__maxPriceRequests, &__minPriceTenders, &__maxPriceTenders{
+        width: 15.56rem;
+        height: 5.56rem;
+        background: #f5f6f8;
+        margin-right: 0.56rem;
+        border: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.56rem;
+        color: #999999;
+        padding-left: 1.89rem;
+
+        & + label::after{
+            content: "\20BD";
+            color: #999999;
+            position: absolute;
+            right: 2rem;
+            top: 2.2rem;
+        }
+
+    }
+
+}
+
+.styleLabel + label{
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+
+// .screenOne__checkbox-wrap{
+//     padding-bottom: 2.78rem;
+// }
+
+
+
+.checkbox {
+    position: absolute;
+    // width: 0.1rem;
+    // height: 0.1rem;
+    // margin: -0.1rem;
+    // border: 0;
+    // padding: 0;
+    // white-space: nowrap;
+    // clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .checkbox + label {
+    position: relative;
+    padding-left: 3rem;
+    cursor: pointer;
+  }
+  .checkbox + label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 0.11rem solid #212121;
+  }
+  .checkbox + label:after {
+    content: "";
+    position: absolute;
+    top: 0.48rem;
+    left: 0.4rem;
+    width: 1rem;
+    height: 1rem;
+  }
+  .checkbox:checked + label:before {
+    border: none;
+    background-color: #a1ce31;
+  }
+  .checkbox:checked + label:after {
+    background: url('../img/tick\ \(6\).png');
+    background-size: cover;
+  }

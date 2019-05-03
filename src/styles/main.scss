@@ -1,17 +1,8 @@
 @import './reset.scss';
 @import './fonts.scss';
 @import './global.scss';
+@import './btn.scss';
 
 @import './src/blocks/header/header.scss';
 @import './src/blocks/screenOne/screenOne.scss';
-@import './tabsStyle.scss';
-
-
-
-
-// .body{
-//     display: flex;
-//     flex-direction: column;
-//     box-sizing: border-box;
-//     margin: 0 auto;
-// }
+@import './src/blocks/screenOne/tabsStyle.scss';

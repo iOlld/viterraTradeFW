@@ -5,22 +5,72 @@ section.screenOne
 
         .tabs_container
             input(class="hide" type="radio" checked name="tabs" id="tab1")
-            label(class="tabsLabelFonts" for="tab1")|товары
+            label(class="tabsLabelFonts" for="tab1" title="ТОВАРЫ")|товары
             .tab_content(id="tab_content_1")
+                //- form(class="screenOne__search-form" action="not-found.html" method="post")
                 form(class="screenOne__search-form" action="#" method="post")
-                    .screenOne__input-wrap
-                        input(class="screenOne__searchOne" type="text" id="searchOne" placeholder="Поиск...")
-                        label(for="searchOne")
-                        input(class="screenOne__regionOne" type="text" id="regionOne" placeholder="Все регионы")
-                        label(for="regionOne")
-                    .screenOne__input-wrap
-                        //- input(class="screenOne__inputOne" type="text" id="regionOne" placeholder="Все регионы")
-                        //- label(for="regionOne")
+                    .screenOne__input-container
+                        .screenOne__input-wrap
+                            input(class="screenOne__searchProducts styleLabel" type="text" id="searchProducts" placeholder="Поиск...")
+                            label(for="searchProducts")
+                            input(class="screenOne__regionProducts styleLabel" type="text" id="regionProducts" placeholder="Все регионы")
+                            label(for="regionProducts")
+                        .screenOne__input-wrap
+                            input(class="screenOne__minPriceProducts styleLabel" type="number" id="minPriceProducts" placeholder="От")
+                            label(for="minPriceProducts")
+                            input(class="screenOne__maxPriceProducts styleLabel" type="number" id="maxPriceProducts" placeholder="До")
+                            label(for="maxPriceProducts")
+                            .screenOne__btn-wrap
+                                input(class="screenOne__btn" type="button", value="Поиск")
+                                //- button(class="screenOne__btn" type="submit")|поиск
+                    //- .screenOne__checkBox-container
+                    .screenOne__checkBox-wrap
+                        input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckbox" checked)
+                        label(for="screenOneCheckbox")|Точное совпадение
 
             input(class="hide" type="radio" name="tabs" id="tab2")
-            label(class="tabsLabelFonts" for="tab2")|запросы
-            .tab_content(id="tab_content_2")|Содержимое запросы
+            label(class="tabsLabelFonts" for="tab2" title="ЗАПРОСЫ")|запросы
+            .tab_content(id="tab_content_2")|
+                //- form(class="screenOne__search-form" action="not-found.html" method="post")
+                form(class="screenOne__search-form" action="#" method="post")
+                    .screenOne__input-container
+                        .screenOne__input-wrap
+                            input(class="screenOne__searchRequests styleLabel" type="text" id="searchRequests" placeholder="Поиск...")
+                            label(for="searchRequests")
+                            input(class="screenOne__regionRequests styleLabel" type="text" id="regionRequests" placeholder="Все регионы")
+                            label(for="regionRequests")
+                        .screenOne__input-wrap
+                            input(class="screenOne__minPriceRequests styleLabel" type="number" id="minPriceRequests" placeholder="От")
+                            label(for="minPriceRequests")
+                            input(class="screenOne__maxPriceRequests styleLabel" type="number" id="maxPriceRequests" placeholder="До")
+                            label(for="maxPriceRequests")
+                            .screenOne__btn-wrap
+                                input(class="screenOne__btn" type="button", value="Поиск")
+                                //- button(class="screenOne__btn" type="submit")|поиск
+                    .screenOne__checkBox-wrap
+                        input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckbox" checked)
+                        label(for="screenOneCheckbox")|Точное совпадение
+
 
             input(class="hide" type="radio" name="tabs" id="tab3")
-            label(class="tabsLabelFonts" for="tab3")|тендеры
-            .tab_content(id="tab_content_3")|Содержимое тендеры
+            label(class="tabsLabelFonts" for="tab3" title="ТЕНДЕРЫ")|тендеры
+            .tab_content(id="tab_content_3")|
+                //- form(class="screenOne__search-form" action="not-found.html" method="post")
+                form(class="screenOne__search-form" action="#" method="post")
+                    .screenOne__input-container
+                        .screenOne__input-wrap
+                            input(class="screenOne__searchTenders styleLabel" type="text" id="searchTenders" placeholder="Поиск...")
+                            label(for="searchTenders")
+                            input(class="screenOne__regionTenders styleLabel" type="text" id="regionTenders" placeholder="Все регионы")
+                            label(for="regionTenders")
+                        .screenOne__input-wrap
+                            input(class="screenOne__minPriceTenders styleLabel" type="number" id="minPriceTenders" placeholder="От")
+                            label(for="minPriceTenders")
+                            input(class="screenOne__maxPriceTenders styleLabel" type="number" id="maxPriceTenders" placeholder="До")
+                            label(for="maxPriceTenders")
+                            .screenOne__btn-wrap
+                                input(class="screenOne__btn" type="button", value="Поиск")
+                                //- button(class="screenOne__btn" type="submit")|поиск
+                    .screenOne__checkBox-wrap
+                        input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckbox" checked)
+                        label(for="screenOneCheckbox")|Точное совпадение

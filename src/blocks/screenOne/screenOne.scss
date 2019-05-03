@@ -9,7 +9,7 @@
     // height: 77rem;
     height: 100vh;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 
     &::before{
         content: "";
@@ -20,7 +20,6 @@
         background-position: center;
         position: absolute;
         opacity: 0.35;
-        z-index: 1;
     }
 
     &__wrap{

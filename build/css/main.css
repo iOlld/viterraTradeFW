@@ -51,6 +51,13 @@ table {
   font-family: 'Source Sans Pro', sans-serif;
   color: #212121; }
 
+.header__nav-submenu-fonts {
+  font-size: 1.44rem;
+  color: #767676;
+  padding-left: 2.11rem; }
+  .header__nav-submenu-fonts:hover {
+    color: #a1ce31; }
+
 .screenOne__title-text {
   font-size: 4rem;
   font-family: 'Source Sans Pro', sans-serif;
@@ -188,6 +195,15 @@ a, ul, li {
     text-transform: uppercase; }
 
 .header__nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 97rem; }
 
 .header__nav-ul {
@@ -205,24 +221,25 @@ a, ul, li {
           justify-content: space-around;
   -webkit-transform: translateY(40%);
       -ms-transform: translateY(40%);
-          transform: translateY(40%); }
+          transform: translateY(40%);
+  z-index: 1; }
 
 .header__nav-li {
   padding: 1.44rem 1.89rem;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   -webkit-transform: translateY(-10%);
       -ms-transform: translateY(-10%);
           transform: translateY(-10%);
   position: relative; }
   .header__nav-li:hover {
     background: #a1ce31;
-    -webkit-border-radius: 0.5rem;
-            border-radius: 0.5rem;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-border-radius: 0.3rem;
+            border-radius: 0.3rem;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
   .header__nav-li:hover .header__nav-link {
     color: #fff; }
   .header__nav-li:hover .mineStyleArrowDownIconNav {
@@ -237,15 +254,21 @@ a, ul, li {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-transform: translateY(150%);
-        -ms-transform: translateY(150%);
-            transform: translateY(150%);
     position: absolute;
+    left: 0rem;
+    top: 5rem;
     background: #fff;
-    width: 25.56rem; }
+    width: 25.56rem;
+    padding-top: 2.4rem; }
 
 .header__nav-submenu-ul {
   display: none; }
+
+.header__nav-submenu-li {
+  border-bottom: 0.1rem solid #767777;
+  border-left: 0.15rem solid #767777;
+  border-right: 0.15rem solid #767777;
+  padding: 1.5rem; }
 
 .header__registrationMenu-wrap {
   display: -webkit-box;
@@ -302,7 +325,7 @@ a, ul, li {
   width: 100%;
   height: 100vh;
   position: relative;
-  z-index: -1; }
+  z-index: 0; }
   .screenOne::before {
     content: "";
     width: 100%;
@@ -312,8 +335,7 @@ a, ul, li {
             background-size: cover;
     background-position: center;
     position: absolute;
-    opacity: 0.35;
-    z-index: 1; }
+    opacity: 0.35; }
   .screenOne__wrap {
     display: -webkit-box;
     display: -webkit-flex;
@@ -385,7 +407,6 @@ a, ul, li {
 .hide:checked + label {
   background-color: #fff;
   color: #212121;
-  z-index: 1;
   cursor: pointer; }
 
 .tab_content {
@@ -474,17 +495,3 @@ a, ul, li {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row; }
-
-.body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0 auto; }

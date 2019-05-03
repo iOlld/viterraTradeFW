@@ -5,6 +5,17 @@
     color: rgb(33, 33, 33);
 }
 
+.header__nav-submenu-fonts{
+    font-size: 1.44rem;
+    color: rgb(118, 118, 118);
+    padding-left: 2.11rem;
+
+    &:hover{
+        color: rgb(161, 206, 49);
+    }
+
+}
+
 // SCREEN_ONE FONTS
 .screenOne{
 

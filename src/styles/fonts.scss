@@ -40,6 +40,7 @@
 }
 
 
+// SCREEN_ONE FONTS
 // TABS__FONTS
 .tabsLabelFonts{
     font-size: 1.56rem;
@@ -48,11 +49,36 @@
     font-weight: 600;
 }
 
+
+// SCREEN_ONE FONTS
 // CATEGORIES__FONTS
 .screenOne__categories-title-text{
     font-size: 1.67rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: #575455;
+}
+
+
+// SCREEN_TWO FONTS
+// HEAD__FONTS
+.screenTwo__head-title{
+    font-size: 2.33rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+
+.screenTwo__head-link-font{
+    font-size: 1.44rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #838383;
+    transition: all 0.3s ease;
+
+    &:hover{
+        color: #a1ce31;
+        transition: all 0.3s ease;
+    }
+
 }
 
 

@@ -19,6 +19,7 @@
 }
 
 // SCREEN_ONE FONTS
+// TITLE
 .screenOne{
 
     &__title-text{
@@ -61,25 +62,81 @@
 
 // SCREEN_TWO FONTS
 // HEAD__FONTS
-.screenTwo__head-title{
-    font-size: 2.33rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
-    font-weight: 300;
-}
+.screenTwo{
 
-.screenTwo__head-link-font{
+    &__head-title{
+        font-size: 2.33rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    &__head-link-font{
     font-size: 1.44rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: #838383;
     transition: all 0.3s ease;
 
-    &:hover{
-        color: #a1ce31;
-        transition: all 0.3s ease;
+        &:hover{
+            color: #a1ce31;
+            transition: all 0.3s ease;
+        }
+
     }
 
 }
+
+
+// SCREEN_TWO FONTS
+// HEAD__FONTS
+.screenTwo{
+
+    &__productCards-link-font{
+        text-decoration: underline;
+        // border-bottom: 0.05rem solid rgb(33, 33, 33);
+        font-size: 1.66rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(33, 33, 33);
+    }
+
+    &__productCards-description-text{
+        font-size: 1.44rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(33, 33, 33);
+        line-height: 1.385;
+    }
+
+    &__productCards-organization-font{
+        text-decoration: underline;
+        font-size: 1.44rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #317fce;
+    }
+
+    &__productCards-date-text{
+        font-size: 1.44rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        text-align: left;
+        position: relative;
+        padding-left: 2.5rem;
+
+        &::before{
+            content: "";
+            position: absolute;
+            background: url('../img/time.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 1.44rem;
+            height: 1.44rem;
+            left: 0rem;
+        }
+
+    }
+
+}
+
 
 
 // ICONS FONT AWESOME STYLE
@@ -100,4 +157,10 @@
     font-size: 1rem;
     // font-size: 0.78rem;
     padding-left: 0.5rem;
+}
+
+.mineStyleUserIconScreenTwo{
+    padding-right: 1rem;
+    color: #7b7c7c;
+    font-size: 1.56rem;
 }

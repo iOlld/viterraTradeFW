@@ -1,4 +1,4 @@
-// SCREEN__ONE__BTN
+// SCREEN__ONE
 .screenOne{
 
     &__btn-wrap{
@@ -13,6 +13,7 @@
     background: #ff7c07;
     padding: 1.7rem 4.22rem ;
     border: none;
+    cursor: pointer;
     }
 }
 
@@ -26,6 +27,29 @@
     color: #fff;
     font-weight: 400;
     transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover{
+        background: #ff7c07;
+        transition: all 0.3s ease;
+    }
+
+}
+
+
+// SCREEN__TWO
+.screenTwo__productCards-btn{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.44rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    background: #a1ce31;
+    padding: 1.55rem 2.22rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
 
     &:hover{
         background: #ff7c07;

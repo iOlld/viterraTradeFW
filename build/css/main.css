@@ -78,6 +78,11 @@ table {
   text-transform: uppercase;
   font-weight: 600; }
 
+.screenOne__categories-title-text {
+  font-size: 1.67rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #575455; }
+
 .mineStyleUserIcon {
   color: #767777;
   font-size: 1.56rem; }
@@ -128,7 +133,7 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Fira Sans Condensed', sans-serif;
   max-width: 213rem;
-  min-width: 32rem; }
+  min-width: 320px; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -153,6 +158,18 @@ a, ul, li {
   background: #ff7c07;
   padding: 1.7rem 4.22rem;
   border: none; }
+
+.screenOne__categories-btn {
+  padding: 2.22rem 8.22rem;
+  border: none;
+  background: #a1ce31;
+  font-size: 1.67rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400; }
+  .screenOne__categories-btn:hover {
+    background: #ff7c07; }
 
 .header__wrap {
   display: -webkit-box;
@@ -344,7 +361,6 @@ a, ul, li {
   -webkit-background-size: cover;
           background-size: cover;
   width: 100%;
-  height: 100vh;
   position: relative;
   z-index: 0; }
   .screenOne::before {
@@ -599,3 +615,105 @@ a, ul, li {
   background: url("../img/tick (6).png");
   -webkit-background-size: cover;
           background-size: cover; }
+
+.screenOne__categories-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 136.67rem;
+  background: #fff;
+  margin-top: 3.33rem;
+  padding-top: 6.44rem;
+  padding-bottom: 5.11rem; }
+
+.screenOne__categories-ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2.78rem; }
+
+.screenOne__categories-li {
+  width: 16.66%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .screenOne__categories-li:hover .screenOne__categories-title-text {
+    color: #ff7c07; }
+
+.screenOne__categories-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+
+.tractor-icon {
+  background: url("../img/tractor.png");
+  width: 8.7rem;
+  height: 7rem; }
+
+.corn-icon {
+  background: url("../img/corn.png");
+  width: 7rem;
+  height: 7rem; }
+
+.silo-icon {
+  background: url("../img/silo.png");
+  width: 7rem;
+  height: 7rem; }
+
+.sprout-icon {
+  background: url("../img/sprout.png");
+  width: 7rem;
+  height: 7rem; }
+
+.field-icon {
+  background: url("../img/field.png");
+  width: 7rem;
+  height: 7rem; }
+
+.farmer-icon {
+  background: url("../img/farmer.png");
+  width: 6.5rem;
+  height: 7rem; }
+
+.screenOne__categories-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  -webkit-filter: invert(25%);
+          filter: invert(25%);
+  margin-bottom: 3rem; }

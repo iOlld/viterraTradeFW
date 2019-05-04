@@ -1,0 +1,96 @@
+.screenOne{
+
+    &__categories-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 136.67rem;
+        // width: 64.06%;
+        background: #fff;
+        margin-top: 3.33rem;
+        padding-top: 6.44rem;
+        padding-bottom: 5.11rem;
+    }
+
+    &__categories-ul{
+        width: 100%;
+        // width: 136.67rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // padding-bottom: 2.78rem;
+        margin-bottom: 2.78rem;
+    }
+
+    &__categories-li{
+        width: 16.66%;
+        // width: 22.78rem;
+        display: flex;
+        flex-direction: column;
+
+        &:hover .screenOne__categories-title-text{
+            color: #ff7c07;
+        }
+
+    }
+
+    &__categories-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
+// CATEGORIES ICON POSITION
+
+.tractor-icon{
+    background: url('../img/tractor.png');
+    // width: 7rem;
+    width: 8.7rem;
+    // height: 5.7rem;
+    height: 7rem;
+}
+
+.corn-icon{
+    background: url('../img/corn.png');
+    width: 7rem;
+    // height: 6.97rem;
+    height: 7rem;
+}
+
+.silo-icon{
+    background: url('../img/silo.png');
+    width: 7rem;
+    height: 7rem;
+}
+
+.sprout-icon{
+    background: url('../img/sprout.png');
+    width: 7rem;
+    // height: 6.9rem;
+    height: 7rem;
+}
+
+.field-icon{
+    background: url('../img/field.png');
+    width: 7rem;
+    height: 7rem;
+}
+
+.farmer-icon{
+    background: url('../img/farmer.png');
+    width: 6.5rem;
+    // height: 7.3rem;
+    height: 7rem;
+}
+
+
+.screenOne__categories-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(25%);
+    margin-bottom: 3rem;
+}

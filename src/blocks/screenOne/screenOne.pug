@@ -30,7 +30,7 @@ section.screenOne
 
             input(class="hide" type="radio" name="tabs" id="tab2")
             label(class="tabsLabelFonts" for="tab2" title="ЗАПРОСЫ")|запросы
-            .tab_content(id="tab_content_2")|
+            .tab_content(id="tab_content_2")
                 //- form(class="screenOne__search-form" action="not-found.html" method="post")
                 form(class="screenOne__search-form" action="#" method="post")
                     .screenOne__input-container
@@ -54,7 +54,7 @@ section.screenOne
 
             input(class="hide" type="radio" name="tabs" id="tab3")
             label(class="tabsLabelFonts" for="tab3" title="ТЕНДЕРЫ")|тендеры
-            .tab_content(id="tab_content_3")|
+            .tab_content(id="tab_content_3")
                 //- form(class="screenOne__search-form" action="not-found.html" method="post")
                 form(class="screenOne__search-form" action="#" method="post")
                     .screenOne__input-container
@@ -74,3 +74,32 @@ section.screenOne
                     .screenOne__checkBox-wrap
                         input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckboxTenders" checked)
                         label(for="screenOneCheckboxTenders")|Точное совпадение
+
+        .screenOne__categories
+            .screenOne__categories-wrap
+                ul.screenOne__categories-ul
+                    li.screenOne__categories-li
+                        a.screenOne__categories-link(href="#")
+                            .screenOne__categories-icon.tractor-icon
+                            p.screenOne__categories-title-text|Сельскохозяйственная техника
+                    li.screenOne__categories-li
+                        a.screenOne__categories-link(href="#")
+                            .screenOne__categories-icon.corn-icon
+                            p.screenOne__categories-title-text|Продукция с/х, сырье
+                    li.screenOne__categories-li
+                        a.screenOne__categories-link(href="#")
+                            .screenOne__categories-icon.silo-icon
+                            p.screenOne__categories-title-text|Оборудование
+                    li.screenOne__categories-li
+                        a.screenOne__categories-link(href="#")
+                            .screenOne__categories-icon.sprout-icon
+                            p.screenOne__categories-title-text|Продукты переработки
+                    li.screenOne__categories-li
+                        a.screenOne__categories-link(href="#")
+                            .screenOne__categories-icon.field-icon
+                            p.screenOne__categories-title-text|Земли и объекты с/х недвижимости
+                    li.screenOne__categories-li
+                        a.screenOne__categories-link(href="#")
+                            .screenOne__categories-icon.farmer-icon
+                            p.screenOne__categories-title-text|Услуги
+                button.screenOne__categories-btn|все категории >>

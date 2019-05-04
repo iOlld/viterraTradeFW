@@ -1,5 +1,5 @@
 .screenOne{
-
+    
     &__categories-wrap{
         display: flex;
         flex-direction: column;
@@ -7,8 +7,13 @@
         // width: 64.06%;
         background: #fff;
         margin-top: 3.33rem;
-        padding-top: 6.44rem;
-        padding-bottom: 5.11rem;
+        // padding-top: 6.44rem;
+        padding-top: 4.44rem;
+        // padding-bottom: 5.11rem;
+        padding-bottom: 3.61rem;
+        // box-shadow: 1rem 1rem 1rem 1rem #f9f9f9;
+        // box-shadow: 0rem 6rem 2rem -4rem #f9f9f9;
+        box-shadow: 0rem 0rem 4rem -2rem grey;
     }
 
     &__categories-ul{
@@ -26,9 +31,11 @@
         // width: 22.78rem;
         display: flex;
         flex-direction: column;
+        transition: all 0.3s ease;
 
         &:hover .screenOne__categories-title-text{
             color: #ff7c07;
+            transition: all 0.3s ease;
         }
 
     }
@@ -92,5 +99,6 @@
     background-position: center;
     background-size: cover;
     filter: invert(25%);
-    margin-bottom: 3rem;
+    // margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }

@@ -71,20 +71,23 @@
         transition: all 0.4s ease;
         transform: translateY(-10%);
         position: relative;
+        transition: all 0.3s ease;
 
         &:hover{
             background: #a1ce31;
             border-radius: 0.3rem;
-            transition: all 0.4s ease;
+            transition: all 0.3s ease;
         }
 
         &:hover .header__nav-link{
             color: #fff;
+            transition: all 0.3s ease;
         }
 
         
         &:hover .mineStyleArrowDownIconNav{
             color: #fff;
+            transition: all 0.3s ease;
         }
 
         &:hover .header__nav-submenu-ul{
@@ -96,6 +99,7 @@
             background: #fff;
             width: 25.56rem;
             padding-top: 2.8rem;
+            transition: all 0.3s ease;
         }
 
     }

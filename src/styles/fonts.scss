@@ -9,9 +9,11 @@
     font-size: 1.44rem;
     color: rgb(118, 118, 118);
     padding-left: 2.11rem;
+    transition: all 0.3s ease;
 
     &:hover{
         color: rgb(161, 206, 49);
+        transition: all 0.3s ease;
     }
 
 }

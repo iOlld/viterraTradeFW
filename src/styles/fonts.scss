@@ -91,7 +91,7 @@
 // HEAD__FONTS
 .screenTwo{
 
-    &__productCards-link-font{
+    &__productCards-link-font, &__requestCards-link-font, &__tenderCards-link-font{
         text-decoration: underline;
         // border-bottom: 0.05rem solid rgb(33, 33, 33);
         font-size: 1.66rem;
@@ -99,21 +99,21 @@
         color: rgb(33, 33, 33);
     }
 
-    &__productCards-description-text{
+    &__productCards-description-text, &__requestCards-description-text, &__tenderCards-description-text{
         font-size: 1.44rem;
         font-family: 'Source Sans Pro', sans-serif;
         color: rgb(33, 33, 33);
         line-height: 1.385;
     }
 
-    &__productCards-organization-font{
+    &__productCards-organization-font, &__requestCards-organization-font, &__tenderCards-organization-font{
         text-decoration: underline;
         font-size: 1.44rem;
         font-family: 'Source Sans Pro', sans-serif;
         color: #317fce;
     }
 
-    &__productCards-date-text{
+    &__productCards-date-text, &__requestCards-date-text, &__tenderCards-date-text{
         font-size: 1.44rem;
         font-family: 'Source Sans Pro', sans-serif;
         color: #999999;
@@ -131,6 +131,37 @@
             width: 1.44rem;
             height: 1.44rem;
             left: 0rem;
+        }
+
+    }
+
+    &__tenderCards-date-text{
+        padding-top: 0.6rem;
+    }
+
+    &__tenderCards-numberTender{
+        font-size: 1.44rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        padding-bottom: 0.77rem;
+    }
+
+    &__tenderCards-priceTender{
+        font-size: 1.44rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        text-align: left;
+        position: relative;
+        padding-left: 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 0.44rem;
+
+        &::before{
+            content: "\20BD";
+            position: absolute;
+            font-size: 1.8rem;
+            left: 0.3rem;
+            top: 1.66rem;
         }
 
     }
@@ -164,3 +195,4 @@
     color: #7b7c7c;
     font-size: 1.56rem;
 }
+

@@ -108,32 +108,32 @@ table {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 
-.screenTwo__productCards-link-font {
+.screenTwo__productCards-link-font, .screenTwo__requestCards-link-font, .screenTwo__tenderCards-link-font {
   text-decoration: underline;
   font-size: 1.66rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #212121; }
 
-.screenTwo__productCards-description-text {
+.screenTwo__productCards-description-text, .screenTwo__requestCards-description-text, .screenTwo__tenderCards-description-text {
   font-size: 1.44rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #212121;
   line-height: 1.385; }
 
-.screenTwo__productCards-organization-font {
+.screenTwo__productCards-organization-font, .screenTwo__requestCards-organization-font, .screenTwo__tenderCards-organization-font {
   text-decoration: underline;
   font-size: 1.44rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #317fce; }
 
-.screenTwo__productCards-date-text {
+.screenTwo__productCards-date-text, .screenTwo__requestCards-date-text, .screenTwo__tenderCards-date-text {
   font-size: 1.44rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #999999;
   text-align: left;
   position: relative;
   padding-left: 2.5rem; }
-  .screenTwo__productCards-date-text::before {
+  .screenTwo__productCards-date-text::before, .screenTwo__requestCards-date-text::before, .screenTwo__tenderCards-date-text::before {
     content: "";
     position: absolute;
     background: url("../img/time.png");
@@ -144,6 +144,31 @@ table {
     width: 1.44rem;
     height: 1.44rem;
     left: 0rem; }
+
+.screenTwo__tenderCards-date-text {
+  padding-top: 0.6rem; }
+
+.screenTwo__tenderCards-numberTender {
+  font-size: 1.44rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #999999;
+  padding-bottom: 0.77rem; }
+
+.screenTwo__tenderCards-priceTender {
+  font-size: 1.44rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #999999;
+  text-align: left;
+  position: relative;
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.44rem; }
+  .screenTwo__tenderCards-priceTender::before {
+    content: "\20BD";
+    position: absolute;
+    font-size: 1.8rem;
+    left: 0.3rem;
+    top: 1.66rem; }
 
 .mineStyleUserIcon {
   color: #767777;
@@ -246,7 +271,7 @@ a, ul, li {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 
-.screenTwo__productCards-btn {
+.screenTwo__productCards-btn, .screenTwo__requestCards-btn, .screenTwo__tenderCards-btn {
   margin: 0;
   padding: 0;
   border: none;
@@ -260,7 +285,7 @@ a, ul, li {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer; }
-  .screenTwo__productCards-btn:hover {
+  .screenTwo__productCards-btn:hover, .screenTwo__requestCards-btn:hover, .screenTwo__tenderCards-btn:hover {
     background: #ff7c07;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -752,6 +777,9 @@ a, ul, li {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -834,7 +862,6 @@ a, ul, li {
   margin-bottom: 2rem; }
 
 .screenTwo__wrap {
-  width: 133.33rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -844,7 +871,13 @@ a, ul, li {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 0 auto;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 5.55rem; }
 
 .screenTwo__column-wrap {
@@ -908,7 +941,7 @@ a, ul, li {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 
-.screenTwo__productCards-wrap {
+.screenTwo__productCards-wrap, .screenTwo__requestCards-wrap, .screenTwo__tenderCards-wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -923,10 +956,10 @@ a, ul, li {
   padding-right: 3.33rem;
   padding-bottom: 1.66rem; }
 
-.screenTwo__productCards-link {
+.screenTwo__productCards-link, .screenTwo__requestCards-link, .screenTwo__tenderCards-link {
   padding-bottom: 1rem; }
 
-.screenTwo__productCards-sending {
+.screenTwo__productCards-sending, .screenTwo__requestCards-sending, .screenTwo__tenderCards-sending {
   padding-top: 1.22rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -938,10 +971,10 @@ a, ul, li {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.screenTwo__productCards-btn-wrap {
+.screenTwo__productCards-btn-wrap, .screenTwo__requestCards-btn-wrap, .screenTwo__tenderCards-btn-wrap {
   margin-right: 1.77rem; }
 
-.screenTwo__productCards-organizationAndDate {
+.screenTwo__productCards-organizationAndDate, .screenTwo__requestCards-organizationAndDate, .screenTwo__tenderCards-organizationAndDate {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -955,7 +988,7 @@ a, ul, li {
       -ms-flex-pack: distribute;
           justify-content: space-around; }
 
-.screenTwo__productCards-organization {
+.screenTwo__productCards-organization, .screenTwo__requestCards-organization, .screenTwo__tenderCards-organization {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

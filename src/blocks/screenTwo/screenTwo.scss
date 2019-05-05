@@ -19,6 +19,7 @@
         // background: rgb(211, 203, 203);
         background: #f3f6f9;
         margin: 0rem 1.66rem;
+        // border: 0.15rem solid #f0efef;
 
     }
 
@@ -59,9 +60,11 @@
         display: flex;
         flex-direction: column;
         padding-top: 2rem;
-        padding-left: 3.33rem;
-        padding-right: 3.33rem;
+        padding-left: 3.08rem;
+        padding-right: 3.08rem;
         padding-bottom: 1.66rem;
+        border: 0.15rem solid #f0efef;
+        border-top: none;
     }
 
     &__productCards-link, &__requestCards-link, &__tenderCards-link{

@@ -88,7 +88,6 @@
 
 
 // SCREEN_TWO FONTS
-// HEAD__FONTS
 .screenTwo{
 
     &__productCards-link-font, &__requestCards-link-font, &__tenderCards-link-font{
@@ -154,7 +153,8 @@
         position: relative;
         padding-left: 2.5rem;
         padding-top: 2rem;
-        padding-bottom: 0.44rem;
+        // padding-bottom: 0.44rem;
+        padding-bottom: 0.49rem;
 
         &::before{
             content: "\20BD";
@@ -168,6 +168,19 @@
 
 }
 
+
+// SCREEN__THREE_FONTS
+
+.screenThree{
+
+    &__head-text{
+        font-size: 2.33rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        font-weight: 300;
+    }
+
+}
 
 
 // ICONS FONT AWESOME STYLE

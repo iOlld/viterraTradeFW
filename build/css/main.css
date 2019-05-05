@@ -463,7 +463,7 @@ a, ul, li {
   -webkit-background-size: cover;
           background-size: cover; }
 
-.screenThree__form-inputKeyword {
+.screenThree__form-inputKeyword, .screenThree__form-inputIndustry, .screenThree__form-inputRegion {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -491,9 +491,7 @@ a, ul, li {
   .screenThree__form-inputMinPrice + label::after, .screenThree__form-inputMaxPrice + label::after {
     content: "\20BD";
     color: #999999;
-    position: absolute;
-    right: 2rem;
-    top: 2.2rem; }
+    position: absolute; }
 
 .screenOne__btn-wrap {
   display: -webkit-box;
@@ -1079,3 +1077,30 @@ a, ul, li {
             justify-content: center;
     background: #292929;
     padding-left: 3.33rem; }
+  .screenThree__form-selectionAndSending {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 4.44rem; }
+
+.svgOne {
+  width: 10rem; }
+
+.svgTwo {
+  width: 20rem; }
+
+.svgRed {
+  fill: red !important; }
+
+.svgYellow {
+  fill: yellow !important; }

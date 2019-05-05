@@ -208,7 +208,7 @@
 
 .screenThree{
 
-    &__form-inputKeyword{
+    &__form-inputKeyword, &__form-inputIndustry, &__form-inputRegion{
         display: flex;
         width: 29.89rem;
         height: 5.56rem;
@@ -236,8 +236,8 @@
             content: "\20BD";
             color: #999999;
             position: absolute;
-            right: 2rem;
-            top: 2.2rem;
+            // right: 2rem;
+            // top: 2.2rem;
         }
     }
 

@@ -3,5 +3,25 @@ section.screenThree
         .screenThree__head
             .screenThree__head-wrap
                 p.screenThree__head-text|БЕСПЛАТНО ПОДОБРАТЬ ЗАПРОСЫ ПО ВАШЕЙ ТЕМЕ
-        .screenThree__content
-            .screenThree__content-wrap
+        form.screenThree__form(action="#", method="post")
+            .screenThree__form-wrap
+                .screenThree__form-selectionAndSending
+                    .screenThree__form-keyword
+                        p.screenThree__form-keyword-title|Ключевое слово*
+                        input.screenThree__form-inputKeyword(type="text" id="keyword" name="keyword" placeholder="например: говядина")
+                    .screenThree__form-industry
+                        p.screenThree__form-industry-title|Отрасль
+                        input.screenThree__form-inputIndustry.styleLabel(type="text" id="industry" name="industry" placeholder="Все отрасли")
+                        label(for="industry")
+                    .screenThree__form-region
+                        p.screenThree__form-region-title|Регион
+                        input.screenThree__form-inputRegion.styleLabel(type="text" id="region" name="region" placeholder="Все регионы")
+                        label(for="region")
+                    .screenThree__form-price
+                        p.screenThree__form-price-title|Цена
+                        .screenThree__form-inputPrice-wrap
+                            input.screenThree__form-inputMinPrice.styleLabel(type="number" id="minPrice" placeholder="От")
+                            label(for="minPrice")
+                            input.screenThree__form-inputMaxPrice.styleLabel(type="number" id="maxPrice" placeholder="До")
+                            label(for="maxPrice")
+                .screenThree__form-selectionAndSending

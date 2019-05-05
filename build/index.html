@@ -433,9 +433,36 @@
               <p class="screenThree__head-text">БЕСПЛАТНО ПОДОБРАТЬ ЗАПРОСЫ ПО ВАШЕЙ ТЕМЕ</p>
             </div>
           </div>
-          <div class="screenThree__content">
-            <div class="screenThree__content-wrap"></div>
-          </div>
+          <form class="screenThree__form" action="#" method="post">
+            <div class="screenThree__form-wrap">
+              <div class="screenThree__form-selectionAndSending">
+                <div class="screenThree__form-keyword">
+                  <p class="screenThree__form-keyword-title">Ключевое слово*</p>
+                  <input class="screenThree__form-inputKeyword" type="text" id="keyword" name="keyword" placeholder="например: говядина"/>
+                </div>
+                <div class="screenThree__form-industry">
+                  <p class="screenThree__form-industry-title">Отрасль</p>
+                  <input class="screenThree__form-inputIndustry styleLabel" type="text" id="industry" name="industry" placeholder="Все отрасли"/>
+                  <label for="industry"></label>
+                </div>
+                <div class="screenThree__form-region">
+                  <p class="screenThree__form-region-title">Регион</p>
+                  <input class="screenThree__form-inputRegion styleLabel" type="text" id="region" name="region" placeholder="Все регионы"/>
+                  <label for="region"></label>
+                </div>
+                <div class="screenThree__form-price">
+                  <p class="screenThree__form-price-title">Цена</p>
+                  <div class="screenThree__form-inputPrice-wrap">
+                    <input class="screenThree__form-inputMinPrice styleLabel" type="number" id="minPrice" placeholder="От"/>
+                    <label for="minPrice"></label>
+                    <input class="screenThree__form-inputMaxPrice styleLabel" type="number" id="maxPrice" placeholder="До"/>
+                    <label for="maxPrice"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="screenThree__form-selectionAndSending"></div>
+            </div>
+          </form>
         </div>
       </section>
     </div>

@@ -10,9 +10,11 @@ html(lang="ru")
         title Document
     body.body
         .body__wrap
-            include ../blocks/header/header.pug
-            include ../blocks/screenOne/screenOne.pug
-            include ../blocks/screenTwo/screenTwo.pug
-            include ../blocks/screenThree/screenThree.pug
-            include ../blocks/footer/footer.pug
+            .login__wrap
+                include ../blocks/header/header.pug
+                include ../blocks/loginPage/screenLogin.pug
+                include ../blocks/footer/footer.pug
+            //- include ../blocks/screenOne/screenOne.pug
+            //- include ../blocks/screenTwo/screenTwo.pug
+            //- include ../blocks/screenThree/screenThree.pug
         //- script(src="./js/main.js")

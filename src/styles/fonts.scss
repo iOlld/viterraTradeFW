@@ -183,6 +183,44 @@
 }
 
 
+// FOOTER__FONTS
+.footer{
+
+    &__nav-title{
+        font-size: 2.33rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        font-weight: 300;
+        line-height: 1.2;
+        padding-bottom: 2.77rem;
+    }
+
+    &__nav-link-font{
+        font-size: 1.66rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #bfbfbf;
+        line-height: 2.6;
+    }
+
+    &__info-text{
+        font-size: 1.66rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #bfbfbf;
+        padding-bottom: 0.88rem;
+    }
+
+    &__info-text-link{
+        font-size: 1.66rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #a1ce31;
+        text-decoration: underline;
+        padding-left: 0.4rem;
+        // line-height: 2;
+    }
+
+}
+
+
 // ICONS FONT AWESOME STYLE
 .mineStyleUserIcon{
     color: #767777;
@@ -209,3 +247,28 @@
     font-size: 1.56rem;
 }
 
+
+
+
+
+// LOGIN__PAGE
+
+.checkin{
+
+    &__title-text{
+        font-size: 2.66rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        line-height: 1.2;
+    }
+
+    &__subtitle-text{
+        font-size: 1.66rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        opacity: 0.8;
+        line-height: 1.2;
+        padding-top: 1rem;
+    }
+
+}

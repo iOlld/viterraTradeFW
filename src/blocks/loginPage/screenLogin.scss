@@ -1,0 +1,89 @@
+.login__wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../img/Группа\ 7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    // height: 69.33rem;
+        // flex-direction: column;
+    width: 100%;
+    // // height: 100vh;
+    // background: url('../img/Группа\ 7.png');
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+
+    &__wrap{
+        // height: 69.11rem;
+        // height: 50vh;
+        width: 107.77rem;
+        // background: red;
+        display: flex;
+        flex-direction: row;
+        padding-top: 7.77rem;
+    }
+
+}
+
+.checkin{
+
+    &__wrap{
+        width: 32.66rem;
+        background: #575455;
+        border-radius: 1rem;
+        padding-left: 3.77rem;
+        padding-top: 3.11rem;
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: "";
+            display: flex;
+            left: 26rem;
+            border: 1.6rem solid transparent;
+            border-top: 1.6rem solid #575455;
+            border-right: 1.6rem solid #575455;
+        }
+
+    }
+
+    // &__triangle{
+    //     border: 30px solid transparent;
+    //     border-right: 43px solid #575455;
+    //     display: block;
+    //     width: 0;
+    //     height: 0;
+    //     position: absolute;
+    // }
+
+}
+
+.farmer{
+
+    &__wrap{
+        width: 31.33rem;
+        height: 51.77rem;
+        background: url('../img/Слой\ 575.png');
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: cover;
+        margin-top: 9.33rem;
+    }
+
+}
+
+
+// border: 30px solid transparent;
+// border-right: 43px solid rgb(255, 68, 0);
+// display: block;
+// width: 0;
+// height: 0;

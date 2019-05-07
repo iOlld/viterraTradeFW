@@ -7,35 +7,27 @@ section.screenThree
             .screenThree__form-wrap
                 .screenThree__form-selectionAndSending
                     .screenThree__form-keyword
-                        p.screenThree__form-keyword-title|Ключевое слово*
+                        p.screenThree__form-keyword-title.screenThree__title-fonts|Ключевое слово*
                         input.screenThree__form-inputKeyword(type="text" id="keyword" name="keyword" placeholder="например: говядина")
                     .screenThree__form-industry
-                        p.screenThree__form-industry-title|Отрасль
+                        p.screenThree__form-industry-title.screenThree__title-fonts|Отрасль
                         input.screenThree__form-inputIndustry.styleLabel(type="text" id="industry" name="industry" placeholder="Все отрасли")
                         label(for="industry")
                     .screenThree__form-region
-                        p.screenThree__form-region-title|Регион
+                        p.screenThree__form-region-title.screenThree__title-fonts|Регион
                         input.screenThree__form-inputRegion.styleLabel(type="text" id="region" name="region" placeholder="Все регионы")
                         label(for="region")
                     .screenThree__form-price
-                        p.screenThree__form-price-title|Цена
+                        p.screenThree__form-price-title.screenThree__title-fonts|Цена
                         .screenThree__form-inputPrice-wrap
-                            input.screenThree__form-inputMinPrice.styleLabel(type="number" id="minPrice" placeholder="От")
+                            input.screenThree__form-inputMinPrice.styleLabel(type="number" id="minPrice" name="minPrice" placeholder="От")
                             label(for="minPrice")
-                            input.screenThree__form-inputMaxPrice.styleLabel(type="number" id="maxPrice" placeholder="До")
+                            input.screenThree__form-inputMaxPrice.styleLabel(type="number" id="maxPrice" name="maxPrice" placeholder="До")
                             label(for="maxPrice")
                 .screenThree__form-selectionAndSending
-                    <svg class="svgOne" id="ic2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.59 55.51">
-                        <g id="ic1">
-                        <path d="M0,16.33H8.38s12.6,18,16.5,39.29H16.09Zm38-.15H44.7V9l15.15-7.8V16.33H68.1V27.51H59.92V44.08c0,4.13,7.47.75,7.47.75l1.2,10.39a40.9,40.9,0,0,1-13.41,1.36S54,45.19,44.59,27.43v-.11h-.06c-1.85-3.48-4-7.2-6.54-11.14Z" transform="translate(0 -1.18)" style="fill:#aecd44;fill-rule:evenodd"/>
-                        <path d="M10,16.33s12.68,18,17,39.29h2.85l12-28.3h1.12a122,122,0,0,0-6.12-11.14H31.27L23,40.63l-7.43-24.3ZM52.47,56.21s-1.54-11-7.88-25.29V41.16c0,3.26-.45,13.27,7.42,15Z" transform="translate(0 -1.18)" style="fill:#575556;fill-rule:evenodd"/>
-                        </g>
-                    </svg>
-                .screenThree__form-selectionAndSending
-                    <svg class="svgTwo" id="ic2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.59 55.51">
-                        <g id="ic1">
-                        <path class="svgRed" d="M0,16.33H8.38s12.6,18,16.5,39.29H16.09Zm38-.15H44.7V9l15.15-7.8V16.33H68.1V27.51H59.92V44.08c0,4.13,7.47.75,7.47.75l1.2,10.39a40.9,40.9,0,0,1-13.41,1.36S54,45.19,44.59,27.43v-.11h-.06c-1.85-3.48-4-7.2-6.54-11.14Z" transform="translate(0 -1.18)" style="fill:#aecd44;fill-rule:evenodd"/>
-                        <path class="svgYellow" d="M10,16.33s12.68,18,17,39.29h2.85l12-28.3h1.12a122,122,0,0,0-6.12-11.14H31.27L23,40.63l-7.43-24.3ZM52.47,56.21s-1.54-11-7.88-25.29V41.16c0,3.26-.45,13.27,7.42,15Z" transform="translate(0 -1.18)" style="fill:#575556;fill-rule:evenodd"/>
-                        </g>
-                    </svg>
-                .screenThree__form-selectionAndSending
+                    .screenThree__form-email
+                        p.screenThree__form-price-title.screenThree__title-fonts|Ваш e-mail
+                        input.screenThree__form-inputEmail.styleLabel(type="text" id="email" name="email")
+                    .screenThree__form-btn-wrap
+                        button.screenThree__form-btn(type="submit")|ПОДОБРАТЬ
+                    p.screenThree__form-agreement-text|Нажимая на кнопку Подобрать, вы даете согласие на обработку своих персональных данных и соглашаетесь с пользовательским соглашением. ** постарайтесь указать наиболее общее слово (корень слова). Например для "мясо говядины" лучше выбрать "говядина"

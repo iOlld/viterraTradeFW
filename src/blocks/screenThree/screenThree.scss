@@ -1,12 +1,13 @@
 .screenThree{
-    height: 100vh;
     display: flex;
     justify-content: center;
     padding-top: 5.55rem;
-    // width: 100%;
+    padding-bottom: 5rem;
+    border-bottom: 0.15rem solid #f0efef;
 
     &__wrap{
-        width: 133.33rem;
+        width: 130rem;
+        // width: 133.33rem;
         // width: 60.94%;
     }
 
@@ -28,9 +29,18 @@
     &__form-selectionAndSending{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 3.33rem;
+        padding-right: 3.33rem;
+        // justify-content: center;
+        align-items: flex-end;
         padding-top: 4.44rem;
+    }
 
+    &__form-bottom{
+        display: flex;
+        justify-content: flex-start;
     }
 
 }

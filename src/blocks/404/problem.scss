@@ -1,0 +1,18 @@
+.problem__wrap{
+    display: flex;
+    flex-direction: column;
+    background: url('../404/img/Группа\ 7.png');
+    // background: url('../404/img/Слой\0.png');
+    // height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // background: url('../img/Группа\ 7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.problem__center{
+    height: 200vh;
+}

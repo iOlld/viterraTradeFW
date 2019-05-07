@@ -4,6 +4,7 @@
 @import './tabsAndInput.scss';
 @import './btn.scss';
 
+@import './src/blocks/notifications/notifications.scss';
 @import './src/blocks/header/header.scss';
 @import './src/blocks/screenOne/screenOne.scss';
 @import './src/blocks/screenOne/screenOneCategories.scss';
@@ -20,18 +21,18 @@
 
 
 
-.svgOne{
-    width: 10rem;
-}
+// .svgOne{
+//     width: 10rem;
+// }
 
-.svgTwo{
-    width: 20rem;
-}
+// .svgTwo{
+//     width: 20rem;
+// }
 
-.svgRed{
-    fill: red !important;
-}
+// .svgRed{
+//     fill: red !important;
+// }
 
-.svgYellow{
-    fill: yellow !important;
-}
+// .svgYellow{
+//     fill: yellow !important;
+// }

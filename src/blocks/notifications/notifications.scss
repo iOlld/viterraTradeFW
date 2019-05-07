@@ -1,0 +1,119 @@
+.notifications {
+    width: 100%;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+
+    &-menu {
+        // width: 100%;
+        // background-color: #292929;
+
+        &-wrap { 
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+        }
+
+        &__btn {
+            padding: 8px 14px 10px 15px;
+            font-family: "Source Sans Pro - Semibold";
+            font-size: 14px;
+            font-weight: 400;
+            color: #ffffff;
+            border: none;
+            outline: none;
+            background-color: #a1ce31;
+            transition: all 0.3s ease-out;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #ff7c07;
+            }
+        }
+
+        &-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        &__link {
+            display: inline-block;
+            height: 100%;
+            padding: 16px 20px 16px 45px;
+            font-family: "Source Sans Pro";
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            text-decoration: none;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+            &-data {
+                margin-left: 5px;
+            }
+
+            &-icon {
+                fill: rgba(255, 255, 255, 0.2);
+            }
+        }
+        
+        &__alert {
+            padding: 15px 20px 17px 19px;
+            color: #fff;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        &__settings {
+            padding: 15px 20px 17px 19px;
+            color: #fff;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        &-user-block {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 0 16px 0 14px;
+            color: #fff;
+
+            &__logo {
+                padding: 0 7px 0 0;
+            }
+
+            &-inner-wrap {
+                display: flex;
+                flex-direction: column;
+
+                // .user__id {
+
+                // }
+
+                .user__stars {
+                    padding: 6px 0 0 0;
+                }
+            }
+
+            &__shield {
+                padding: 0 0 0 7px;
+            }
+        }
+
+        &__money {
+            display: flex;
+            align-items: center;
+            padding: 8px 14px 10px 15px;
+            min-height: 31px;
+            font-family: "Source Sans Pro - Semibold";
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            background-color: #a1ce31;
+        }
+
+        &__logout {
+            padding: 15px 7px;
+            color: #fff;
+        }
+    }
+}
+

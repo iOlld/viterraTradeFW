@@ -37,9 +37,9 @@ var paths = {
     watch: ['./src/blocks/**/img/*']
   },
   fonts: {
-    src: './src/fonts/*',
+    src: './src/fonts/**/*',
     dest: './build/fonts',
-    watch: './src/fonts/*'
+    watch: './src/fonts/**/*'
   }
 };
 

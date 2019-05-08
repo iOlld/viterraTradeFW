@@ -1,0 +1,26 @@
+.news-block {
+    margin-bottom: 4.33rem;
+
+    &__data {
+        margin-bottom: 1.44rem;
+        font-family: "Source Sans Pro";
+        font-size: 1.44rem;
+        font-weight: 400;
+        line-height: 2rem;
+        color: #999;
+    }
+
+    &__title {
+        text-decoration: none;
+        font-family: "Source Sans Pro";
+        font-size: 1.66rem;
+        font-weight: 400;
+        color: #212121;
+        transition: all 0.3s ease-out;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+        }
+    }
+}

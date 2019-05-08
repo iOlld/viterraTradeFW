@@ -30,7 +30,7 @@
     }
 
     &__svgLogo{
-        width: 4.66rem;
+        height: 4.66rem;
     }
 
     &__logo-link{
@@ -41,7 +41,8 @@
     &__logo-box{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;
+        justify-content: space-between;
+        // justify-content: center;
         align-items: flex-end;
         padding-bottom: 1rem;
     }

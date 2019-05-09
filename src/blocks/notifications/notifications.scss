@@ -13,18 +13,19 @@
 
         &__btn {
             padding: 1.11rem 1.55rem;
-            font-family: "Source Sans Pro - Semibold";
+            font-family: 'SourceSansPro-Regular';
             font-size: 1.55rem;
             font-weight: 400;
             color: #ffffff;
             border: none;
             outline: none;
             background-color: #a1ce31;
-            transition: all 0.3s ease-out;
             cursor: pointer;
+            transition: all 0.3s ease;
 
             &:hover {
                 background-color: #ff7c07;
+                transition: all 0.3s ease;
             }
         }
 
@@ -34,12 +35,10 @@
         }
 
         &__link {
-            // display: inline-block;
             display: flex;
             height: 100%;
-            // padding: 1.77rem 2.22rem 1.77rem 1rem;
-            padding: 2.1rem 2rem 2.1rem 1rem;
-            font-family: "Source Sans Pro";
+            padding: 2.1rem 1.3rem 2.1rem 1rem;
+            font-family: 'SourceSansPro-Regular';
             font-size: 1.55rem;
             font-weight: 400;
             color: #fff;
@@ -56,6 +55,17 @@
         }
         
         &__alert {
+            position: relative;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 0.66rem;
+                height: 0.66rem;
+                border-radius: 0.33rem;
+                background: #ff0707;
+                left: 3.6rem;
+            }
 
             .notifications__svg{
                 fill: #fff;
@@ -63,9 +73,11 @@
 
             padding: 1.8rem 2.11rem;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
 
             &:hover .notifications__svg{
                 fill: #fc8701;
+                transition: all 0.3s ease;
             }
         }
 
@@ -77,9 +89,11 @@
 
             padding: 1.8rem 2.11rem;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
 
             &:hover .notifications__svg{
                 fill: #fc8701;
+                transition: all 0.3s ease;
             }
         }
 
@@ -97,10 +111,6 @@
             &-inner-wrap {
                 display: flex;
                 flex-direction: column;
-
-                .user__stars {
-                    padding: 0.66rem 0rem 0rem 0rem;
-                }
             }
 
             &__shield {
@@ -111,40 +121,68 @@
         &__money {
             display: flex;
             align-items: center;
-            padding: 1.99rem 2.11rem;
-            font-family: "Source Sans Pro - Semibold";
+            padding: 2.08rem 2.11rem;
+            font-family: 'SourceSansPro-Regular';
             font-size: 1.55rem;
-            font-weight: 400;
             color: #fff;
             background-color: #a1ce31;
             border: none;
             cursor: pointer;
+            transition: all 0.3s ease;
 
             &:hover {
                 background-color: #ff7c07;
+                transition: all 0.3s ease;
             }
         }
 
         &__logout {
             padding: 1.66rem 0.77rem;
+            transition: all 0.3s ease;
+
             &:hover .notifications__svg{
                 fill: #fc8701;
+                transition: all 0.3s ease;
             }
 
         }
     }
 }
 
-
-// .notifications__svg-wrap{
-//     height: 1.77rem;
+// .notifications-menu-user-block__logo-text{
+//     font-size: 1.4rem;
+//     // font-family: 'Bernard MT Condensed';
+//     font-family: 'SourceSansPro-Regular';
+//     font-weight: bold;
+//     color: #fff;
+//     width: 1.88rem;
+//     height: 1.88rem;
+//     background: #fc8701;
+//     border-radius: 1rem;
+//     text-align: center;
 // }
+
+
+.user__id-text{
+    font-size: 1.55rem;
+    font-family: 'SourceSansPro-Regular';
+    font-weight: 400;
+
+}
+
+.user__stars{
+
+    &-ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
 
 .notifications__svg{
     transform: translateY(10%);
-    // height: 2rem;
-    height: 1.55rem;
-    // width: 1.55rem;
+    height: 1.88rem;
     fill: #545454;
 
 }
@@ -153,11 +191,51 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 1.7rem;
 }
 
 .notifications-menu-list-li{
+    transition: all 0.3s ease;
+
     &:hover .notifications__svg{
         fill: #fc8701;
+        transition: all 0.3s ease;
     }
+}
+
+.notifications__sheild-mod{
+    position: relative;
+
+    .notifications__svg{
+        fill: #a1ce31;
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 0.7rem;
+        height: 0.7rem;
+        background: #fff;
+        left: 0.5rem;
+        top: 0.5rem;
+    }
+
+}
+
+.user__svgStars-mod{
+    height: 1.11rem;
+    margin-top: 0.66rem;
+    margin-right: 0.33rem;
+}
+
+.user__svgStars{
+
+    &-1, &-2, &-3, &-4{
+        fill: #a1ce31;
+    }
+
+    &-5{
+        fill: #545454;
+    }
+
 }

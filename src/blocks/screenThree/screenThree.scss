@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     padding-top: 5.55rem;
-    padding-bottom: 5rem;
-    border-bottom: 0.15rem solid #f0efef;
 
     &__wrap{
         width: 130rem;
@@ -14,6 +12,7 @@
     &__head{
         width: 100%;
         display: flex;
+        // overflow: hidden;
     }
 
     &__head-wrap{
@@ -24,6 +23,12 @@
         justify-content: center;
         background: #292929;
         padding-left: 3.33rem;
+    }
+
+    &__form-wrap{
+        
+        border: 0.15rem solid #f0efef;
+        padding-bottom: 5rem;
     }
 
     &__form-selectionAndSending{

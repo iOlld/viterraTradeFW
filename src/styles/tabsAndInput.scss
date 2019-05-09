@@ -238,13 +238,13 @@
 
     &__form-inputMinPrice{
 
-        & + label::before{
-            content: "";
-            border-left: 0.2rem solid #f0efef;
-            height: 5.5rem;
-            position: absolute;
-            right: 5rem;
-        }
+        // & + label::before{
+        //     content: "";
+        //     border-left: 0.2rem solid #f0efef;
+        //     height: 5.5rem;
+        //     position: absolute;
+        //     right: 5rem;
+        // }
 
         & + label::after{
             content: "\20BD";
@@ -258,14 +258,14 @@
 
     &__form-inputMaxPrice{
 
-        & + label::before{
-            content: "";
-            border-left: 0.2rem solid #f0efef;
-            height: 5.5rem;
-            position: absolute;
-            left: 27rem;
-            bottom: 0rem;
-        }
+        // & + label::before{
+        //     content: "";
+        //     border-left: 0.2rem solid #f0efef;
+        //     height: 5.5rem;
+        //     position: absolute;
+        //     left: 27rem;
+        //     bottom: 0rem;
+        // }
 
         
         & + label::after{

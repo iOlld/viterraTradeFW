@@ -10,11 +10,19 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     color: #fff;
-    background: #ff7c07;
+    background: #ff8c25;
     padding: 1.7rem 4.22rem ;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover{
+        background: #a1ce31;
+        transition: all 0.3 ease;
     }
+
+    }
+
 }
 
 .screenOne__categories-btn{
@@ -54,7 +62,7 @@
         cursor: pointer;
 
         &:hover{
-            background: #ff7c07;
+            background: #ff8c25;
             transition: all 0.3s ease;
         }
     }
@@ -70,10 +78,17 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     color: #fff;
-    background: #ff7c07;
+    // background: #ff7c07;
+    background: #ff8c25;
     padding: 1.7rem 4.22rem ;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover{
+        background: #a1ce31;
+        transition: all 0.3 ease;
+    }
 }
 
 
@@ -96,6 +111,12 @@
         color: #fff;
         font-size: 1.66rem;
         font-family: 'Source Sans Pro', sans-serif;
+        transition: all 0.3s ease;
+    
+        &:hover{
+            background: #ff8c25;
+            transition: all 0.3 ease;
+        }
     }
 
 }

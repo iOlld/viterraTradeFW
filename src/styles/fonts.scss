@@ -13,8 +13,9 @@
     font-family: 'FiraSans-Book';
     color: #575455;
     text-transform: uppercase;
-    // letter-spacing: -0.15rem;
+    letter-spacing: -0.07rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .header__nav-fonts{
@@ -121,6 +122,13 @@
         // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: rgb(33, 33, 33);
+        transition: all 0.3 ease;
+
+        &:hover{
+            text-decoration: none;
+            transition: all 0.3 ease;
+        }
+
     }
 
     &__productCards-description-text, &__requestCards-description-text, &__tenderCards-description-text{
@@ -137,6 +145,13 @@
         // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #317fce;
+        transition: all 0.3 ease;
+
+        &:hover{
+            text-decoration: none;
+            transition: all 0.3 ease;
+        }
+
     }
 
     &__productCards-date-text, &__requestCards-date-text, &__tenderCards-date-text{
@@ -248,6 +263,11 @@
         font-family: 'SourceSansPro-Regular';
         color: #bfbfbf;
         line-height: 2.6;
+
+        &:hover{
+            color: #fff;
+        }
+
     }
 
     &__info-text{

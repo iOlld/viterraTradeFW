@@ -84,8 +84,8 @@
         }
 
         
-        &:hover .mineStyleArrowDownIconNav{
-            color: #fff;
+        &:hover .header__svgArrow{
+            fill: #fff;
             transition: all 0.3s ease;
         }
 
@@ -103,8 +103,18 @@
 
     }
 
+    &__svgArrow{
+        fill: #767777;
+        transform: rotate(90deg);
+        width: 0.88rem;
+        // height: 0.66rem;
+        margin-left: 0.1rem;
+        transition: all 0.3s ease;
+    }
+
     &__nav-submenu-ul{
         display: none;
+        transition: all 0.3s ease;
     }
 
     &__nav-submenu-li{
@@ -140,3 +150,4 @@
     // }
 
 }
+

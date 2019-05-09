@@ -94,6 +94,29 @@
 
     }
 
+    &__productCards-date-wrap, &__requestCards-date-wrap{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__svgUser{
+        // width: 1.1rem;
+        height: 1.44rem;
+        padding-right: 1rem;
+        fill: #7b7c7c;
+    }
+
+    &__svgTime{
+        height: 1.44rem;
+        fill: #7b7c7c;
+        padding: 0rem 1rem 0rem 0rem;
+        margin: 0;
+    }
+
+    &__svgTime-wrap{
+        margin: 0;
+    }
+
 }
 
 .bgWhite{

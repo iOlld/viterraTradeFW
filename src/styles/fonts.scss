@@ -159,21 +159,21 @@
         // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #999999;
-        text-align: left;
-        position: relative;
-        padding-left: 2.5rem;
+        // text-align: left;
+        // position: relative;
+        // padding-left: 2.5rem;
 
-        &::before{
-            content: "";
-            position: absolute;
-            background: url('../img/time.png');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 1.44rem;
-            height: 1.44rem;
-            left: 0rem;
-        }
+        // &::before{
+        //     content: "";
+        //     position: absolute;
+        //     background: url('../img/time.png');
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        //     width: 1.44rem;
+        //     height: 1.44rem;
+        //     left: 0rem;
+        // }
 
     }
 
@@ -294,33 +294,6 @@
         color: #fff;
     }
 
-}
-
-
-// ICONS FONT AWESOME STYLE
-.mineStyleUserIcon{
-    color: #767777;
-    font-size: 1.56rem;
-}
-
-.mineStyleArrowDownIconRegistration{
-    color: #767777;
-    font-size: 1rem;
-    // font-size: 0.78rem;
-    padding-left: 0.9rem;
-}
-
-.mineStyleArrowDownIconNav{
-    color: #818282;
-    font-size: 1rem;
-    // font-size: 0.78rem;
-    padding-left: 0.5rem;
-}
-
-.mineStyleUserIconScreenTwo{
-    padding-right: 1rem;
-    color: #7b7c7c;
-    font-size: 1.56rem;
 }
 
 

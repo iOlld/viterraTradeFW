@@ -1,0 +1,64 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 2.56rem;
+
+    &-list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        border-radius: 0.33rem;
+        background-color: #f5f6f8;
+
+        &:not(:last-child) {
+            margin-right: 0.22rem;
+        }
+    }
+
+    &__link {
+        display: block;
+        padding: 1.3rem 1.7rem;
+        font-family: "Source Sans Pro";
+        font-size: 1.67rem;
+        font-weight: 400;
+        color: #212121;
+
+        &--active {
+            background-color: #ff7c07;
+            color: #fff;
+        }
+    }
+
+    .numbers-block {
+        display: flex;
+        margin-left: auto;
+        font-family: "Source Sans Pro";
+        font-size: 1.67rem;
+        font-weight: 400;
+        color: #212121;
+
+        .numbers-list {
+            display: flex;
+            margin-left: 0.56rem;
+        }
+
+        .numbers__item  {
+
+            &:not(:last-child) {
+                margin-right: 0.56rem;
+            }
+        }
+
+        .numbers__link {
+            display: block;
+            color: #317fce;
+            text-decoration: underline;
+
+            &--active {
+                color: #999999;
+            }
+        }
+    }
+}

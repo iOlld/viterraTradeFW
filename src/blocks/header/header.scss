@@ -6,15 +6,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        // justify-content: space-between;
-        // align-items: flex-end;
         padding-top: 1.55rem;
-        padding-bottom: 2.22rem;
-        // width: 133.33rem;
+        padding-bottom: 2.11rem;
         width: 130rem;
         margin: 0 auto;
-        // position: fixed;
-        // z-index: 2;
         
     }
 
@@ -30,7 +25,9 @@
     }
 
     &__svgLogo{
-        height: 4.66rem;
+        // height: 4.66rem;
+        width: 5.88rem;
+        height: 4.77rem;
     }
 
     &__logo-link{
@@ -44,7 +41,8 @@
         justify-content: space-between;
         // justify-content: center;
         align-items: flex-end;
-        padding-bottom: 1rem;
+        // padding-bottom: 1rem;
+        padding-bottom: 0.8rem;
     }
 
     &__nav{
@@ -92,10 +90,10 @@
             flex-direction: column;
             position: absolute;
             left: 0rem;
-            top: 4.65rem;
+            top: 4.6rem;
             background: #fff;
             width: 25.56rem;
-            padding-top: 3.1rem;
+            padding-top: 3.3rem;
             transition: all 0.3s ease;
         }
 

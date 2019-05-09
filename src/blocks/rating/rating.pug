@@ -1,0 +1,36 @@
+section.rating
+    .container
+        ul.breadcrumbs 
+            li.breadcrumbs__item
+                a(href="#").breadcrumbs__link Главная 
+            span.breadcrumbs__arrow &#62;
+            li.breadcrumbs__item Рейтинг компаний
+    .rating-table
+        h1.rating-table__title Рейтинг компаний
+        p.rating-table__desc Место зависит от выбранного региона (города), баллов Паспорта и еще более 10-ти параметров, которые держатся в тайне, чтобы не было накруток. Рейтинг обновляется ежедневно.
+        .rating-table__settings-block
+            a(href="#").settings-block__country Россия:
+            .settings-block__members 97 089 участников
+            input.settings-block__input(id="member", type="text", name="member" placeholder="Поиск по ИНН или названию...")
+            label(for="member")
+            .settings-block-btn-wrap
+                button.settings-block__rating-btn Рейтинг
+                button.settings-block__antirating-btn Антирейтинг
+        .rating-table__header
+            ul.header-list
+                li.header__item #
+                li.header__item Название
+                li.header__item Паспорт
+                li.header__item Рекомендации
+                li.header__item Претензии
+        .rating-table__body
+            include table-block.pug
+            include table-block.pug
+            include table-block.pug
+            include table-block.pug
+            include table-block.pug
+            include table-block.pug
+            include table-block.pug
+            include table-block.pug
+        include pagination.pug
+    

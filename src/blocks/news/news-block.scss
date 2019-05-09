@@ -1,5 +1,12 @@
 .news-block {
-    margin-bottom: 4.33rem;
+    // margin-bottom: 4.33rem;
+    margin-top: 2.33rem;
+    padding-bottom: 1.88rem;
+    border-bottom: 0.11rem solid #f0efef;
+
+    &:last-child{
+        border-bottom: none;
+    }
 
     &__data {
         margin-bottom: 1.44rem;

@@ -1,0 +1,161 @@
+.rating {
+    padding-bottom: 7.89rem;
+    background-color: #f5f6f8;
+
+    .container {
+        position: relative;
+        max-width: 133.33rem;
+        padding: 0 0.55rem;
+        margin: auto;
+    
+        @media screen and (min-width: 1200px) {
+            padding: 0 1.66rem;
+        }
+    
+        .breadcrumbs {
+            display: flex;
+            align-items: flex-end;
+            padding: 2.33rem 0;
+    
+            &__item {
+                font-family: "Source Sans Pro";
+                font-size: 1.44rem;
+                font-weight: 400;
+                line-height: 2rem;
+                color: #999;
+            }
+    
+            &__arrow {
+                margin: 0 1.66rem;
+            }
+    
+            &__link {
+                font-family: "Source Sans Pro";
+                font-size: 1.44rem;
+                font-weight: 400;
+                line-height: 2rem;
+                color: #317fce;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &-table {
+        width: 130rem;
+        margin: 0 auto;
+        padding: 5rem 3.33rem 4.55rem 3.33rem;
+        background-color: #ffffff;
+
+        &__title {
+            margin-bottom: 3.33rem;
+            font-family: "Source Sans Pro - Semibold";
+            font-size: 2.67rem;
+            font-weight: 400;
+            color: #212121;
+        }
+
+        &__desc {
+            width: 71rem;
+            margin-bottom: 2.55rem;
+            font-family: "Source Sans Pro";
+            font-size: 1.67rem;
+            font-weight: 400;
+            color: #212121;
+        }
+
+        &__settings-block {
+            display: flex;
+            align-items: center;
+            margin: 0 0 1.33rem 6.33rem;
+
+            .settings-block__country {
+                font-family: "Source Sans Pro";
+                font-size: 1.44rem;
+                font-weight: 400;
+                line-height: 2rem;
+                color: #317fce;
+                text-decoration: underline;
+            }
+
+            .settings-block__members {
+                margin: 0 3.11rem 0 1rem;
+                font-family: "Source Sans Pro";
+                font-size: 1.44rem;
+                font-weight: 400;
+                line-height: 2rem;
+                color: #999999;
+            }
+
+            .settings-block__input {
+                width: 33.33rem;
+                height: 3.11rem;
+                padding: 0.56rem;
+                font-family: "Source Sans Pro";
+                font-size: 1.44rem;
+                font-weight: 400;
+                line-height: 2rem;
+                color: #999999;
+            }
+
+            .settings-block__rating-btn,
+            .settings-block__antirating-btn {
+                font-family: "Source Sans Pro";
+                font-size: 1.44rem;
+                font-weight: 400;
+                border: none;
+                outline: none;
+                border-radius: 0.33rem;
+            }
+
+            .settings-block__rating-btn {
+                padding: 1.18rem 2.18rem;
+                color: #ffffff;
+                background-color: #ff7c07;
+            }
+
+            .settings-block__antirating-btn {
+                padding: 1.18rem 1.75rem;
+                color: #999999;
+                background-color: #f5f6f8;
+            }
+        }
+
+        &__header {
+
+            .header-list {
+                width: 100%;
+                display: flex;
+                padding: 1.67rem 0;
+                background-color: #575455;
+            }
+            
+            .header__item {
+                font-family: "Source Sans Pro";
+                font-size: 1.56rem;
+                font-weight: 400;
+                color: #999999;
+
+                &:nth-child(1) {
+                    width: 7.78rem;
+                    text-align: center;
+                }
+
+                &:nth-child(2) {
+                    width: 44.22rem;
+                }
+
+                &:nth-child(3) {
+                    width: 33.5rem;
+                }
+
+                &:nth-child(4) {
+                    width: 14.1rem;
+                }
+
+                &:nth-child(5) {
+                    width: 23.33rem;
+                }
+            }
+        }
+    }
+}

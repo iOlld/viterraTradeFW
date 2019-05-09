@@ -5,17 +5,13 @@
     justify-content: center;
 
     &-menu {
-        // width: 100%;
-        // background-color: #292929;
 
         &-wrap { 
             display: flex;
-            // justify-content: center;
             align-items: center;
         }
 
         &__btn {
-            // padding: 0.88rem 1.55rem 1.11rem 1.66rem;
             padding: 1.11rem 1.55rem;
             font-family: "Source Sans Pro - Semibold";
             font-size: 1.55rem;
@@ -35,16 +31,14 @@
         &-list{
             display: flex;
             flex-direction: row;
-            // margin: 0;
-            // padding: 0;
-            // list-style: none;
         }
 
         &__link {
-            display: inline-block;
+            // display: inline-block;
+            display: flex;
             height: 100%;
-            // padding: 1.77rem 2.22rem 1.77rem 5rem;
-            padding: 1.77rem 2.22rem 1.77rem 1rem;
+            // padding: 1.77rem 2.22rem 1.77rem 1rem;
+            padding: 2.1rem 2rem 2.1rem 1rem;
             font-family: "Source Sans Pro";
             font-size: 1.55rem;
             font-weight: 400;
@@ -67,10 +61,9 @@
                 fill: #fff;
             }
 
-            // padding: 1.66rem 2.22rem 1.88rem 2.11rem;
             padding: 1.8rem 2.11rem;
-            // color: #fff;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
+
             &:hover .notifications__svg{
                 fill: #fc8701;
             }
@@ -82,10 +75,9 @@
                 fill: #fff;
             }
 
-            // padding: 1.66rem 2.22rem 1.88rem 2.11rem;
             padding: 1.8rem 2.11rem;
-            // color: #fff;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
+
             &:hover .notifications__svg{
                 fill: #fc8701;
             }
@@ -106,10 +98,6 @@
                 display: flex;
                 flex-direction: column;
 
-                // .user__id {
-
-                // }
-
                 .user__stars {
                     padding: 0.66rem 0rem 0rem 0rem;
                 }
@@ -124,9 +112,6 @@
             display: flex;
             align-items: center;
             padding: 1.99rem 2.11rem;
-            // padding: 0.88rem 1.55rem 1.11rem 1.66rem;
-            // min-height: 31px;
-            // height: 3.44rem;
             font-family: "Source Sans Pro - Semibold";
             font-size: 1.55rem;
             font-weight: 400;
@@ -142,11 +127,6 @@
 
         &__logout {
             padding: 1.66rem 0.77rem;
-            // color: #fff;
-
-            // padding: 1.8rem 2.11rem;
-            // color: #fff;
-            // border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
             &:hover .notifications__svg{
                 fill: #fc8701;
             }
@@ -161,15 +141,11 @@
 // }
 
 .notifications__svg{
-    // width: 1.77rem;
-    // height: 1.77rem;
     transform: translateY(10%);
-    height: 2rem;
+    // height: 2rem;
+    height: 1.55rem;
+    // width: 1.55rem;
     fill: #545454;
-
-    // &:hover{
-    //     fill: #fc8701;
-    // }
 
 }
 
@@ -177,8 +153,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 2rem;
-    // padding-left: 2rem;
+    padding-left: 2rem;
 }
 
 .notifications-menu-list-li{

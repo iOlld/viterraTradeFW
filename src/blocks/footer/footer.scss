@@ -73,23 +73,35 @@
         align-items: center;
     }
 
-    &__social-ul{
+    // &__social-ul{
+    //     display: flex;
+    //     flex-direction: row;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+
+    // &__social-li{
+    //     margin-left: 0.66rem;
+    // }
+
+    &__social-link{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-    }
-
-    &__social-li{
-        margin-left: 0.66rem;
     }
 
     &__social-svg-style{
-        width: 3.33rem;
+        // width: 3.33rem;
+        width: 2.33rem;
+        margin-left: 3.11rem;
     }
 
 }
 
-// .footer__social-svg-style{
-//     width: 3.33rem;
-// }
+.footer__social-svg-style{
+    fill: #fff;
+}
+
+// !!!!!!!!! //
+// TO__ADAPT //
+// ########  //

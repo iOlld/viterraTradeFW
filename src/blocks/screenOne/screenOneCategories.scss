@@ -4,16 +4,10 @@
         display: flex;
         flex-direction: column;
         width: 136.67rem;
-        // width: 64.06%;
-        // width: 100%;
         background: #fff;
         margin-top: 3.33rem;
-        // padding-top: 6.44rem;
         padding-top: 4.44rem;
-        // padding-bottom: 5.11rem;
         padding-bottom: 3.61rem;
-        // box-shadow: 1rem 1rem 1rem 1rem #f9f9f9;
-        // box-shadow: 0rem 6rem 2rem -4rem #f9f9f9;
         box-shadow: 0rem 0rem 4rem -2rem grey;
     }
 
@@ -24,7 +18,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        // padding-bottom: 2.78rem;
         margin-bottom: 2.78rem;
     }
 
@@ -40,6 +33,11 @@
             transition: all 0.3s ease;
         }
 
+        &:hover .screenOne__svg{
+            fill: #ff7c07;
+            transition: all 0.3s ease;
+        }
+
     }
 
     &__categories-link{
@@ -52,55 +50,23 @@
 }
 
 
-// CATEGORIES ICON POSITION
-
-.tractor-icon{
-    background: url('../img/tractor.png');
-    // width: 7rem;
-    width: 8.7rem;
-    // height: 5.7rem;
-    height: 7rem;
-}
-
-.corn-icon{
-    background: url('../img/corn.png');
-    width: 7rem;
-    // height: 6.97rem;
-    height: 7rem;
-}
-
-.silo-icon{
-    background: url('../img/silo.png');
-    width: 7rem;
-    height: 7rem;
-}
-
-.sprout-icon{
-    background: url('../img/sprout.png');
-    width: 7rem;
-    // height: 6.9rem;
-    height: 7rem;
-}
-
-.field-icon{
-    background: url('../img/field.png');
-    width: 7rem;
-    height: 7rem;
-}
-
-.farmer-icon{
-    background: url('../img/farmer.png');
-    width: 6.5rem;
-    // height: 7.3rem;
-    height: 7rem;
-}
-
+// CATEGORIES__SVG__ICON__STYLE
 
 .screenOne__categories-icon{
+    width: 7rem;
+    height: 7rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: invert(25%);
-    // margin-bottom: 3rem;
     margin-bottom: 2rem;
 }
+
+.screenOne__svg{
+    fill: #575455;
+}
+
+
+
+// !!!!!!!!! //
+// TO__ADAPT //
+// ########  //

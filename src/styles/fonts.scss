@@ -285,6 +285,13 @@
         text-decoration: underline;
         padding-left: 0.4rem;
         // line-height: 2;
+        transition: all 0.3s ease;
+
+        &:hover{
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
     }
 
     &__social-link-text{

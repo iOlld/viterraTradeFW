@@ -278,4 +278,22 @@
 
     }
 
+    &__form-inputIndustry, &__form-inputRegion{
+                
+        & + label::after{
+            content: "";
+            background: url('../img/arrow-point-to-right (1) копия 2.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 2.5rem;
+            left: 26rem;
+            width: 1.11rem;
+            height: 0.67rem;
+        }
+    }
+
 }
+
+

@@ -67,6 +67,10 @@
         border-top: none;
     }
 
+    // &__tenderCards-wrap{
+
+    // }
+
     &__productCards-link, &__requestCards-link, &__tenderCards-link{
         padding-bottom: 1rem;
     }
@@ -94,9 +98,14 @@
 
     }
 
-    &__productCards-date-wrap, &__requestCards-date-wrap{
+    &__productCards-date-wrap, &__requestCards-date-wrap, &__tenderCardsSvg-wrap{
         display: flex;
         flex-direction: row;
+        // align-items: center;
+    }
+
+    &__tenderCardsSvg-wrap{
+        align-items: flex-end;
     }
 
     &__svgUser{

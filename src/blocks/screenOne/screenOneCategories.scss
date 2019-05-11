@@ -65,6 +65,34 @@
     fill: #575455;
 }
 
+.screenOne{
+
+    &__svgSearch-wrap, &__svgPlaceholder-wrap, &__svgInputArrow-wrap{
+        position: absolute;
+        fill: #575455;
+    }
+
+    &__svgSearch-wrap{
+        width: 1.55rem;
+        top: 1.9rem;
+        right: 52rem;
+    }
+
+    &__svgPlaceholder-wrap{
+        width: 1.55rem;
+        top: 1.9rem;
+        right: 21.5rem;
+    }
+
+    &__svgInputArrow-wrap{
+        top: 2.2rem;
+        right: 3.5rem;
+        transform: rotate(90deg);
+        width: 0.88rem;
+    }
+
+}
+
 
 
 // !!!!!!!!! //

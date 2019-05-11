@@ -4,8 +4,11 @@
 @import './tabsAndInput.scss';
 @import './btn.scss';
 
+@import './src/blocks/regform/regform.scss';
+
 @import './src/blocks/notifications/notifications.scss';
 @import './src/blocks/header/header.scss';
+// @import './src/blocks/header/headerVSRegForm.scss';
 @import './src/blocks/screenOne/screenOne.scss';
 @import './src/blocks/screenOne/screenOneCategories.scss';
 @import './src/blocks/screenTwo/screenTwo.scss';

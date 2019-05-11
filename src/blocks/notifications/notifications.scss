@@ -37,10 +37,12 @@
         &__link {
             display: flex;
             height: 100%;
-            padding: 2.1rem 1.3rem 2.1rem 1rem;
+            // padding: 2.1rem 1.3rem 2.1rem 1rem;
+            padding: 2.1rem 2.3rem 2.1rem 1rem;
             font-family: 'SourceSansPro-Regular';
             font-size: 1.55rem;
             font-weight: 400;
+            letter-spacing: -0.05rem;
             color: #fff;
             text-decoration: none;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
@@ -183,6 +185,7 @@
 .notifications__svg{
     transform: translateY(10%);
     height: 1.88rem;
+    width: 1.88rem;
     fill: #545454;
     transition: all 0.3s ease;
 
@@ -240,3 +243,4 @@
     }
 
 }
+

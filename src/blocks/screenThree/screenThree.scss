@@ -48,5 +48,20 @@
         justify-content: flex-start;
     }
 
+    &__form-region, &__form-industry{
+        position: relative;
+    }
+
 }
 
+.screenThree{
+
+    &__svgIndustryArrow-wrap, &__svgRegionArrow-wrap{
+        position: absolute;
+        top: 5.4rem;
+        right: 3rem;
+        transform: rotate(90deg);
+        width: 0.88rem;
+        fill: #575455;
+    }
+}

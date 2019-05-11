@@ -55,6 +55,7 @@
     &__input-wrap{
         display: flex;
         height: 5.56rem;
+        position: relative;
     }
 
     
@@ -75,18 +76,18 @@
         padding-left: 6.22rem;
         margin-right: 0.56rem;
 
-        & + label::before{
-            content: "";
-            background: url('../img/search (15).png');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 2rem;
-            left: -28rem;
-            width: 1.55rem;
-            height: 1.55rem;
-        }
+        // & + label::before{
+        //     content: "";
+        //     background: url('../img/search (15).png');
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        //     position: absolute;
+        //     top: 2rem;
+        //     left: -28rem;
+        //     width: 1.55rem;
+        //     height: 1.55rem;
+        // }
 
     }
 
@@ -102,31 +103,31 @@
         padding-left: 6.22rem;
         margin-right: 0.56rem;
 
-        & + label::before{
-            content: "";
-            background: url('../img/placeholder (16).png');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 1.95rem;
-            left: -22.8rem;
-            width: 1.55rem;
-            height: 1.55rem;
-        }
+        // & + label::before{
+        //     content: "";
+        //     background: url('../img/placeholder (16).png');
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        //     position: absolute;
+        //     top: 1.95rem;
+        //     left: -22.8rem;
+        //     width: 1.55rem;
+        //     height: 1.55rem;
+        // }
 
-        & + label::after{
-            content: "";
-            background: url('../img/arrow-point-to-right (1) копия 2.png');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 2.4rem;
-            left: -3rem;
-            width: 1.11rem;
-            height: 0.67rem;
-        }
+        // & + label::after{
+        //     content: "";
+        //     background: url('../img/arrow-point-to-right (1) копия 2.png');
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        //     position: absolute;
+        //     top: 2.4rem;
+        //     left: -3rem;
+        //     width: 1.11rem;
+        //     height: 0.67rem;
+        // }
 
     }
 
@@ -199,7 +200,7 @@
   }
 
   .checkbox:checked + label:after {
-    background: url('../img/tick\ \(6\).png');
+    background: url('../img/tick\ \(6\).svg');
     background-size: cover;
   }
 
@@ -222,6 +223,10 @@
         padding-left: 2.88rem;
         margin-right: 0.44rem;
     }
+
+    // &__form-inputIndustry, &__form-inputRegion{
+    //     position: relative;
+    // }
 
     &__form-inputMinPrice, &__form-inputMaxPrice{
         width: 15.55rem;
@@ -278,21 +283,21 @@
 
     }
 
-    &__form-inputIndustry, &__form-inputRegion{
+    // &__form-inputIndustry, &__form-inputRegion{
                 
-        & + label::after{
-            content: "";
-            background: url('../img/arrow-point-to-right (1) копия 2.png');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            position: absolute;
-            bottom: 2.5rem;
-            left: 26rem;
-            width: 1.11rem;
-            height: 0.67rem;
-        }
-    }
+    //     & + label::after{
+    //         content: "";
+    //         background: url('../img/arrow-point-to-right (1) копия 2.png');
+    //         background-position: center;
+    //         background-size: contain;
+    //         background-repeat: no-repeat;
+    //         position: absolute;
+    //         bottom: 2.5rem;
+    //         left: 26rem;
+    //         width: 1.11rem;
+    //         height: 0.67rem;
+    //     }
+    // }
 
 }
 

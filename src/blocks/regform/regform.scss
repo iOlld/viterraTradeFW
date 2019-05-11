@@ -1,0 +1,45 @@
+.header{
+
+    &__registrationMenu{
+        position: relative;
+    }
+
+    &__form-wrap{
+        display: none;
+        transition: all 0.3s ease;
+        // width: 33.66rem;
+        // height: 27.55rem;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-around;
+        // background: #fff;
+        // position: absolute;
+        // right: 0rem;
+        // top: 6rem;
+        // z-index: 1;
+        // border: 1rem solid yellowgreen;
+    }
+
+}
+
+.header__registrationMenu{
+
+    &:hover .header__form-wrap{
+        width: 33.66rem;
+        height: 27.55rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: #fff;
+        position: absolute;
+        right: 0rem;
+        top: 6rem;
+        z-index: 1;
+        border: 1rem solid yellowgreen;
+        transition: all 0.3s ease;
+
+    }
+
+}

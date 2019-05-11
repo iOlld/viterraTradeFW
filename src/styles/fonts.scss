@@ -27,8 +27,12 @@
 
 .header__nav-submenu-fonts{
     font-size: 1.44rem;
-    color: rgb(118, 118, 118);
+    font-family: 'SourceSansPro-Regular';
+    color: #767676;
     padding-left: 2.11rem;
+    padding-right: 11.5rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.3rem;
     transition: all 0.3s ease;
 
     &:hover{
@@ -36,6 +40,9 @@
         transition: all 0.3s ease;
     }
 
+}
+.bp{
+    padding-right: 15rem;
 }
 
 // SCREEN_ONE FONTS

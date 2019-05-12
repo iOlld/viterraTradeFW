@@ -1,32 +1,89 @@
-.header{
+@import './checkBoxReg.scss';
+
+.headerVSRegForm{
 
     &__registrationMenu{
         position: relative;
     }
 
-    &__form-wrap{
-        display: none;
-        transition: all 0.3s ease;
-        // width: 33.66rem;
-        // height: 27.55rem;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // justify-content: space-around;
-        // background: #fff;
-        // position: absolute;
-        // right: 0rem;
-        // top: 6rem;
-        // z-index: 1;
-        // border: 1rem solid yellowgreen;
+    &__email-wrap, &__password-wrap{
+        position: relative;
     }
 
-}
+    &__inputEmail, &__inputPassword{
+        display: flex;
+        width: 30rem;
+        height: 5.55rem;
+        background: #f5f6f8;
+        border: none;
+        font-size: 1.55rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        padding-left: 6rem;
+        // margin-bottom: 0.33rem;
+        margin-bottom: 0.4rem;
+        // margin-right: 3.33rem;
+        // margin-left: 3.33rem;
+    }
 
-.header__registrationMenu{
+    &__badMemory-link-wrap{
+        display: flex;
+        justify-content: flex-end;
+    }
 
-    &:hover .header__form-wrap{
-        width: 33.66rem;
+    &__badMemory-link{
+        font-size: 1.33rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #999999;
+        // text-align: right;
+    }
+
+    &__bottom-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    &__reg-link{
+        font-size: 1.55rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-decoration: underline;
+        color: #317fce;
+        transition: all 0.3s ease;
+
+        &:hover{
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+    }
+
+    &__svgUserReg-wrap, &__svgPadlockReg-wrap{
+        fill: #858686;
+        position: absolute;
+        width: 1.55rem;
+        // height: 1.55rem;
+        top: 1.95rem;
+        left: 2.3rem;
+        z-index: 1;
+    }
+
+    &__svgUserActive{
+        fill: #fff;
+        transition: all 0.3s ease;
+    }
+
+    &__svgRegArrowActive{
+        fill: #fff;
+        transform: rotate(270deg);
+        transition: all 0.3s ease;
+    }
+
+    &__form-wrap{
+        transform: translateY(-200%);
+        width: 36.66rem;
         height: 27.55rem;
         display: flex;
         flex-direction: column;
@@ -34,12 +91,67 @@
         justify-content: space-around;
         background: #fff;
         position: absolute;
-        right: 0rem;
-        top: 6rem;
+        right: 6rem;
+        top: 8.5rem;
+        box-shadow: 0rem 0.22rem 1.11rem 0rem rgba(0, 0, 0, 0.06);
         z-index: 1;
-        border: 1rem solid yellowgreen;
+        transition: all 0.3s ease;
+    }
+
+    &__form-wrapActive{
+        transform: translateY(0%);  
+        transition: all 0.3s ease;
+    }
+
+}
+
+// .headerVSRegForm__registrationMenu{
+
+//     &:hover .headerVSRegForm__form-wrap{
+//         transform: translateY(0%);  
+
+//         // width: 33.66rem;
+//         // height: 27.55rem;
+//         // display: flex;
+//         // flex-direction: column;
+//         // align-items: center;
+//         // justify-content: space-around;
+//         // background: #fff;
+//         // position: absolute;
+//         // right: 0rem;
+//         // top: 6rem;
+//         // z-index: 1;
+//         // border: 1rem solid yellowgreen;
+//         transition: all 0.3s ease;
+
+//     }
+
+// }
+
+
+
+.headerVSRegForm{
+
+    &__registrationMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6.56rem;
+        height: 3.56rem;
+        border: 0.1rem solid #767777;
+        border-radius: 2rem;
+        cursor: pointer;
         transition: all 0.3s ease;
 
+    }
+
+    &__registrationMenuActive{
+        background: #ff7c07;
+        border: 0.1rem solid #ff7c07;
+        border-radius: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    
     }
 
 }

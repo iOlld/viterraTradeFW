@@ -1,4 +1,6 @@
-.header{
+@import './fontsHeaderVSRegForm.scss';
+
+.headerVSRegForm{
     background: #fff;
     // position: relative;
 
@@ -12,6 +14,7 @@
         width: 130rem;
         justify-content: space-between;
         margin: 0 auto;
+        position: relative;
         
     }
 
@@ -78,18 +81,18 @@
             transition: all 0.3s ease;
         }
 
-        &:hover .header__nav-link{
+        &:hover .headerVSRegForm__nav-link{
             color: #fff;
             transition: all 0.3s ease;
         }
 
         
-        &:hover .header__svgArrow{
+        &:hover .headerVSRegForm__svgArrow{
             fill: #fff;
             transition: all 0.3s ease;
         }
 
-        &:hover .header__nav-submenu-ul{
+        &:hover .headerVSRegForm__nav-submenu-ul{
             display: flex;
             flex-direction: column;
             position: absolute;
@@ -118,10 +121,10 @@
     }
 
     &__nav-submenu-li{
-        border-top: 0.15rem solid #767777;
-        border-bottom: 0.15rem solid #767777;
-        border-left: 0.1rem solid #767777;
-        border-right: 0.1rem solid #767777;
+        border-top: 0.11rem solid #f0efef;
+        border-bottom: 0.11rem solid #f0efef;
+        border-left: 0.11rem solid #f0efef;
+        border-right: 0.11rem solid #f0efef;
         padding: 1.5rem 0rem;
 
         &:first-child{
@@ -131,33 +134,9 @@
     }
 
 
-    // &__registrationMenu-wrap{
-    //     display: flex;
-    //     justify-content: flex-end;
-    //     width: 7.78rem;
-    // }
-
-    // &__registrationMenu{
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     width: 6.56rem;
-    //     height: 3.56rem;
-    //     border: 0.1rem solid #767777;
-    //     border-radius: 2rem;
-    //     // transform: translateY(25%);
-    //     cursor: pointer;
-    // }
-
 }
 
-// // FOR__V2
-.header__logo-subtitle-text{
-    letter-spacing: -0.11rem;
-}
-
-
-.header__svgRegArrow{
+.headerVSRegForm__svgRegArrow{
     fill: #767777;
     transform: rotate(90deg);
     width: 0.88rem;
@@ -172,7 +151,7 @@
 
 }
 
-.header__svgUser{
+.headerVSRegForm__svgUser{
     // width: 1.1rem;
     height: 1.44rem;
     padding-right: 0.5rem;
@@ -188,39 +167,39 @@
 
 
 
-.header__registrationMenu-wrap{
+.headerVSRegForm__registrationMenu-wrap{
     display: flex;
     justify-content: flex-end;
-    width: 7.78rem;
+    // width: 7.78rem;
 }
 
-.header__registrationMenu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6.56rem;
-    height: 3.56rem;
-    border: 0.1rem solid #767777;
-    border-radius: 2rem;
-    // transform: translateY(25%);
-    cursor: pointer;
-    transition: all 0.3s ease;
+// .headerVSRegForm__registrationMenu{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 6.56rem;
+//     height: 3.56rem;
+//     border: 0.1rem solid #767777;
+//     border-radius: 2rem;
+//     // transform: translateY(25%);
+//     cursor: pointer;
+//     transition: all 0.3s ease;
 
-    &:hover{
-        background: #ff7c07;
-        border: 0.1rem solid #ff7c07;
-        transition: all 0.3s ease;
-    }
+//     &:hover{
+//         background: #ff7c07;
+//         border: 0.1rem solid #ff7c07;
+//         transition: all 0.3s ease;
+//     }
 
-    &:hover .header__svgUser{
-        fill: #fff;
-        transition: all 0.3s ease;
-    }
+//     &:hover .headerVSRegForm__svgUser{
+//         fill: #fff;
+//         transition: all 0.3s ease;
+//     }
 
-    &:hover .header__svgRegArrow{
-        fill: #fff;
-        transform: rotate(270deg);
-        transition: all 0.3s ease;
-    }
+//     &:hover .headerVSRegForm__svgRegArrow{
+//         fill: #fff;
+//         transform: rotate(270deg);
+//         transition: all 0.3s ease;
+//     }
 
-}
+// }

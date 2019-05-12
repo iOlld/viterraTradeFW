@@ -139,3 +139,32 @@
     }
 
 }
+
+
+// V2__PAGE
+// REGISTRATION__FORM
+
+.headerVSRegForm{
+
+    // &__btn-wrap{
+
+    // }
+
+    &__btn{
+        padding: 1.55rem 4.44rem;
+        background: #ff7c07;
+        border: none;
+        font-size: 1.66rem;
+        font-family: 'SourceSansPro-Regular';
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+
+        &:hover{
+            background: #a1ce31;
+            transition: all 0.3s ease;
+        }
+
+    }
+
+}

@@ -1,4 +1,5 @@
 @import './checkBoxReg.scss';
+@import './regformWrapStatic.scss';
 
 .headerVSRegForm{
 
@@ -20,10 +21,7 @@
         font-family: 'Source Sans Pro', sans-serif;
         color: #999999;
         padding-left: 6rem;
-        // margin-bottom: 0.33rem;
         margin-bottom: 0.4rem;
-        // margin-right: 3.33rem;
-        // margin-left: 3.33rem;
     }
 
     &__badMemory-link-wrap{
@@ -35,7 +33,6 @@
         font-size: 1.33rem;
         font-family: 'Source Sans Pro', sans-serif;
         color: #999999;
-        // text-align: right;
     }
 
     &__bottom-wrap{
@@ -82,7 +79,13 @@
     }
 
     &__form-wrap{
-        transform: translateY(-200%);
+        display: none;
+        // transform: translateY(-200%);
+    }
+
+    &__form-wrapActive{
+        // transform: translateY(0%);
+        // transform: translateY(-200%);
         width: 36.66rem;
         height: 27.55rem;
         display: flex;
@@ -95,40 +98,9 @@
         top: 8.5rem;
         box-shadow: 0rem 0.22rem 1.11rem 0rem rgba(0, 0, 0, 0.06);
         z-index: 1;
-        transition: all 0.3s ease;
-    }
-
-    &__form-wrapActive{
-        transform: translateY(0%);  
-        transition: all 0.3s ease;
     }
 
 }
-
-// .headerVSRegForm__registrationMenu{
-
-//     &:hover .headerVSRegForm__form-wrap{
-//         transform: translateY(0%);  
-
-//         // width: 33.66rem;
-//         // height: 27.55rem;
-//         // display: flex;
-//         // flex-direction: column;
-//         // align-items: center;
-//         // justify-content: space-around;
-//         // background: #fff;
-//         // position: absolute;
-//         // right: 0rem;
-//         // top: 6rem;
-//         // z-index: 1;
-//         // border: 1rem solid yellowgreen;
-//         transition: all 0.3s ease;
-
-//     }
-
-// }
-
-
 
 .headerVSRegForm{
 

@@ -29,7 +29,7 @@ var paths = {
     dest: './build/js',
     watch: './src/blocks/**/*.js',
     watchPlugins: './src/plugins/*.js',
-    // watchPlugins: './src/scripts/plugins/*.js'
+    watchPlugins: './src/scripts/plugins/*.js'
   },
   images: {
     src: './src/blocks/**/img/*',
@@ -77,7 +77,10 @@ gulp.task('scripts', function () {
     .pipe(plumber())
     .pipe(concat('scripts.js'))
     .pipe(concat('main.js'))
-    .pipe(gulp.dest(paths.js.dest));
+    .pipe(gulp.dest(paths.js.dest))
+    .pipe(browserSync.reload({
+      stream: true
+    }));
 });
 
 gulp.task('images', function () {

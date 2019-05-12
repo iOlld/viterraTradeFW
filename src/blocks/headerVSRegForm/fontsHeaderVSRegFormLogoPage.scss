@@ -1,0 +1,45 @@
+
+.headerVSRegFormLogPage__logo-text{
+    font-size: 2.88rem;
+    font-family: 'Bernard MT Condensed';
+    font-weight: bolder;
+    color: #575455;
+    // margin-left: 2rem;
+}
+
+.headerVSRegFormLogPage__logo-subtitle-text{
+    font-size: 1.33rem;
+    font-family: 'FiraSans-Book';
+    color: #575455;
+    text-transform: uppercase;
+    letter-spacing: -0.07rem;
+    // letter-spacing: -0.11rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.headerVSRegFormLogPage__nav-fonts{
+    font-size: 1.67rem;
+    font-family: 'SourceSansPro-Regular';
+    color: rgb(33, 33, 33);
+}
+
+.headerVSRegFormLogPage__nav-submenu-fonts{
+    font-size: 1.44rem;
+    font-family: 'SourceSansPro-Regular';
+    color: #767676;
+    padding-left: 2.11rem;
+    padding-right: 11.5rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.3rem;
+    transition: all 0.3s ease;
+
+    &:hover{
+        color: rgb(161, 206, 49);
+        transition: all 0.3s ease;
+    }
+
+}
+.bp{
+    padding-right: 15rem;
+}

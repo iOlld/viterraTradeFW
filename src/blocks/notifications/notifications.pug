@@ -2,7 +2,12 @@ section.notifications
     .container-fluid
         .container
             .notifications-menu-wrap
-                button.notifications-menu__btn| +Добавить#[br] объявление
+                .notifications-menu__addNotif(id="addNotif")
+                    p.notifications-menu__addNotif-text|+Добавить#[br] объявление
+                include notifAddInput/notifAdd.pug
+                //- .notifications-menu__inputSearch-wrap
+                //-     input(type="text" placeholder="xnjkfb")
+
                 ul.notifications-menu-list
                     li.notifications-menu-list-li
                         a(href="#").notifications-menu-list-link
@@ -115,7 +120,8 @@ section.notifications
                                 <path d="M317.309,54.367C257.933,54.367,212.445,37.403,173.98,0C135.519,37.403,90.033,54.367,30.662,54.367c0,97.405-20.155,236.937,143.317,293.604C337.463,291.305,317.309,151.773,317.309,54.367z M162.107,225.773l-47.749-47.756l21.379-21.378l26.37,26.376l50.121-50.122l21.378,21.378L162.107,225.773z"/>
                             </svg>
 
-                button.notifications-menu__money| 26 000 руб.
+                .notifications-menu__money
+                    p.notifications-menu__money-text|26 000 руб.
                 .notifications-menu__logout
-                    use.notifications__svg-wrap
+                    use.notifications__svg-wrap(title="Выход")
                         <svg class="notifications__svg" viewBox="0 0 511 512" xmlns="http://www.w3.org/2000/svg"><path d="m361.5 392v40c0 44.113281-35.886719 80-80 80h-201c-44.113281 0-80-35.886719-80-80v-352c0-44.113281 35.886719-80 80-80h201c44.113281 0 80 35.886719 80 80v40c0 11.046875-8.953125 20-20 20s-20-8.953125-20-20v-40c0-22.054688-17.945312-40-40-40h-201c-22.054688 0-40 17.945312-40 40v352c0 22.054688 17.945312 40 40 40h201c22.054688 0 40-17.945312 40-40v-40c0-11.046875 8.953125-20 20-20s20 8.953125 20 20zm136.355469-170.355469-44.785157-44.785156c-7.8125-7.8125-20.476562-7.8125-28.285156 0-7.8125 7.808594-7.8125 20.472656 0 28.28125l31.855469 31.859375h-240.140625c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h240.140625l-31.855469 31.859375c-7.8125 7.808594-7.8125 20.472656 0 28.28125 3.90625 3.90625 9.023438 5.859375 14.140625 5.859375 5.121094 0 10.238281-1.953125 14.144531-5.859375l44.785157-44.785156c19.496093-19.496094 19.496093-51.214844 0-70.710938zm0 0"/></svg>

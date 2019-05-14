@@ -1,3 +1,5 @@
+@import './notifAddInput/notifAdd.scss';
+
 .notifications {
     width: 100%;
     background-color: #292929;
@@ -9,16 +11,12 @@
         &-wrap { 
             display: flex;
             align-items: center;
+            position: relative;
         }
 
-        &__btn {
-            padding: 1.11rem 1.55rem;
-            font-family: 'SourceSansPro-Regular';
-            font-size: 1.55rem;
-            font-weight: 400;
-            color: #ffffff;
-            border: none;
-            outline: none;
+        &__addNotif{
+            // padding: 1.59rem 1.55rem;
+            padding: 1.11rem 1.44rem;
             background-color: #a1ce31;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -27,6 +25,30 @@
                 background-color: #ff7c07;
                 transition: all 0.3s ease;
             }
+
+        }
+
+        // &__inputSearch-wrap{
+        //     display: none;
+        // }
+
+        // &__inputSearch-wrapActive{
+        //     display: flex;
+        //     width: 75.2rem;
+        //     height: 5.1rem;
+        //     background: #ff0707;
+        //     position: absolute;
+        //     left: 11.2rem;
+        //     top: 0rem;
+        //     z-index: 1;
+        // }
+
+        &__addNotif-text {
+            font-family: 'SourceSansPro-Regular';
+            font-size: 1.55rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
         }
 
         &-list{
@@ -37,12 +59,17 @@
         &__link {
             display: flex;
             height: 100%;
+            padding-right: 2.33rem;
+            padding-left: 1rem;
+            padding-bottom: 1.7rem;
+            padding-top: 1.7rem;
             // padding: 2.1rem 1.3rem 2.1rem 1rem;
-            padding: 2.1rem 2.3rem 2.1rem 1rem;
+            // padding: 2.1rem 2.3rem 2.1rem 1rem;
+            // padding: 2.1rem 2.7rem 2.1rem 1rem;
             font-family: 'SourceSansPro-Regular';
-            font-size: 1.55rem;
+            font-size: 1.53rem;
             font-weight: 400;
-            letter-spacing: -0.05rem;
+            // letter-spacing: -0.05rem;
             color: #fff;
             text-decoration: none;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
@@ -72,8 +99,8 @@
             .notifications__svg{
                 fill: #fff;
             }
-
-            padding: 1.8rem 2.11rem;
+            padding: 1.35rem 2rem;
+            // padding: 1.8rem 2.11rem;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
             transition: all 0.3s ease;
 
@@ -89,7 +116,8 @@
                 fill: #fff;
             }
 
-            padding: 1.8rem 2.11rem;
+            padding: 1.35rem 2rem;
+            // padding: 1.8rem 2.11rem;
             border-right: 0.11rem solid rgba(255, 255, 255, 0.2);
             transition: all 0.3s ease;
 
@@ -103,11 +131,12 @@
             display: flex;
             align-items: center;
             text-align: center;
-            padding: 0rem 1.77rem 0rem 1.55rem;
+            padding-left: 1.55rem;
+            // padding: 0rem 1.77rem 0rem 1.55rem;
             color: #fff;
 
             &__logo {
-                padding: 0rem 0.7rem 0rem 0rem;
+                padding-right: 0.77rem;
             }
 
             &-inner-wrap {
@@ -116,19 +145,18 @@
             }
 
             &__shield {
-                padding: 0rem 0rem 0rem 0.77rem;
+                padding-left: 1.33rem;
+                padding-right: 1.77rem;
+                // padding: 0rem 0rem 0rem 0.77rem;
             }
         }
 
         &__money {
             display: flex;
             align-items: center;
-            padding: 2.08rem 2.11rem;
-            font-family: 'SourceSansPro-Regular';
-            font-size: 1.55rem;
-            color: #fff;
+            // padding: 2.33rem 2.11rem;
+            padding: 2rem 2rem 1.66rem 1.88rem;
             background-color: #a1ce31;
-            border: none;
             cursor: pointer;
             transition: all 0.3s ease;
 
@@ -138,12 +166,22 @@
             }
         }
 
+        &__money-text{
+            font-family: 'SourceSansPro-Regular';
+            font-size: 1.55rem;
+            color: #fff;
+
+        }
+
         &__logout {
-            padding: 1.66rem 0.77rem;
+            // padding-left: 2.5rem;
+            padding-left: 1rem;
+            // padding: 1.66rem 0.77rem;
             transition: all 0.3s ease;
 
             &:hover .notifications__svg{
-                fill: #fc8701;
+                fill: #fff;
+                // fill: #fc8701;
                 transition: all 0.3s ease;
             }
 
@@ -195,14 +233,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 1.7rem;
+    padding-left: 1.66rem;
 }
 
 .notifications-menu-list-li{
     transition: all 0.3s ease;
 
     &:hover .notifications__svg{
-        fill: #fc8701;
+        fill: #fff;
+        // fill: #fc8701;
         transition: all 0.3s ease;
     }
 }
@@ -220,8 +259,8 @@
         width: 0.7rem;
         height: 0.7rem;
         background: #fff;
-        left: 0.5rem;
-        top: 0.5rem;
+        left: 0.6rem;
+        top: 0.4rem;
     }
 
 }

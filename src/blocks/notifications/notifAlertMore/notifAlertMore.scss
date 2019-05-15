@@ -1,0 +1,66 @@
+// HOVER__FOR__ALERT__SUBMENU
+
+.notifications-menu__alert{
+
+    &:hover .notifications-menu__alertMore{
+        position: absolute;
+        left: 0rem;
+        top: 5rem;
+        display: flex;
+        width: 31.5rem;
+        height: 14.88rem;
+        background: #353535;
+        padding-top: 2rem;
+        z-index: 2;
+
+    }
+}
+
+
+.notifications-menu{
+
+    &__alertMore{
+        display: none;
+        // position: absolute;
+        // left: 0rem;
+        // top: 5rem;
+        // display: flex;
+        // width: 31.5rem;
+        // height: 14.88rem;
+        // background: #353535;
+        // padding-top: 2rem;
+        // z-index: 2;
+    }
+
+    &__alertMore-top{
+        display: flex;
+        flex-direction: row;
+        // align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 2.1rem;
+        padding-right: 2.44rem;
+    }
+
+    &__alertMore-topLink{
+        display: flex;
+        flex-direction: row-reverse;
+        // justify-content: space-between;
+        // align-items: center;
+    }
+
+}
+
+.speakerAlertMore{
+    height: 1.66rem;
+    fill: #fff;
+    padding: 0;
+    margin: 0;
+    // height: 1.44rem; 
+}
+
+.settingsAlertMore{
+    fill: #5d5d5d;
+    height: 1.88rem;
+    padding-right: 1rem;
+}

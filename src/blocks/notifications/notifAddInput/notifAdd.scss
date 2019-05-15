@@ -12,7 +12,7 @@
         position: absolute;
         left: 11.3rem;
         top: 0rem;
-        z-index: 1;
+        z-index: 2;
         transition: all 0.3s ease;
     }
 
@@ -21,12 +21,35 @@
         height: 100%;
         border: 0.22rem solid #292929;
         padding-left: 4.88rem;
+        padding-right: 4.88rem;
+        background: #f5f6f8;
     }
 
-}
+    &__svgSearch{
+        position: absolute;
+        width: 1.55rem;
+        height: 1.66rem;
+        fill: #767676;
+        left: 2rem;
+        top: 1.75rem;
 
-.inputSVG{
-    width: 5rem;
-    height: 5rem;
-    fill: red;
+    }
+
+    
+    &__closeButton{
+        cursor: pointer;
+        position: absolute;
+        width: 1.55rem;
+        height: 1.66rem;
+        right: 2rem;
+        top: 1.75rem;
+    }
+
+    &__svgClose{
+        width: 1.55rem;
+        height: 1.66rem;
+        fill: #767676;
+
+    }
+
 }

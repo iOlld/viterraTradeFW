@@ -1,4 +1,6 @@
 @import './notifAddInput/notifAdd.scss';
+@import './notifSearchList/notifSearchList.scss';
+@import './notifAlertMore/notifAlertMore.scss';
 
 .notifications {
     width: 100%;
@@ -85,6 +87,11 @@
         
         &__alert {
             position: relative;
+            cursor: pointer;
+
+            &:hover{
+                background: #353535;
+            }
 
             &::before{
                 content: "";

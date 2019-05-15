@@ -33,13 +33,13 @@ activeButton.onclick = function () {
 
 
 
-var btn1 = document.getElementById(`addNotif`);
+// var btn1 = document.getElementById(`addNotif`);
 
-var btnActive = document.querySelector(`.notifications-menu__inputSearch-wrap`);
+// var btnActive = document.querySelector(`.notifications-menu__inputSearch-wrap`);
 
-btn1.onclick = function () {
-    btnActive.classList.toggle(`notifications-menu__inputSearch-wrapActive`);
-};
+// btn1.onclick = function () {
+//     btnActive.classList.toggle(`notifications-menu__inputSearch-wrapActive`);
+// };
 
 
 

@@ -5,7 +5,6 @@
     font-family: 'Bernard MT Condensed';
     font-weight: bolder;
     color: #575455;
-    // margin-left: 2rem;
 }
 
 .header__logo-subtitle-text{
@@ -14,7 +13,6 @@
     color: #575455;
     text-transform: uppercase;
     letter-spacing: -0.07rem;
-    // letter-spacing: -0.11rem;
     text-align: center;
     font-weight: bold;
 }
@@ -51,20 +49,16 @@
 
     &__title-text{
         font-size: 4rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Light';
         color: #fff;
         text-align: center;
-        // font-weight: 300;
     }
 
     &__subtitle-text{
         font-size: 5.78rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Light';
         color: #fff;
         text-align: center;
-        // font-weight: 300;
     }
 
 }
@@ -74,10 +68,8 @@
 // TABS__FONTS
 .tabsLabelFonts{
     font-size: 1.56rem;
-    // font-family: 'Source Sans Pro', sans-serif;
     font-family: 'SourceSansPro-Regular';
     text-transform: uppercase;
-    // font-weight: 600;
 }
 
 
@@ -85,7 +77,6 @@
 // CATEGORIES__FONTS
 .screenOne__categories-title-text{
     font-size: 1.67rem;
-    // font-family: 'Source Sans Pro', sans-serif;
     font-family: 'SourceSansPro-Regular';
     color: #575455;
 }
@@ -97,15 +88,12 @@
 
     &__head-title{
         font-size: 2.33rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Light';
         color: #fff;
-        // font-weight: 300;
     }
 
     &__head-link-font{
         font-size: 1.44rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #838383;
         transition: all 0.3s ease;
@@ -125,9 +113,7 @@
 
     &__productCards-link-font, &__requestCards-link-font, &__tenderCards-link-font{
         text-decoration: underline;
-        // border-bottom: 0.05rem solid rgb(33, 33, 33);
         font-size: 1.66rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: rgb(33, 33, 33);
         transition: all 0.3 ease;
@@ -141,7 +127,6 @@
 
     &__productCards-description-text, &__requestCards-description-text, &__tenderCards-description-text{
         font-size: 1.44rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: rgb(33, 33, 33);
         line-height: 1.385;
@@ -150,7 +135,6 @@
     &__productCards-organization-font, &__requestCards-organization-font, &__tenderCards-organization-font{
         text-decoration: underline;
         font-size: 1.44rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #317fce;
         transition: all 0.3 ease;
@@ -164,25 +148,8 @@
 
     &__productCards-date-text, &__requestCards-date-text, &__tenderCards-date-text{
         font-size: 1.44rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #999999;
-        // text-align: left;
-        // position: relative;
-        // padding-left: 2.5rem;
-
-        // &::before{
-        //     content: "";
-        //     position: absolute;
-        //     background: url('../img/time.png');
-        //     background-position: center;
-        //     background-size: contain;
-        //     background-repeat: no-repeat;
-        //     width: 1.44rem;
-        //     height: 1.44rem;
-        //     left: 0rem;
-        // }
-
     }
 
     &__tenderCards-date-text{
@@ -191,7 +158,6 @@
 
     &__tenderCards-numberTender{
         font-size: 1.44rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #999999;
         padding-bottom: 0.77rem;
@@ -199,14 +165,12 @@
 
     &__tenderCards-priceTender{
         font-size: 1.44rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Regular';
         color: #999999;
         text-align: left;
         position: relative;
         padding-left: 2.5rem;
         padding-top: 2rem;
-        // padding-bottom: 0.44rem;
         padding-bottom: 0.49rem;
 
         &::before{
@@ -228,10 +192,8 @@
 
     &__head-text{
         font-size: 2.33rem;
-        // font-family: 'Source Sans Pro', sans-serif;
         font-family: 'SourceSansPro-Light';
         color: #fff;
-        // font-weight: 300;
     }
 
     &__form-agreement-text{
@@ -259,9 +221,7 @@
     &__nav-title{
         font-size: 2.33rem;
         font-family: 'SourceSansPro-Light';
-        // font-family: 'Source Sans Pro', sans-serif;
         color: #fff;
-        // font-weight: 300;
         line-height: 1.2;
         padding-bottom: 2.77rem;
     }
@@ -288,11 +248,9 @@
     &__info-text-link{
         font-size: 1.66rem;
         font-family: 'SourceSansPro-Regular';
-        // font-family: 'Source Sans Pro', sans-serif;
         color: #a1ce31;
         text-decoration: underline;
         padding-left: 0.4rem;
-        // line-height: 2;
         transition: all 0.3s ease;
 
         &:hover{
@@ -305,7 +263,6 @@
     &__social-link-text{
         font-size: 1.66rem;
         font-family: 'SourceSansPro-Regular';
-        // font-family: 'Source Sans Pro', sans-serif;
         color: #fff;
     }
 

@@ -75,8 +75,8 @@ gulp.task('styles', function () {
 gulp.task('scripts', function () {
   return gulp.src(paths.js.src)
     .pipe(plumber())
-    .pipe(concat('scripts.js'))
-    .pipe(concat('main.js'))
+    // .pipe(concat('scripts.js'))
+    // .pipe(concat('main.js'))
     .pipe(gulp.dest(paths.js.dest))
     .pipe(browserSync.reload({
       stream: true

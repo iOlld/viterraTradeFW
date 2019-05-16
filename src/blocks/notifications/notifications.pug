@@ -2,9 +2,9 @@ section.notifications
     .container-fluid
         .container
             .notifications-menu-wrap
-                .notifications-menu__addNotif(id="addNotif")
+                .notifications-menu__addNotif
                     p.notifications-menu__addNotif-text|+Добавить#[br] объявление
-                include notifAddInput/notifAdd.pug
+                //- include notifAddInput/notifAdd.pug
                 //- .notifications-menu__inputSearch-wrap
                 //-     input(type="text" placeholder="xnjkfb")
 
@@ -52,7 +52,7 @@ section.notifications
                         //- a(href="#").notifications-menu__link| Мои сообщения
                         //-     span.notifications-menu__link-data| (3)
                     li.notifications-menu-list-li
-                        a(href="#").notifications-menu-list-link
+                        a(href="#" id="searchBtn").notifications-menu-list-link
                             use.notifications__svg-wrap
                                 <svg class="notifications__svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve">
                                     <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17s-17-7.626-17-17S14.61,6,23.984,6z"/>
@@ -60,14 +60,16 @@ section.notifications
 
                             p.notifications-menu__link| Поиск участников
                         //- a(href="#").notifications-menu__link| Поиск участников
+                    
+                include notifAddInput/notifAdd.pug
 
-                .notifications-menu__alert
+                .notifications-menu__alert(id="alertBtn")
                     use.notifications__svg-wrap
                         <svg class="notifications__svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
                             <path d="M255,510c28.05,0,51-22.95,51-51H204C204,487.05,226.95,510,255,510z M420.75,357V216.75c0-79.05-53.55-142.8-127.5-160.65V38.25C293.25,17.85,275.4,0,255,0c-20.4,0-38.25,17.85-38.25,38.25V56.1c-73.95,17.85-127.5,81.6-127.5,160.65V357l-51,51v25.5h433.5V408L420.75,357z"/>
                         </svg>
 
-                    include notifAlertMore/notifAlertMore.pug
+                include notifAlertMore/notifAlertMore.pug
 
 
                 .notifications-menu__settings

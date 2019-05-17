@@ -324,14 +324,15 @@ a, button, input {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
   width: 107.78rem;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  flex-wrap: wrap; }
 
 .hide, .tab_content {
   display: none; }
@@ -412,7 +413,7 @@ a, button, input {
       -ms-flex-direction: column;
           flex-direction: column; }
 
-.screenOne__searchProducts, .screenOne__searchRequests, .screenOne__searchTenders {
+.screenOne__searchProducts, .screenOne__searchRequests, .screenOne__searchTenders, .screenOne__searchLogistics {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -427,7 +428,7 @@ a, button, input {
   padding-left: 6.22rem;
   margin-right: 0.56rem; }
 
-.screenOne__regionProducts, .screenOne__regionRequests, .screenOne__regionTenders {
+.screenOne__regionProducts, .screenOne__regionRequests, .screenOne__regionTenders, .screenOne__regionLogistics {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -442,7 +443,7 @@ a, button, input {
   padding-left: 6.22rem;
   margin-right: 0.56rem; }
 
-.screenOne__minPriceProducts, .screenOne__maxPriceProducts, .screenOne__minPriceRequests, .screenOne__maxPriceRequests, .screenOne__minPriceTenders, .screenOne__maxPriceTenders {
+.screenOne__minPriceProducts, .screenOne__maxPriceProducts, .screenOne__minPriceRequests, .screenOne__maxPriceRequests, .screenOne__minPriceTenders, .screenOne__maxPriceTenders, .screenOne__minPriceLogistics, .screenOne__maxPriceLogistics {
   width: 15.56rem;
   height: 5.56rem;
   background: #f5f6f8;
@@ -452,7 +453,7 @@ a, button, input {
   font-size: 1.56rem;
   color: #999999;
   padding-left: 1.89rem; }
-  .screenOne__minPriceProducts + label::after, .screenOne__maxPriceProducts + label::after, .screenOne__minPriceRequests + label::after, .screenOne__maxPriceRequests + label::after, .screenOne__minPriceTenders + label::after, .screenOne__maxPriceTenders + label::after {
+  .screenOne__minPriceProducts + label::after, .screenOne__maxPriceProducts + label::after, .screenOne__minPriceRequests + label::after, .screenOne__maxPriceRequests + label::after, .screenOne__minPriceTenders + label::after, .screenOne__maxPriceTenders + label::after, .screenOne__minPriceLogistics + label::after, .screenOne__maxPriceLogistics + label::after {
     content: "\20BD";
     color: #999999;
     position: absolute;
@@ -862,9 +863,9 @@ a, button, input {
   position: absolute;
   border-bottom: 0.15rem solid #fff;
   width: 1.8rem;
-  -webkit-transform: rotate(-36deg);
-      -ms-transform: rotate(-36deg);
-          transform: rotate(-36deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   top: 0.7rem; }
 
 .notifications-menu__alertMore-topLink {
@@ -1225,6 +1226,10 @@ a, button, input {
 .user__svgStars-5 {
   fill: #545454; }
 
+@media screen and (max-width: 980px) {
+  .notifications {
+    display: none; } }
+
 .header {
   background: #fff; }
   .header__wrap {
@@ -1386,6 +1391,18 @@ a, button, input {
     padding: 1.5rem 0rem; }
     .header__nav-submenu-li:first-child {
       border-bottom: none; }
+
+@media screen and (max-width: 980px) {
+  .header__wrap {
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0rem;
+    padding-right: 0rem; }
+  .header__nav-ul {
+    display: none; } }
 
 .headerVSRegForm__logo-text {
   font-size: 2.88rem;

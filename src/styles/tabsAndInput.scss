@@ -3,6 +3,7 @@
 .tabs_container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
     width: 107.78rem;
     flex-wrap: wrap;
@@ -41,6 +42,14 @@
     order:1;
 }
 
+@media screen and (max-width: 980px)    {
+
+    // .tabs_container{
+    //     width: 80%;
+    // }
+
+}
+
 
 // SCREEN__ONE__INPUT__STYLE
 
@@ -64,7 +73,7 @@
         flex-direction: column;
     }
 
-    &__searchProducts, &__searchRequests, &__searchTenders{
+    &__searchProducts, &__searchRequests, &__searchTenders, &__searchLogistics{
         display: flex;
         width: 29.89rem;
         height: 5.56rem;
@@ -76,22 +85,9 @@
         padding-left: 6.22rem;
         margin-right: 0.56rem;
 
-        // & + label::before{
-        //     content: "";
-        //     background: url('../img/search (15).png');
-        //     background-position: center;
-        //     background-size: contain;
-        //     background-repeat: no-repeat;
-        //     position: absolute;
-        //     top: 2rem;
-        //     left: -28rem;
-        //     width: 1.55rem;
-        //     height: 1.55rem;
-        // }
-
     }
 
-    &__regionProducts, &__regionRequests, &__regionTenders{
+    &__regionProducts, &__regionRequests, &__regionTenders, &__regionLogistics{
         display: flex;
         width: 24.78rem;
         height: 5.56rem;
@@ -103,35 +99,10 @@
         padding-left: 6.22rem;
         margin-right: 0.56rem;
 
-        // & + label::before{
-        //     content: "";
-        //     background: url('../img/placeholder (16).png');
-        //     background-position: center;
-        //     background-size: contain;
-        //     background-repeat: no-repeat;
-        //     position: absolute;
-        //     top: 1.95rem;
-        //     left: -22.8rem;
-        //     width: 1.55rem;
-        //     height: 1.55rem;
-        // }
-
-        // & + label::after{
-        //     content: "";
-        //     background: url('../img/arrow-point-to-right (1) копия 2.png');
-        //     background-position: center;
-        //     background-size: contain;
-        //     background-repeat: no-repeat;
-        //     position: absolute;
-        //     top: 2.4rem;
-        //     left: -3rem;
-        //     width: 1.11rem;
-        //     height: 0.67rem;
-        // }
-
     }
 
-    &__minPriceProducts, &__maxPriceProducts, &__minPriceRequests, &__maxPriceRequests, &__minPriceTenders, &__maxPriceTenders{
+    &__minPriceProducts, &__maxPriceProducts, &__minPriceRequests, &__maxPriceRequests, 
+    &__minPriceTenders, &__maxPriceTenders, &__minPriceLogistics, &__maxPriceLogistics{
         width: 15.56rem;
         height: 5.56rem;
         background: #f5f6f8;
@@ -159,6 +130,12 @@
     height: 0;
     position: relative;
 }
+
+// @media screen and (max-width: 980px)    {
+
+    
+
+// }
 
 
 // SCREEN__ONE__CHECKBOX__STYLE
@@ -224,10 +201,6 @@
         margin-right: 0.44rem;
     }
 
-    // &__form-inputIndustry, &__form-inputRegion{
-    //     position: relative;
-    // }
-
     &__form-inputMinPrice, &__form-inputMaxPrice{
         width: 15.55rem;
         height: 5.56rem;
@@ -243,14 +216,6 @@
 
     &__form-inputMinPrice{
 
-        // & + label::before{
-        //     content: "";
-        //     border-left: 0.2rem solid #f0efef;
-        //     height: 5.5rem;
-        //     position: absolute;
-        //     right: 5rem;
-        // }
-
         & + label::after{
             content: "\20BD";
             color: #999999;
@@ -262,16 +227,6 @@
     }
 
     &__form-inputMaxPrice{
-
-        // & + label::before{
-        //     content: "";
-        //     border-left: 0.2rem solid #f0efef;
-        //     height: 5.5rem;
-        //     position: absolute;
-        //     left: 27rem;
-        //     bottom: 0rem;
-        // }
-
         
         & + label::after{
             content: "\20BD";
@@ -282,22 +237,6 @@
         }
 
     }
-
-    // &__form-inputIndustry, &__form-inputRegion{
-                
-    //     & + label::after{
-    //         content: "";
-    //         background: url('../img/arrow-point-to-right (1) копия 2.png');
-    //         background-position: center;
-    //         background-size: contain;
-    //         background-repeat: no-repeat;
-    //         position: absolute;
-    //         bottom: 2.5rem;
-    //         left: 26rem;
-    //         width: 1.11rem;
-    //         height: 0.67rem;
-    //     }
-    // }
 
 }
 

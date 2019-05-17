@@ -1,0 +1,18 @@
+@media screen and (max-width: 980px)    {
+
+    .header{
+
+        &__wrap{
+            width: 100%;
+            justify-content: center;
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+
+        &__nav-ul{
+            display: none;
+        }
+
+    }
+
+}

@@ -31,6 +31,28 @@
         // padding-bottom: 0.66rem;
     }
 
+    &__speakerAlertMore-Wrap{
+        position: relative;
+        // border-bottom: 0.1rem solid #fff;
+        // transform: rotate(45deg);
+        cursor: pointer;
+    }
+
+    &__speakerAlertMore-quiet{
+        display: none;
+    }
+
+    &__speakerAlertMore-quietActive{
+        display: flex;
+        position: absolute;
+        border-bottom: 0.15rem solid #fff;
+        width: 1.8rem;
+        transform: rotate(-36deg);
+        top: 0.7rem;
+    }
+
+// }
+
     &__alertMore-topLink{
         display: flex;
         flex-direction: row-reverse;
@@ -63,6 +85,10 @@
 
     &__alertMore-centerNewNotif{
         display: none;
+    }
+
+    &__alertMore-centerNewNotif-item{
+        padding-top: 2.33rem;
     }
 
     &__alertMore-centerNewNotifActive{
@@ -137,6 +163,10 @@
     padding: 0;
     margin: 0;
     // height: 1.44rem; 
+}
+
+.speakerAlertMoreActive{
+    fill: #5d5d5d;
 }
 
 .settingsAlertMore{

@@ -29,6 +29,8 @@
 
         &__regionProducts, &__regionRequests, &__regionTenders, &__regionLogistics{
             width: 33.33%;
+            // margin-left: 6.5%;
+            padding-left: 6.5%;
         }
 
         &__minPriceProducts, &__maxPriceProducts, &__minPriceRequests, &__maxPriceRequests, 

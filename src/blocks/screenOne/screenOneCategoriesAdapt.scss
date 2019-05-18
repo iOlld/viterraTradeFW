@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 980px)    {
+
+    .screenOne{
+        
+        &__categories{
+            width: 100%;
+        }
+
+        &__categories-wrap{
+            width: 100%;
+        }
+
+        &__categories-li{
+            width: 25%;
+        }
+
+        // CATEGORIES__SVG__ICON__STYLE
+
+        &__svgSearch-wrap{
+            right: 96%;
+        }
+
+        &__svgPlaceholder-wrap{
+            right: 28.5%;
+        }
+
+    }
+
+    .forAdapt{
+        display: none;
+    }
+
+}

@@ -1,10 +1,13 @@
 @import './reset.scss';
 @import './fonts.scss';
 @import './global.scss';
-@import './tabsAndInput.scss';
+// @import './tabsAndInput.scss';
+@import './tabsAndInput/tabsAndInput.scss';
 @import './btn.scss';
+@import './src/blocks/btnForDdm/btnForDdm.scss';
 
 // @import './src/blocks/regform/regform.scss';
+
 
 @import './src/blocks/notifications/notifications.scss';
 @import './src/blocks/header/header.scss';

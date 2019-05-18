@@ -32,8 +32,9 @@
 }
 .tab_content {
     width: 100%;
-    height: 15.89rem;
-    padding: 3rem 0rem 0rem 3rem;
+    // height: 15.89rem;
+    // padding: 3rem 0rem 0rem 3rem;
+    padding: 2.77rem;
     background: #fff;
 }
 
@@ -42,13 +43,13 @@
     order:1;
 }
 
-@media screen and (max-width: 980px)    {
+// @media screen and (max-width: 980px)    {
 
-    // .tabs_container{
-    //     width: 80%;
-    // }
+//     // .tabs_container{
+//     //     width: 80%;
+//     // }
 
-}
+// }
 
 
 // SCREEN__ONE__INPUT__STYLE
@@ -63,7 +64,7 @@
 
     &__input-wrap{
         display: flex;
-        height: 5.56rem;
+        // height: 5.56rem;
         position: relative;
     }
 
@@ -97,7 +98,7 @@
         font-family: 'Source Sans Pro', sans-serif;
         color: #999999;
         padding-left: 6.22rem;
-        margin-right: 0.56rem;
+        // margin-right: 0.56rem;
 
     }
 
@@ -140,11 +141,20 @@
 
 // SCREEN__ONE__CHECKBOX__STYLE
 
+// .screenOne{
+
+//     &__checkBox-wrap{
+//         padding-bottom: 2.77rem;
+//     }
+
+// }
+
 .checkbox {
     position: absolute;
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+    // padding-bottom: 2.77rem;
+}
 
   .checkbox + label {
     position: relative;
@@ -241,3 +251,4 @@
 }
 
 
+@import './tabsAndInputAdapt.scss';

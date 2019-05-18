@@ -9,7 +9,6 @@
         padding-top: 4.44rem;
         padding-bottom: 3.61rem;
         box-shadow: 0rem 0rem 4rem -2rem #f1eded;
-        // box-shadow: 0rem 0rem 4rem -2rem rgba(0, 0, 0, 0.06);
     }
 
     &__categories-ul{
@@ -77,6 +76,7 @@
         width: 1.55rem;
         top: 1.9rem;
         right: 52rem;
+        // right: 96%;
     }
 
     &__svgPlaceholder-wrap{
@@ -99,3 +99,5 @@
 // !!!!!!!!! //
 // TO__ADAPT //
 // ########  //
+
+@import './screenOneCategoriesAdapt.scss';

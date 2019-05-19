@@ -102,6 +102,16 @@
 
     }
 
+    &__inputPrices-wrap{
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+    }
+
+    &__inputMinPrices-wrap, &__inputMaxPrices-wrap{
+        position: relative;
+    }
+
     &__minPriceProducts, &__maxPriceProducts, &__minPriceRequests, &__maxPriceRequests, 
     &__minPriceTenders, &__maxPriceTenders, &__minPriceLogistics, &__maxPriceLogistics{
         width: 15.56rem;
@@ -113,16 +123,42 @@
         font-size: 1.56rem;
         color: #999999;
         padding-left: 1.89rem;
+        // position: relative;
 
+    }
+
+    &__minPriceProducts, &__minPriceRequests, &__minPriceTenders, &__minPriceLogistics,
+    &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
+                
         & + label::after{
             content: "\20BD";
             color: #999999;
             position: absolute;
-            right: 2rem;
-            top: 2.2rem;
+            // right: 2rem;
+            // right: 3.5rem;
+            // top: 0rem;
+            bottom: 1.9rem;
+            left: 13rem;
         }
 
     }
+
+    // &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
+                
+    //     & + label::after{
+    //         content: "\20BD";
+    //         color: #999999;
+    //         position: absolute;
+    //         // right: 2rem;
+    //         // left: 0rem;
+    //         // top: 2.2rem;
+    //         // left: 28rem;
+    //         // bottom: 2rem;
+    //         bottom: 1.9rem;
+    //         left: 13rem;
+    //     }
+
+    // }
 
 }
 
@@ -209,6 +245,7 @@
         color: #999999;
         padding-left: 2.88rem;
         margin-right: 0.44rem;
+        // position: relative;
     }
 
     &__form-inputMinPrice, &__form-inputMaxPrice{
@@ -222,6 +259,7 @@
         color: #999999;
         padding-left: 2rem;
         padding-right: 3rem;
+        position: relative;
     }
 
     &__form-inputMinPrice{

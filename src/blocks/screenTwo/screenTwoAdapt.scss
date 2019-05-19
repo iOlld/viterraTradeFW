@@ -18,6 +18,23 @@
             width: 100%;
             margin: 0 auto;
         }
+
+        &__tenderCards-wrap{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &__tenderCards-sending{
+            flex-direction: column;
+            margin-right: 1.77rem;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        &__tenderCards-btn-wrap{
+            margin-right: 0;
+        }
+
     }
 
     .child-3{

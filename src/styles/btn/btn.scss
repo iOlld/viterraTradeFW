@@ -15,6 +15,7 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
+    // margin-left: 0.56rem;
 
         &:hover{
             background: #a1ce31;
@@ -168,3 +169,6 @@
     }
 
 }
+
+
+@import './btnAdapt.scss';

@@ -26,7 +26,6 @@
     }
 
     &__form-wrap{
-        
         border: 0.15rem solid #f0efef;
         padding-bottom: 5rem;
     }
@@ -65,3 +64,6 @@
         fill: #575455;
     }
 }
+
+
+@import './screenThreeAdapt.scss';

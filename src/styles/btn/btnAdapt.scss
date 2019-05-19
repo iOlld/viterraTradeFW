@@ -6,6 +6,23 @@
             padding: 1.7rem 6.22rem ;
         }
 
+        &__categories-btn{
+            margin-top: 2.66rem;
+        }
+
     }
     
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .screenOne{
+
+        &__btn{
+            margin-top: 6rem;
+            width: 100%;
+        }
+
+    }
 }

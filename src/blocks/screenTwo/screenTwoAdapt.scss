@@ -41,3 +41,31 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    .screenTwo{
+
+        &__column{
+            width: 100%;
+        }
+
+        &__tenderCards-wrap{
+            flex-direction: column;
+            // justify-content: space-between;
+        }
+
+        &__tenderCards-sending{
+            flex-direction: row;
+            margin-right: 0rem;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__tenderCards-btn-wrap{
+            margin-right: 1.7rem;
+        }
+
+    }
+
+}

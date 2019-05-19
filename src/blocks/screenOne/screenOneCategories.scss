@@ -6,7 +6,7 @@
         width: 136.67rem;
         background: #fff;
         margin-top: 3.33rem;
-        padding-top: 4.44rem;
+        // padding-top: 4.44rem;
         padding-bottom: 3.61rem;
         box-shadow: 0rem 0rem 4rem -2rem #f1eded;
     }
@@ -18,15 +18,19 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 2.78rem;
+        // margin-bottom: 2.78rem;
     }
 
     &__categories-li{
-        width: 16.66%;
+        // width: 16.66%;
+        width: 18.88rem;
         // width: 22.78rem;
         display: flex;
         flex-direction: column;
         transition: all 0.3s ease;
+        margin-left: 1.66rem;
+        margin-right: 1.66rem;
+        margin-top: 4.44rem;
 
         &:hover .screenOne__categories-title-text{
             color: #ff7c07;

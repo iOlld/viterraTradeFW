@@ -11,9 +11,13 @@
             width: 100%;
         }
 
-        &__categories-li{
-            width: 25%;
+        &__categories-ul{
+            justify-content: space-around;
         }
+
+        // &__categories-li{
+        //     width: 25%;
+        // }
 
         // CATEGORIES__SVG__ICON__STYLE
 
@@ -30,6 +34,27 @@
 
     .forAdapt{
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .screenOne{
+
+        &__svgSearch-wrap{
+            right: 95%;
+        }
+
+        &__svgPlaceholder-wrap{
+            right: 95%;
+            top: 8rem;
+        }
+
+        &__svgInputArrow-wrap{
+            top: 8rem;
+        }
+
     }
 
 }

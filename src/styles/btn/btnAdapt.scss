@@ -14,10 +14,13 @@
     
 }
 
-
 @media screen and (max-width: 550px) {
 
     .screenOne{
+
+        &__btn-wrap{
+            margin-right: 0rem;
+        }
 
         &__btn{
             margin-top: 6rem;
@@ -25,4 +28,22 @@
         }
 
     }
+
 }
+
+
+
+// @media screen and (max-width: 375px) {
+
+//     .screenOne{
+
+//         &__btn{
+//             margin-top: 6rem;
+//             width: 100%;
+//             // width: 315px;
+//             // width: 35rem;
+//             // width: 46.66rem;
+//         }
+
+//     }
+// }

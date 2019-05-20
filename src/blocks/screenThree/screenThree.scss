@@ -51,6 +51,22 @@
         position: relative;
     }
 
+    &__form-inputPrice-wrap{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__form-inputMinPrice-wrap, &__form-inputMaxPrice-wrap{
+        position: relative;
+    }
+
+    &__currencySymbol{
+        position: absolute;
+        color: #999999;
+        right: 10%;
+        top: 2rem;
+    }
+
 }
 
 .screenThree{

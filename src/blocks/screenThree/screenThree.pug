@@ -30,10 +30,15 @@ section.screenThree
                     .screenThree__form-price
                         p.screenThree__form-price-title.screenThree__title-fonts|Цена
                         .screenThree__form-inputPrice-wrap
-                            input.screenThree__form-inputMinPrice.styleLabel(type="number" id="minPrice" name="minPrice" placeholder="От")
-                            label(for="minPrice")
-                            input.screenThree__form-inputMaxPrice.styleLabel(type="number" id="maxPrice" name="maxPrice" placeholder="До")
-                            label(for="maxPrice")
+                            .screenThree__form-inputMinPrice-wrap
+                                input.screenThree__form-inputMinPrice.styleLabel(type="number" id="minPrice" name="minPrice" placeholder="От")
+                                label(for="minPrice")
+                                p.screenThree__currencySymbol|&#8381;
+                        
+                            .screenThree__form-inputMaxPrice-wrap
+                                input.screenThree__form-inputMaxPrice.styleLabel(type="number" id="maxPrice" name="maxPrice" placeholder="До")
+                                label(for="maxPrice")
+                                p.screenThree__currencySymbol|&#8381;
                         //- .screenThree__form-selectionAndSending
                     .screenThree__form-email
                         p.screenThree__form-price-title.screenThree__title-fonts|Ваш e-mail

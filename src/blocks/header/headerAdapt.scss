@@ -9,9 +9,37 @@
             padding-right: 0rem;
         }
 
+        // &__logo{
+
+        // }
+
         &__nav-ul{
             display: none;
         }
+
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .header{
+
+        &__logo{
+            width: 22.5rem;
+            margin-right: 0rem;
+        }
+
+        
+    &__svgLogo{
+        width: 5.9rem;
+        height: 4.8rem;
+    }
+
+        // &__logo-link{
+        //     // width: 22rem;
+        //     // flex-direction: row;
+        // }
 
     }
 

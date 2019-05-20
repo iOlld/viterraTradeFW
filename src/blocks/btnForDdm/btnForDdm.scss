@@ -13,9 +13,9 @@
     cursor: pointer;
     border: none;
 
-    &__line{
-        background: #fff;
-    }
+    // &__line{
+    //     background: #fff;
+    // }
 
     &__span{
         display: flex;
@@ -82,7 +82,7 @@
     .header__btnForDdm{
         display: flex;
         position: absolute;
-        // top: 0;
+        top: 0;
         left: 3rem;
         width: 15rem;
         height: 10rem;

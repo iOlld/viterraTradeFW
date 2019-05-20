@@ -38,11 +38,14 @@ section.screenOne
                                 .screenOne__inputMinPrices-wrap
                                     input(class="screenOne__minPriceProducts styleLabel" type="number" id="minPriceProducts" placeholder="От")
                                     label(for="minPriceProducts")
+                                    p.screenOne__currencySymbol|&#8381;
                                 .screenOne__inputMaxPrices-wrap
                                     input(class="screenOne__maxPriceProducts styleLabel" type="number" id="maxPriceProducts" placeholder="До")
                                     label(for="maxPriceProducts")
+                                    p.screenOne__currencySymbol|&#8381;
                             .screenOne__btn-wrap
-                                input(class="screenOne__btn" type="button", value="Поиск")
+                                button(class="screenOne__btn" value="Поиск")|поиск
+                                //- input(class="screenOne__btn" type="button", value="Поиск")
                                 //- button(class="screenOne__btn" type="submit")|поиск
                     //- .screenOne__checkBox-container
                     .screenOne__checkBox-wrap
@@ -84,17 +87,18 @@ section.screenOne
                                 .screenOne__inputMinPrices-wrap
                                     input(class="screenOne__minPriceRequests styleLabel" type="number" id="minPriceRequests" placeholder="От")
                                     label(for="minPriceRequests")
+                                    p.screenOne__currencySymbol|&#8381;
                                 .screenOne__inputMaxPrices-wrap
                                     input(class="screenOne__maxPriceRequests styleLabel" type="number" id="maxPriceRequests" placeholder="До")
                                     label(for="maxPriceRequests")
+                                    p.screenOne__currencySymbol|&#8381;
                             .screenOne__btn-wrap
-                                input(class="screenOne__btn" type="button", value="Поиск")
+                                button(class="screenOne__btn" value="Поиск")|поиск
+                                //- input(class="screenOne__btn" type="button", value="Поиск")
                                 //- button(class="screenOne__btn" type="submit")|поиск
                     .screenOne__checkBox-wrap
                         input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckboxRequests" checked)
                         label(for="screenOneCheckboxRequests")|Точное совпадение
-
-
 
 
             input(class="hide" type="radio" name="tabs" id="tab3")
@@ -130,11 +134,15 @@ section.screenOne
                                 .screenOne__inputMinPrices-wrap
                                     input(class="screenOne__minPriceTenders styleLabel" type="number" id="minPriceTenders" placeholder="От")
                                     label(for="minPriceTenders")
+                                    p.screenOne__currencySymbol|&#8381;
                                 .screenOne__inputMaxPrices-wrap
                                     input(class="screenOne__maxPriceTenders styleLabel" type="number" id="maxPriceTenders" placeholder="До")
                                     label(for="maxPriceTenders")
+                                    p.screenOne__currencySymbol|&#8381;
                             .screenOne__btn-wrap
-                                input(class="screenOne__btn" type="button", value="Поиск")
+                                button(class="screenOne__btn" value="Поиск")|поиск
+                                //- input(class="screenOne__btn" type="button", value="Поиск")
+                                //- button(class="screenOne__btn" value="Поиск")|поиск
                                 //- button(class="screenOne__btn" type="submit")|поиск
                     .screenOne__checkBox-wrap
                         input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckboxTenders" checked)
@@ -144,7 +152,7 @@ section.screenOne
 
 
             input(class="hide" type="radio" name="tabs" id="tab4")
-            label(class="tabsLabelFonts" for="tab4" title="ЛОГИСТИКА")|Логистика
+            label(class="tabsLabelFonts tabsLabelLastChild" for="tab4" title="ЛОГИСТИКА")|Логистика
             .tab_content(id="tab_content_4")
                 //- form(class="screenOne__search-form" action="not-found.html" method="post")
                 form(class="screenOne__search-form" action="#" method="post")
@@ -176,11 +184,15 @@ section.screenOne
                                 .screenOne__inputMinPrices-wrap
                                     input(class="screenOne__minPriceLogistics styleLabel" type="number" id="minPriceLogistics" placeholder="От")
                                     label(for="minPriceLogistics")
+                                    p.screenOne__currencySymbol|&#8381;
                                 .screenOne__inputMaxPrices-wrap
                                     input(class="screenOne__maxPriceLogistics styleLabel" type="number" id="maxPriceLogistics" placeholder="До")
                                     label(for="maxPriceLogistics")
+                                    p.screenOne__currencySymbol|&#8381;
                             .screenOne__btn-wrap
-                                input(class="screenOne__btn" type="button", value="Поиск")
+                                //- a(class="screenOne__btn" value="Поиск")
+                                button(class="screenOne__btn" value="Поиск")|поиск
+                                //- input(class="screenOne__btn" type="button" value="Поиск")
                                 //- button(class="screenOne__btn" type="submit")|поиск
                     .screenOne__checkBox-wrap
                         input(class="checkbox" type="checkbox", name="exactMatch" id="screenOneCheckboxLogistics" checked)

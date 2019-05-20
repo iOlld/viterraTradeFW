@@ -113,8 +113,16 @@
         &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
                     
             & + label::after{
-                left: 18rem;
+                left: 10rem;
             }
+        }
+        
+        &__searchProducts, &__searchRequests, &__searchTenders, &__searchLogistics{
+            padding-left: 12%;
+        }
+
+        &__regionProducts, &__regionRequests, &__regionTenders, &__regionLogistics{
+            padding-left: 12%;
         }
     }
 }
@@ -122,14 +130,22 @@
 
 @media screen and (max-width: 550px) {
 
+    
+    .tabs_container {
+        margin-right: -1.5%;
+
+        .tab_content{
+            width: 98.5%;
+        }
+    }
+
     .hide + label{
-        width: 11rem;
-        margin: 0rem 0.5rem 0rem 0rem;
+        width: 23.5%;
+        margin-right: 1.5%;
 
-        // &:last-child{
-        //     margin: 0;
-        // }
-
+    }
+    .hide + .tabsLabelLastChild {
+        margin-right: 0rem;
     }
 
     .screenOne{
@@ -157,11 +173,69 @@
             padding-right: 0rem;
         }
 
+        &__minPriceProducts, &__minPriceRequests, &__minPriceTenders, &__minPriceLogistics,
+        &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
+                    
+            & + label::after{
+                left: 30rem;
+            }
+        }
+
         &__checkBox-wrap{
             left: 36%;
             bottom: 10rem;
         }
 
+    }
+
+}
+
+
+@media screen and (max-width: 510px) {
+
+    .screenOne{
+
+        &__minPriceProducts, &__minPriceRequests, &__minPriceTenders, &__minPriceLogistics,
+        &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
+                    
+            & + label::after{
+                left: 25rem;
+            }
+        }
+
+        &__checkBox-wrap{
+            left: 31%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .screenOne{
+
+        &__minPriceProducts, &__minPriceRequests, &__minPriceTenders, &__minPriceLogistics,
+        &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
+                    
+            & + label::after{
+                left: 20rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .screenOne{
+
+        &__checkBox-wrap{
+            left: 28%;
+        }
     }
 
 }

@@ -104,7 +104,8 @@
                 display: inline-block;
                 width: 50%;
                 margin: 2.11rem 0 4.88rem 0;
-                padding: 2rem 1.66rem 3.55rem 1.66rem;
+                padding: 2.22rem 4.44rem;
+                // padding: 2rem 1.66rem 3.55rem 1.66rem;
                 font-family: "Source Sans Pro";
                 font-size: 1.66rem;
                 font-weight: 400;
@@ -123,7 +124,7 @@
                 @media screen and (min-width: 750px) {
                     width: auto;
                     margin: 0 3.88rem 0 0;
-                    padding: 2rem 3.66rem 3.55rem 3.66rem;
+                    // padding: 2rem 3.66rem 3.55rem 3.66rem;
                 }
 
                 @media screen and (min-width: 1200px) {

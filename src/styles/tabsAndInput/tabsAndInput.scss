@@ -127,21 +127,28 @@
 
     }
 
-    &__minPriceProducts, &__minPriceRequests, &__minPriceTenders, &__minPriceLogistics,
-    &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
-                
-        & + label::after{
-            content: "\20BD";
-            color: #999999;
-            position: absolute;
-            // right: 2rem;
-            // right: 3.5rem;
-            // top: 0rem;
-            bottom: 1.9rem;
-            left: 13rem;
-        }
-
+    &__currencySymbol{
+        position: absolute;
+        color: #999999;
+        right: 10%;
+        top: 2rem;
     }
+
+    // &__minPriceProducts, &__minPriceRequests, &__minPriceTenders, &__minPriceLogistics,
+    // &__maxPriceProducts, &__maxPriceRequests, &__maxPriceTenders, &__maxPriceLogistics{
+                
+    //     & + label::after{
+    //         content: "\20BD";
+    //         color: #999999;
+    //         position: absolute;
+    //         // right: 2rem;
+    //         // right: 3.5rem;
+    //         // top: 0rem;
+    //         bottom: 1.9rem;
+    //         left: 13rem;
+    //     }
+
+    // }
 
 }
 
@@ -243,30 +250,6 @@
         padding-left: 2rem;
         padding-right: 3rem;
         position: relative;
-    }
-
-    &__form-inputMinPrice{
-
-        & + label::after{
-            content: "\20BD";
-            color: #999999;
-            position: absolute;
-            right: 2.5rem;
-            top: 0.4rem;
-        }
-
-    }
-
-    &__form-inputMaxPrice{
-        
-        & + label::after{
-            content: "\20BD";
-            color: #999999;
-            position: absolute;
-            left: 28.5rem;
-            bottom: 1.9rem;
-        }
-
     }
 
 }

@@ -13,6 +13,13 @@
         justify-content: center;
     }
 
+    &__navAdaptive{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     &__nav-column{
         width: 23.33rem;
         margin: 0rem 1.66rem;
@@ -110,3 +117,5 @@
 // !!!!!!!!! //
 // TO__ADAPT //
 // ########  //
+
+@import './footerAdapt.scss';

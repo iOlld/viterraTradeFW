@@ -135,13 +135,15 @@
         margin-right: -1.5%;
 
         .tab_content{
-            width: 98.5%;
+            width: 98.95%;
         }
     }
 
     .hide + label{
-        width: 23.5%;
-        margin-right: 1.5%;
+        // width: 23.5%;
+        // margin-right: 1.5%;
+        width: 24%;
+        margin-right: 1%;
 
     }
     .hide + .tabsLabelLastChild {

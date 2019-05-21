@@ -193,7 +193,8 @@ table {
 .screenThree__head-text {
   font-size: 2.33rem;
   font-family: 'SourceSansPro-Light';
-  color: #fff; }
+  color: #fff;
+  line-height: 1.2; }
 
 .screenThree__form-agreement-text {
   font-size: 1.44rem;
@@ -603,10 +604,10 @@ a, button, input {
   .tabs_container {
     margin-right: -1.5%; }
     .tabs_container .tab_content {
-      width: 98.5%; }
+      width: 98.95%; }
   .hide + label {
-    width: 23.5%;
-    margin-right: 1.5%; }
+    width: 24%;
+    margin-right: 1%; }
   .hide + .tabsLabelLastChild {
     margin-right: 0rem; }
   .screenOne__input-wrap {
@@ -800,7 +801,14 @@ a, button, input {
     margin-right: 0rem; }
   .screenOne__btn {
     margin-top: 6rem;
-    width: 100%; } }
+    width: 100%; }
+  .screenOne__categories-btn {
+    width: 66.46%; } }
+
+@media screen and (max-width: 980px) {
+  .screenThree__form-btn {
+    width: 100%;
+    padding: 1.7rem 0rem; } }
 
 .header__btnForDdm {
   display: none; }
@@ -2568,7 +2576,8 @@ a, button, input {
         -ms-flex-pack: center;
             justify-content: center;
     background: #292929;
-    padding-left: 3.33rem; }
+    padding-left: 3.33rem;
+    padding-right: 3.33rem; }
   .screenThree__form-wrap {
     border: 0.15rem solid #f0efef;
     padding-bottom: 5rem; }
@@ -2639,7 +2648,47 @@ a, button, input {
   .screenThree__wrap {
     width: 100%;
     margin-left: 1rem;
-    margin-right: 1rem; } }
+    margin-right: 1rem; }
+  .screenThree__form-selectionAndSending {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 1rem; }
+  .screenThree__title-fonts {
+    padding-top: 2.55rem; }
+  .screenThree__form-keyword {
+    width: 28.63%; }
+  .screenThree__form-industry {
+    width: 38.08%; }
+  .screenThree__form-region {
+    width: 32.15%; }
+  .screenThree__form-price {
+    width: 39.77%; }
+  .screenThree__form-inputPrice-wrap {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .screenThree__form-email {
+    width: 36.67%; }
+  .screenThree__form-btn-wrap {
+    width: 22.56%; }
+  .screenThree__form-inputKeyword, .screenThree__form-inputIndustry, .screenThree__form-inputRegion, .screenThree__form-inputMinPrice, .screenThree__form-inputMaxPrice, .screenThree__form-inputEmail {
+    width: 100%; }
+  .screenThree__form-inputMinPrice-wrap, .screenThree__form-inputMaxPrice-wrap {
+    width: 49.29%; }
+  .screenThree__form-agreement-text {
+    margin-left: 0rem;
+    margin-top: 3.55rem;
+    width: 100%; }
+  .screenThree__svgIndustryArrow-wrap, .screenThree__svgRegionArrow-wrap {
+    top: 8rem; } }
+
+@media screen and (max-width: 600px) {
+  .screenThree {
+    padding: 1.11rem; } }
 
 .news {
   padding: 5.55rem 0; }

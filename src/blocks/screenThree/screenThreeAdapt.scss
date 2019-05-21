@@ -8,6 +8,77 @@
             margin-right: 1rem;
         }
 
+        &__form-selectionAndSending{
+            justify-content: space-between;
+            padding-top: 1rem;
+        }
+
+        &__title-fonts{
+            padding-top: 2.55rem;
+        }
+
+        &__form-keyword{
+            width: 28.63%;
+        }
+
+        &__form-industry{
+            width: 38.08%;
+        }
+
+        &__form-region{
+            width: 32.15%;
+        }
+
+        &__form-price{
+            width: 39.77%;
+        }
+
+        &__form-inputPrice-wrap{
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        &__form-email{
+            width: 36.67%;
+        }
+
+        &__form-btn-wrap{
+            width: 22.56%;
+        }
+
+        &__form-inputKeyword, &__form-inputIndustry, &__form-inputRegion, &__form-inputMinPrice, &__form-inputMaxPrice, &__form-inputEmail{
+            width: 100%;
+        }
+
+        &__form-inputMinPrice-wrap, &__form-inputMaxPrice-wrap{
+            width: 49.29%;
+        }
+
+        &__form-agreement-text{
+            margin-left: 0rem;
+            margin-top: 3.55rem;
+            width: 100%;
+        }
+        
+        &__svgIndustryArrow-wrap, &__svgRegionArrow-wrap{
+            top: 8rem;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .screenThree{
+        padding: 1.11rem;
+
+        // &__wrap{
+        //     width: 100%;
+        //     margin-left: 1rem;
+        //     margin-right: 1rem;
+        // }
+
     }
 
 }

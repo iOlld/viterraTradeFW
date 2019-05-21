@@ -2687,8 +2687,26 @@ a, button, input {
     top: 8rem; } }
 
 @media screen and (max-width: 600px) {
-  .screenThree {
-    padding: 1.11rem; } }
+  .screenThree__wrap {
+    margin-left: 0rem;
+    margin-right: 0rem; }
+  .screenThree__form-selectionAndSending {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .screenThree__form-keyword, .screenThree__form-industry, .screenThree__form-region, .screenThree__form-price, .screenThree__form-inputPrice-wrap, .screenThree__form-email {
+    width: 100%; }
+  .screenThree__form-btn-wrap {
+    width: 50%;
+    margin-top: 1.66rem; }
+  .screenThree__form-agreement-text {
+    margin-top: 2.66rem; } }
 
 .news {
   padding: 5.55rem 0; }

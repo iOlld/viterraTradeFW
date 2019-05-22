@@ -1,4 +1,7 @@
 .news-form-column {
+    display: flex;
+    // flex-direction: row;
+    flex-direction: column;
     flex-basis: 100%;
     width: 40.44rem;
     border: 0.1rem solid #f0efef;
@@ -13,7 +16,8 @@
     }
 
     &__title {
-        padding: 3.11rem 0 3.11rem 3.11rem;
+        padding: 3.11rem;
+        // padding: 3.11rem 0 3.11rem 3.11rem;
         font-family: "Source Sans Pro";
         font-size: 2.33rem;
         font-weight: 300;
@@ -62,7 +66,7 @@
 
         input {
             height: 4.44rem;
-            margin-bottom: 2.44rem;
+            // margin-bottom: 2.44rem;
 
             @media screen and (min-width: 750px) {
                 width: 98%;
@@ -101,6 +105,7 @@
             }
 
             .form-block__btn {
+                // display: flex;
                 display: inline-block;
                 width: 50%;
                 margin: 2.11rem 0 4.88rem 0;

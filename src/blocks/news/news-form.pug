@@ -1,18 +1,20 @@
 .news-form-column
-    .news-form-column__title Задать вопрос
-    form.form-block(action="#", method="POST")
-        .form-block-top-wrap
-            .form-block-input-wrap
-                label(for="user-name") Ваше имя
-                input.user-name(id="user-name", name="name")
-            .form-block-input-wrap
-                label(for="user-email") Контактный e-mail
-                input.user-name(id="user-email", name="email")
-        .form-block-input-wrap
-            label(for="user-message") Вопрос
-            textarea(id="user-message", name="message")
-        .form-block__btn-warning-wrap
-            .form-block__btn-wrap
-                //- input.form-block__btn(type="submit", value="Отправить")
-                button.form-block__btn(type="submit", value="Отправить")|Отправить
-            p.form-block__warning Нажимая на кнопку Отправить, вы даете согласие на обработку своих персональных данных и соглашаетесь с пользовательским соглашением.
+    .news-form-column-wrap
+        p.news-form-column__title|Задать вопрос
+        form.form-block(action="#", method="POST")
+            .form-block-top-wrap
+                .form-block-input-wrap
+                    label(for="user-name")|Ваше имя
+                    input.user-name(id="user-name", name="name")
+                .form-block-input-wrap
+                    label(for="user-email")|Контактный e-mail
+                    input.user-name(id="user-email", name="email")
+            .form-block-inputBottom-wrap
+                label(for="user-message")|Вопрос
+                textarea(id="user-message", name="message")
+            .form-block__btn-warning-wrap
+                .form-block__btn-wrap
+                    //- input.form-block__btn(type="submit", value="Отправить")
+                    button.form-block__btn(type="submit", value="Отправить")|Отправить
+                .form-block__warning-wrap
+                    p.form-block__warning|Нажимая на кнопку Отправить, вы даете согласие на обработку своих персональных данных и соглашаетесь с пользовательским соглашением.

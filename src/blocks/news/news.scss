@@ -1,10 +1,23 @@
-.news {
-    padding: 5.55rem 0;
+.news{
+    margin-top: 5.55rem;
+    margin-bottom: 5.55rem;
+    display: flex;
+    justify-content: center;
 
-    &-wrap {
+    .container{
+        // width: 130rem;
         display: flex;
+    }
+
+    &-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
         justify-content: center;
+        // justify-content: space-between;
         flex-wrap: wrap;
     }
+
 }
+
 

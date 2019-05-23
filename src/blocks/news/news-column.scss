@@ -1,47 +1,56 @@
-.news-column {
-    position: relative;
-    flex-basis: 100%;
-    width: 40.44rem;
-    padding: 3.22rem 3.44rem 2.77rem 3.44rem;
-    margin-bottom: 2.33rem;
-    border: 1px solid #f0efef;
+.news-column{
+    // display: flex;
+    // width: 41.11rem;
+    // flex-direction: column;
+    // padding-left: 3.33rem;
+    // padding-right: 3.33rem;
+    // padding-top: 3.11rem;
+    // border: 0.1rem solid #f0efef;
+    // margin: 0rem 1.66rem;
 
-    @media screen and (min-width: 750px) {
-        flex-basis: 41.11rem;
-
-        &:first-child {
-            margin-right: 3.77rem;
-        }
-    }
-
-    @media screen and (min-width: 1200px) {
-        // flex-basis: 41.11rem;
-        // max-width: 41.11rem;
-
-        &:first-child {
-            margin: 0;
-        }
-
-        &:nth-child(2) {
-            margin: 0 3.33rem;
-        }
+    &-wrap{
+        display: flex;
+        width: 41.11rem;
+        flex-direction: column;
+        padding-left: 3.33rem;
+        padding-right: 3.33rem;
+        padding-top: 3.11rem;
+        border: 0.1rem solid #f0efef;
+        margin: 0rem 1.66rem;
 
     }
 
-    &__title {
-        margin: 0 0 3.88rem 0;
+    &__title{
         font-family: "Source Sans Pro";
         font-size: 2.33rem;
         font-weight: 300;
         color: #212121;
+        padding-bottom: 1.67rem;
+        position: relative;
+
+        // &::after{
+        //     content: "";
+        //     position: absolute;
+        //     background: url('../img/dot.png');
+        //     width: 100%;
+        //     height: 100%;
+        //     background-position: center;
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        // }
+
     }
 
-    .news-list {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+    &__btn-wrap{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-top: 2.55rem;
+        padding-bottom: 2.55rem;
     }
 
+    
     &__btn {
         padding: 1.77rem 2.55rem;
         font-family: "Source Sans Pro";
@@ -51,16 +60,16 @@
         border: none;
         outline: none;
         background-color: #a1ce31;
-        transition: all 0.3s ease-out;
+        transition: all 0.3s ease;
         cursor: pointer;
+        margin: 0;
 
         &:hover {
             background-color: #ff7c07;
         }
     }
-}
-
-
-@media screen and (max-width: 320px) {
 
 }
+
+
+

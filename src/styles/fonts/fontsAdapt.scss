@@ -1,10 +1,38 @@
 @media screen and (max-width: 980px){
+
+    .header{
+
+        &__nav-fonts{
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        &__nav-submenu-fonts{
+            font-size: 1.77rem;
+            color: #fff;
+
+            &:hover{
+                color: #fff;
+            }
+
+        }
+
+    }
+
     .footer{
         &__nav-title{
             padding-top: 4rem;
             padding-bottom: 0.5rem;
         }
     }
+}
+
+@media screen and (min-width: 567px) and (max-width: 568px) {
+
+    .header__logo-subtitle-text{
+        font-size: 1.11rem;
+    }
+
 }
 
 @media screen and (max-width: 320px) {

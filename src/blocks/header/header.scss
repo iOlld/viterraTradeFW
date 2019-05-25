@@ -18,6 +18,10 @@
     &__logo{
         width: 22.22rem;
         margin-right: 4.66rem;
+
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
     }
 
     &__svgLogo-wrap{
@@ -33,6 +37,7 @@
     &__logo-link{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     &__logo-box{

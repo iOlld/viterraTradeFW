@@ -2,6 +2,59 @@
 
     .notifications{
         display: none;
+
+        &-Active{
+            display: flex;
+            position: fixed;
+            z-index: 6;
+            top: 10.55rem;
+            right: 0rem;
+            width: 50%;
+        }
+
+        .container-fluid{
+            width: 100%;
+
+            .container{
+                width: 100%;
+            }
+
+        }
+
+
+        &-menu-wrap{
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        &-menu-list{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        &-menu__inputSearch-wrapActive{
+            width: 200%;
+            right: 0;
+        }
+
+        &-menu__searchList-wrap{
+            width: 100%;
+            height: 100vh;
+        }
+
+    }
+
+    .notifications-menu{
+
+        &-user-block, &__money{
+            order: 0;
+        }
+
+        &__addNotif, &-list, &__alert, &__settings, &__logout{
+            order: 1;
+        }
+        
     }
 
 }

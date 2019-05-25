@@ -27,7 +27,8 @@
         // right: 5.5rem;
         background: #818282;
 
-        top: 50%;
+        // top: 50%;
+        top: 46%;
         // left: 30%;
         left: 36%;
 
@@ -94,6 +95,10 @@
         // width: 10.66rem;
         width: 14.76rem;
         height: 100%;
+    }
+
+    .header__zIndexDdm{
+        z-index: -1;
     }
 
 }

@@ -8,6 +8,11 @@
         width: 100%;
         z-index: 5;
 
+        &__logo{
+            // width: 25rem;
+            margin-right: 0;
+        }
+
         &__wrap{
             width: 100%;
             justify-content: center;
@@ -26,6 +31,7 @@
             top: 10.55rem;
             width: 100%;
             height: 100vh;
+            // height: 100%;
             z-index: 3;
 
             &::before{

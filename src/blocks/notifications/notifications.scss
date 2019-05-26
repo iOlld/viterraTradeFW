@@ -53,6 +53,15 @@
             text-align: center;
         }
 
+        &__addNotif-textAdapt {
+            display: none;
+            font-family: 'SourceSansPro-Regular';
+            font-size: 1.55rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+        }
+
         &-list{
             display: flex;
             flex-direction: row;

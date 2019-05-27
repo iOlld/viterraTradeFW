@@ -1,11 +1,52 @@
 @media screen and (max-width: 980px) {
 
+    .notifications-menu{
+
+        &__alertForAdapt{
+            display: flex;
+            position: relative;
+            cursor: pointer;
+            background: #292929;
+            margin-bottom: 2rem;
+            align-items: center;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 0.66rem;
+                height: 0.66rem;
+                border-radius: 0.33rem;
+                background: #ff0707;
+                left: 3.5rem;
+                top: 1.2rem;
+            }    
+    
+            .notifications__svg{
+                fill: #fff;
+            }
+            padding: 1.35rem 2rem;
+             // padding: 1.8rem 2.11rem;
+            transition: all 0.3s ease;
+    
+            &:hover .notifications__svg{
+                fill: #fc8701;
+                transition: all 0.3s ease;
+            }
+
+        }
+    }
+
+
     // .notifications-menu__alertMareActive{
     //     left: 0rem;
     // }
 
     .notifications-menu__alertMoreActive{
-        left: 0rem;
+        right: 0rem;
+        padding-top: 0rem;
+        border: none;
+        width: 74.66%;
+        z-index: 7;
     }
 
 }

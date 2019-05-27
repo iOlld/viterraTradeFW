@@ -4,10 +4,19 @@
         display: none;
     }
 
+    &__alertForAdapt{
+        display: none;
+    }
+
     &__alertMoreActive{
         position: absolute;
-        left: 86.35rem;
-        top: 5rem;
+        // left: 86.35rem;
+        // right: 12.8rem;
+        // top: 5rem;
+
+        right: 12.5rem;
+        top: 0rem;
+
         display: flex;
         flex-direction: column;
         width: 31.5rem;

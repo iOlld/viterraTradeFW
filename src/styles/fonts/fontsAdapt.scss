@@ -2,6 +2,11 @@
 
     .header{
 
+        &__logo-subtitle-text{
+            // letter-spacing: -0.17rem;
+            font-weight: normal;
+        }
+
         &__nav-fonts{
             font-size: 2rem;
             color: #fff;
@@ -27,18 +32,34 @@
     }
 }
 
-@media screen and (min-width: 568px) and (max-width: 568px) {
+// @media screen and (min-width: 568px) and (max-width: 568px) {
 
-    .header__logo-subtitle-text{
-        font-size: 1.11rem;
-    }
+//     // .header__logo-subtitle-text{
+//     //     font-size: 1.11rem;
+//     // }
 
-}
+// }
 
-@media screen and (max-width: 320px) {
+// @media screenand and (min-width: 413x) and (max-width: 414px) {
 
-    .header__logo-subtitle-text{
-        font-size: 1.1rem;
-    }
+//     .header__logo-subtitle-text{
+//         letter-spacing: -0.21rem;
+//     }
 
-}
+// }
+
+// @media screen and (max-width: 568px) {
+
+//     .header__logo-subtitle-text{
+//         letter-spacing: -0.2rem;
+//     }
+
+// }
+
+// @media screen and (max-width: 320px) {
+
+//     .header__logo-subtitle-text{
+//         letter-spacing: -0.21rem;
+//     }
+
+// }

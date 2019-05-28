@@ -1,6 +1,6 @@
-@import './notifAddInput/notifAdd.scss';
-@import './notifSearchList/notifSearchList.scss';
-@import './notifAlertMore/notifAlertMore.scss';
+// @import './notifAddInput/notifAdd.scss';
+// @import './notifSearchList/notifSearchList.scss';
+// @import './notifAlertMore/notifAlertMore.scss';
 
 .notifications {
     width: 100%;
@@ -304,5 +304,8 @@
 
 }
 
+@import './notifAddInput/notifAdd.scss';
+@import './notifSearchList/notifSearchList.scss';
+@import './notifAlertMore/notifAlertMore.scss';
 
 @import './notifAdapt.scss';

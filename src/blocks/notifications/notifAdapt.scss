@@ -1,5 +1,7 @@
 @media screen and (max-width: 980px)    {
 
+    // Для обертки уведомлений //
+
     .notifications{
         display: none;
 
@@ -70,6 +72,8 @@
 
     }
 
+    // Для содержимого уведомлений //
+
     .notifications-menu{
 
         &__addNotif-text{
@@ -133,6 +137,10 @@
                 top: 1.2rem;
             }
 
+            &:hover{
+                background: none;
+            }
+
         }
 
         &__logout{
@@ -151,16 +159,54 @@
         
     }
 
-}
+    // Для кнопок уведомлений мобильной версии //
+    
+    .notifications-menu__alertMoreActive{
+        right: 0rem;
+        // top: 10.6rem;
+        // top: 15.6rem;
+        top: 17rem;
+        padding-top: 0rem;
+        // padding-left: 2.1rem;
+        border: none;
+        width: 74.66%;
+        z-index: 7;
+        position: fixed;
+    }
 
-@media screen and (max-width: 550px) {
+    .notifications-menu__alertAdaptActive{
+        background: #292929;
+        position: fixed;
+        width: 74.66%;
+        top: 10.55rem;
+        z-index: 7;
+        border-bottom: none;
+        padding-left: 2.1rem;
+        padding-top: 2.66rem;
+        padding-bottom: 1.77rem;
 
-    .notifications{
-
-        &-Active{
-            top: 10.7rem;
+        &::before{
+            left: 3.4rem;
+            top: 2.4rem;
         }
 
     }
 
+    .notifications-ActiveNone{
+        height: 0rem;
+        width: 74.66%;
+    }
+
 }
+
+// @media screen and (max-width: 550px) {
+
+//     .notifications{
+
+//         &-Active{
+//             top: 10.7rem;
+//         }
+
+//     }
+
+// }

@@ -91,16 +91,23 @@
     //     margin-left: 0.66rem;
     // }
 
+    &__socialLinkWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     &__social-link{
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-left: 2rem;
     }
 
     &__social-svg-style{
         // width: 3.33rem;
         width: 2.33rem;
-        margin-left: 3.11rem;
+        // margin-left: 3.11rem;
     }
 
     &__svgLogo{

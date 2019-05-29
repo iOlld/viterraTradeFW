@@ -9,7 +9,8 @@
             display: flex;
             position: fixed;
             z-index: 6;
-            top: 10.55rem;
+            // top: 10.55rem;
+            top: 10.74rem;
             // top: 11.2%;
             right: 0rem;
             width: 60.8%;
@@ -137,9 +138,9 @@
                 top: 1.2rem;
             }
 
-            &:hover{
-                background: none;
-            }
+            // &:hover{
+            //     background: none;
+            // }
 
         }
 
@@ -165,7 +166,8 @@
         right: 0rem;
         // top: 10.6rem;
         // top: 15.6rem;
-        top: 17rem;
+        // top: 17rem;
+        top: 17.5rem;
         padding-top: 0rem;
         // padding-left: 2.1rem;
         border: none;
@@ -178,7 +180,8 @@
         background: #292929;
         position: fixed;
         width: 74.66%;
-        top: 10.55rem;
+        // top: 10.55rem;
+        top: 10.8rem;
         z-index: 7;
         border-bottom: none;
         padding-left: 2.1rem;

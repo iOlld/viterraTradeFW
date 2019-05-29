@@ -18,7 +18,10 @@
 
         &__addNotif{
             // padding: 1.59rem 1.55rem;
-            padding: 1.11rem 1.44rem;
+
+            // padding: 1.11rem 1.44rem;
+
+            padding: 1.07rem 1.44rem;
             background-color: #a1ce31;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -103,9 +106,9 @@
             position: relative;
             cursor: pointer;
 
-            &:hover{
-                background: #353535;
-            }
+            // &:hover{
+            //     background: #353535;
+            // }
 
             &::before{
                 content: "";

@@ -60,6 +60,23 @@
 
 }
 
+@media screen and (max-width: 568px) {
+    
+    .news-block__title{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .news-column__title{
+        font-size: 2.7rem;
+    }
+
+    .form-block__warning{
+        font-size: 1.82rem;
+    }
+
+}
+
 @media screen and (max-width: 550px) {
 
     

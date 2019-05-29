@@ -57,7 +57,7 @@
         }
 
         &__subtitle-text{
-            font-size: 3.78rem;
+            font-size: 4.3rem;
             font-weight: bold;
         }
 
@@ -72,3 +72,48 @@
 //     }
 
 // }
+
+
+@media screen and (max-width: 568px) {
+
+    .screenTwo{
+
+        &__head-title{
+            font-size: 3rem;
+        }
+
+        &__productCards-link-font, &__requestCards-link-font, &__tenderCards-link{
+            font-size: 2.1rem;
+            font-weight: bold;
+        }
+
+        &__productCards-description-text, &__requestCards-description-text{
+            font-size: 1.9rem;
+        }
+
+        &__tenderCards-date-text, &__tenderCards-priceTender{
+            font-size: 1.7rem;
+
+            &::before{
+                font-size: 2rem;
+            }
+
+        }
+
+        
+
+    }
+
+    .screenThree{
+
+        &__form-agreement-text{
+            font-size: 1.7rem;
+        }
+
+        &__title-fonts{
+            font-size: 2rem;
+        }
+
+    }
+
+}

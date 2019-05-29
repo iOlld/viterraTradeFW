@@ -66,7 +66,23 @@
         }
 
         &__social{
-            padding-right: 13rem;
+            width: 100%;
+            flex-direction: row;
+            justify-content: center;
+            // padding-right: 13rem;
+            padding-top: 1.5rem;
+        }
+
+        // &__socialLinkWrap{
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: space-between;
+        //     // width: 40%;
+        // }
+
+        &__social-link-text{
+            // padding-bottom: 2rem;
+            // letter-spacing: 0.11rem;
         }
 
     }
@@ -77,9 +93,22 @@
 
     .footer{
 
-        &__social{
-            padding-right: 11rem;
+        &__logo{
+            margin-right: 0rem;
         }
+
+        &__about{
+            width: 95%;
+            justify-content: space-around;
+        }
+
+        &__info{
+            width: 32rem;
+        }
+
+        // &__social{
+        //     padding-right: 11rem;
+        // }
 
     }
 

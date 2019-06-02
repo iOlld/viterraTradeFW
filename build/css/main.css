@@ -53,7 +53,7 @@ table {
   color: #575455; }
 
 .header__logo-subtitle-text {
-  font-size: 1.31rem;
+  font-size: 1.33rem;
   font-family: 'FiraSans-Book';
   color: #575455;
   text-transform: uppercase;
@@ -267,8 +267,11 @@ table {
   padding-top: 1rem; }
 
 @media screen and (max-width: 980px) {
+  .header__logo-text {
+    font-size: 3.4rem;
+    padding-left: 1.5rem; }
   .header__logo-subtitle-text {
-    font-weight: normal; }
+    letter-spacing: 0; }
   .header__nav-fonts {
     font-size: 2rem;
     color: #fff; }
@@ -306,61 +309,21 @@ table {
     font-size: 2rem; } }
 
 html {
-  font-size: 10px; }
+  font-size: 9px; }
 
-@media (max-width: 10240px) {
+@media (min-width: 5120px) {
   html {
     font-size: 36px; } }
 
-@media (max-width: 5120px) {
+@media screen and (min-width: 3840px) and (max-width: 5119.8px) {
   html {
-    font-size: 27px; } }
+    font-size: 24px; } }
 
-@media (max-width: 3840px) {
+@media screen and (min-width: 2560px) and (max-width: 3839.8px) {
   html {
-    font-size: 18px; } }
+    font-size: 8.9px; } }
 
-@media (max-width: 3440px) {
-  html {
-    font-size: 18px; } }
-
-@media (max-width: 2560px) {
-  html {
-    font-size: 13.5px; } }
-
-@media (max-width: 2250px) {
-  html {
-    font-size: 12.75px; } }
-
-@media (max-width: 1920px) {
-  html {
-    font-size: 12px; } }
-
-@media (max-width: 1800px) {
-  html {
-    font-size: 11px; } }
-
-@media (max-width: 1600px) {
-  html {
-    font-size: 10px; } }
-
-@media (max-width: 1366.2px) {
-  html {
-    font-size: 9px; } }
-
-@media (max-width: 1280px) {
-  html {
-    font-size: 8.18px; } }
-
-@media (max-width: 1140px) {
-  html {
-    font-size: 7.05px; } }
-
-@media (max-width: 1080px) {
-  html {
-    font-size: 6.9px; } }
-
-@media (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
   html {
     font-size: 6.75px; } }
 
@@ -1749,7 +1712,6 @@ a, button, input {
     margin: 0 auto;
     position: relative; }
   .header__logo {
-    width: 22.22rem;
     margin-right: 4.66rem; }
   .header__svgLogo-wrap {
     padding: 0;
@@ -1894,7 +1856,6 @@ a, button, input {
     width: 100%;
     z-index: 5; }
     .header__logo {
-      width: 23.5rem;
       margin-right: 0; }
     .header__wrap {
       width: 100%;
@@ -2009,7 +1970,6 @@ a, button, input {
 
 @media screen and (max-width: 640px) {
   .header__logo {
-    width: 23rem;
     margin-right: 0rem; } }
 
 @media screen and (max-width: 550px) {
@@ -2018,7 +1978,6 @@ a, button, input {
 
 @media screen and (max-width: 375px) {
   .header__logo {
-    width: 22.5rem;
     margin-right: 0rem; }
   .header__svgLogo {
     width: 5.9rem;

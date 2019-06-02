@@ -1,120 +1,37 @@
 html{
-    font-size: 10px;
+    font-size: 9px;
 }
 
 
-@media (max-width: 10240px) {
+@media (min-width: 5120px) {
+
     html{
         font-size: 36px;
     }
-}
-
-
-@media (max-width: 5120px) {
-    html{
-        font-size: 27px;
-    }
-}
-
-
-@media (max-width: 3840px) {
-    html{
-        font-size: 18px;
-    }
-}
-
-
-@media (max-width: 3440px) {
-    html{
-        font-size: 18px;
-    }
-}
-
-
-@media (max-width: 2560px) {
-    html{
-        font-size: 13.5px;
-    }
-}
-
-
-@media (max-width: 2250px) {
-    html{
-        font-size: 12.75px;
-    }
-}
-
-
-@media (max-width: 1920px) {
-    html{
-        font-size: 12px;
-    }
-}
-
-
-@media ( max-width: 1800px ) {
-    html{
-        font-size: 11px;
-    }
-}
-
-
-@media (max-width: 1600px) {
-    html{
-        font-size: 10px;
-    }
-}
-
-
-@media (max-width: 1366.2px) {
-    html{
-        font-size: 9px;
-    }
-}
-
-
-@media (max-width: 1280px) {
-    html{
-        font-size: 8.18px;
-    }
-
-    // html{
-    //     font-size: 8.3px;
-    // }
 
 }
 
-
-@media (max-width: 1140px) {
-
-    html{
-        font-size: 7.05px;   
-    }
-
-    // html{
-    //     font-size: 7.55px;
-    // }
-
-}
-
-
-@media (max-width: 1080px) {
+@media screen and (min-width: 3840px) and (max-width: 5119.8px) {
 
     html{
-        font-size: 6.9px;
+        font-size: 24px;
     }
 
 }
 
+@media screen and (min-width: 2560px) and (max-width: 3839.8px) {
+    html{
+        font-size: 8.9px;
+    }
+}
 
-@media (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
 
     html{
         font-size: 6.75px;
     }
 
 }
-
 
 .body{
     display: flex;
@@ -124,13 +41,7 @@ html{
     font-size: 1.6rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Fira Sans Condensed', sans-serif;
-    // max-width: 192rem;
     max-width: 100%;
-    // max-width: 213rem;
-    // max-width: 1920px;
-    // min-width: 32rem;
-    // min-width: 16rem;
-    // min-width: 35.56rem;
     min-width: 320px;
 }
 

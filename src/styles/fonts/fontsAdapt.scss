@@ -2,9 +2,14 @@
 
     .header{
 
+        &__logo-text{
+            font-size: 3.4rem;
+            padding-left: 1.5rem;
+        }
+
         &__logo-subtitle-text{
-            // letter-spacing: -0.17rem;
-            font-weight: normal;
+            letter-spacing: 0;
+            // font-weight: normal;
             // font-size: 1.3rem;
         }
 

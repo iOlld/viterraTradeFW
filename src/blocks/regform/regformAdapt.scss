@@ -1,0 +1,22 @@
+@media (max-width: 980px) {
+
+    .headerVSRegForm{
+
+        &__registrationMenu{
+            position: absolute;
+            right: 2rem;
+        }
+
+        &__form-wrapActive{
+            width: 100%;
+            right: 0;
+            top: 10.59rem;
+        }
+
+        &__zIndexRegForm{
+            z-index: -1;
+        }
+
+    }
+
+}

@@ -12,8 +12,8 @@
     font-family: 'FiraSans-Book';
     color: #575455;
     text-transform: uppercase;
-    // letter-spacing: -0.07rem;
-    letter-spacing: -0.11rem;
+    letter-spacing: -0.07rem;
+    // letter-spacing: -0.11rem;
     text-align: center;
     font-weight: bold;
 }
@@ -42,4 +42,38 @@
 }
 .bp{
     padding-right: 15rem;
+}
+
+@media screen and (max-width: 980px){
+
+    .headerVSRegForm{
+
+        &__logo-text{
+            font-size: 3.4rem;
+            padding-left: 1.5rem;
+        }
+
+        &__logo-subtitle-text{
+            letter-spacing: 0;
+            // font-weight: normal;
+            // font-size: 1.3rem;
+        }
+
+        &__nav-fonts{
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        &__nav-submenu-fonts{
+            font-size: 1.77rem;
+            color: #fff;
+
+            &:hover{
+                color: #fff;
+            }
+
+        }
+
+    }
+
 }

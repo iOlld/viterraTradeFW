@@ -1,4 +1,4 @@
-@import './fontsHeaderVSRegForm.scss';
+// @import './fontsHeaderVSRegForm.scss';
 
 .headerVSRegForm{
     background: #fff;
@@ -19,8 +19,8 @@
     }
 
     &__logo{
-        // width: 23.22rem;
-        width: 22.22rem;
+        width: 23.22rem;
+        // width: 22.22rem;
         margin-right: 4.66rem;
     }
 
@@ -54,7 +54,7 @@
         display: flex;
         flex-direction: row;
         width: 97rem;
-        align-items: center;
+        // align-items: center;
     }
 
     &__nav-ul{
@@ -173,3 +173,6 @@
     justify-content: flex-end;
     width: 7.78rem;
 }
+
+@import './fontsHeaderVSRegForm.scss';
+@import './headerVSRegFormAdapt.scss';

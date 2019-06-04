@@ -8,13 +8,52 @@
         }
 
         &__form-wrapActive{
-            width: 100%;
-            right: 0;
-            top: 10.59rem;
+            // position: relative;
+            // width: 100%;
+            width: 50%;
+            // right: 0;
+            right: 25%;
+            // top: 10.59rem;
+            top: 20rem;
+            z-index: auto;
+
+            &::before{
+                // content: "";
+                // position: absolute;
+                // width: 100%;
+                // height: 100%;
+                // background: #575556;
+                // opacity: 0.5;
+                            
+                content: "";
+                position: fixed;
+                top: 10.5rem;
+                width: 100vw;
+                height: 100vh;
+                background: #575556;
+                opacity: 0.7;
+                z-index: -1;
+
+            }
+
         }
 
         &__zIndexRegForm{
             z-index: -1;
+        }
+
+    }
+
+}
+
+
+@media (max-width: 570px) {
+
+    .headerVSRegForm{
+
+        &__form-wrapActive{
+            width: 75%;
+            right: 12.5%;
         }
 
     }

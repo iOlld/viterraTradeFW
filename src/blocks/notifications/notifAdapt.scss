@@ -202,14 +202,28 @@
 
 }
 
-// @media screen and (max-width: 550px) {
+@media screen and (max-width: 320px) {
 
-//     .notifications{
+    .notifications{
 
-//         &-Active{
-//             top: 10.7rem;
-//         }
+        &-Active{
+            width: 100%;
+        }
 
-//     }
+    }
 
-// }
+    .notifications-menu{
+
+        &__inputSearch-wrapActive{
+            position: absolute;
+        }
+
+        
+
+        &__alertMoreActive{
+            width: 100%;
+        }
+
+    }
+
+}

@@ -1,7 +1,7 @@
 @import './titleRegform.scss';
 
 
-.login__wrap{
+.loginPage__wrap{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -12,7 +12,7 @@
 
 }
 
-.center{
+.centerLoginPage{
     display: flex;
     justify-content: center;
     display: flex;
@@ -27,7 +27,7 @@
 
 }
 
-.checkin{
+.checkinLoginPage{
 
     &__wrap{
         width: 32.66rem;
@@ -51,7 +51,7 @@
 
 }
 
-.farmer{
+.farmerLoginPage{
 
     &__wrap{
         width: 31.33rem;

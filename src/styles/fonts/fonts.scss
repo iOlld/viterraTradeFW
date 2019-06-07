@@ -278,7 +278,7 @@
 
 // LOGIN__PAGE
 
-.checkin{
+.checkinLoginPage{
 
     &__title-text{
         font-size: 2.66rem;
@@ -294,6 +294,29 @@
         opacity: 0.8;
         line-height: 1.2;
         padding-top: 1rem;
+    }
+
+}
+
+
+
+
+// CHECKIN__PAGE //
+
+.checkinCheckinPage{
+
+    &__title{
+        font-size: 2.66rem;
+        font-family: 'SourceSansPro-Regular';
+        // font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        color: #000;
+    }
+
+    &__profileForm-text, &__emailForm-text, &__loginlForm-text, &__phoneForm-text{
+        font-size: 1.66rem;
+        font-family: 'SourceSansPro-Regular';
+        color: #000;
     }
 
 }

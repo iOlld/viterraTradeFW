@@ -1,0 +1,56 @@
+section.centerCheckinPage
+    .centerCheckinPage__wrap
+
+        .centerCheckinPage__leftSection
+            .centerCheckinPage__leftSection-wrap
+                .checkinCheckinPage__wrap
+
+                    p.checkinCheckinPage__title|Регистрация
+                    form(action="", method="post").checkinCheckinPage__form
+                        .checkinCheckinPage__profileForm-wrap
+                            p.checkinCheckinPage__profileForm-text|Профиль
+                        .checkinCheckinPage__emailForm-wrap
+                            p.checkinCheckinPage__emailForm-text|Email
+                            input.checkinCheckinPage__emailForm-input(type="email", id="checkinPageEmail" name="email")
+                        .checkinCheckinPage__loginForm-wrap
+                            p.checkinCheckinPage__loginlForm-text|Логин
+                            input.checkinCheckinPage__loginForm-input(type="text", id="checkinPageLogin" name="login")
+                        .checkinCheckinPage__phoneForm-wrap
+                            p.checkinCheckinPage__phoneForm-text|Телефон
+                            input.checkinCheckinPage__phoneForm-input(type="number", id="checkinPageNumber" name="number")
+                        .checkinCheckinPage__checkBox-wrap
+                            input(class="checkinCheckinPage__checkbox" type="checkbox", name="termsOfAgreement" id="checkinPageTermsOfAgreement" checked)
+                            label(for="checkinCheckinPageTermsOfAgreement")|Принимаю условия 
+                            a.checkinCheckinPage__termsOfAgreement-link|пользовательского соглашения
+                        .checkinCheckinPage__btn-wrap
+                            button.checkinCheckinPage__btn(value="продолжить")
+
+        .centerCheckinPage__rightSection
+            .centerCheckinPage__rightSection-wrap
+
+                .centerCheckinPage__topSection
+                    .centerCheckinPage__topSection-wrap
+                        .centerCheckinPage__quantity
+                            p.centerCheckinPage__quantity-number|2 500+
+                            p.centerCheckinPage__quantity-text|Компаний
+                        .centerCheckinPage__quantity
+                            p.centerCheckinPage__quantity-number|5 800+
+                            p.centerCheckinPage__quantity-text|Исполнителей
+                        .centerCheckinPage__quantity
+                            p.centerCheckinPage__quantity-number|200 000+
+                            p.centerCheckinPage__quantity-text|Предложений
+
+                .centerCheckinPage__bottomSection
+                    .centerCheckinPage__bottomSection-wrap
+
+                        .centerCheckinPage__bottomSectionLeft
+                            .centerCheckinPage__bottomSectionLeft-wrap
+                                p.centerCheckinPage__bottomSectionLeft-titleText|Зарегистрируйтесь и сможете
+                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Видеть контакты компаний
+                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Добавлять тендеры
+                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Использовать электронные документы
+                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Учавствовать в рейтинге
+                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Общаться на форуме
+                                
+                        .centerCheckinPage__bottomSectionRight
+                            .centerCheckinPage__bottomSectionRight-wrap

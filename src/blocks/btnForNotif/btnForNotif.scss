@@ -35,7 +35,8 @@
         }
 
         &__btnForNotif-svgManWrap{
-            width: 2.15rem;
+            // width: 2.15rem;
+            width: 3rem;
         }
 
         &__btnForNotif-svgMan{
@@ -46,6 +47,22 @@
             fill: #fff;
         }
     
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .header{
+
+        &__btnForNotif{
+            width: 8.6rem;
+            height: 11rem;
+            margin: 0rem;
+            padding: 0rem;
+            top: 0rem;
+        }
+
     }
 
 }

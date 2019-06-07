@@ -1,0 +1,56 @@
+.checkinPage__wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../img/Группа\ 7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.centerCheckinPage{
+
+    &__wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    // &__leftSection{
+
+    // }
+
+    // &__leftSection-wrap{
+
+    // }
+
+    &__bottomSectionRight-wrap{
+        display: flex;
+        background: url('../img/farmMan.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        // width: 5rem;
+        // height: 10rem;
+        width: 29rem;
+        height: 48rem;
+    }
+
+}
+
+.checkinCheckinPage{
+
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        width: 41.66rem;
+        background: #fff;
+        padding: 5.33rem 6rem;
+        margin-top: 4.66rem;
+        margin-bottom: 5.55rem;
+        height: 530px;
+    }
+
+}

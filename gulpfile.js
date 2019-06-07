@@ -64,7 +64,7 @@ gulp.task('styles', function () {
     .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer({
-      browsers: ['last 30 versions']
+      browsers: ['last 50 versions']
     }))
     .pipe(gulp.dest(paths.css.dest))
     .pipe(browserSync.reload({

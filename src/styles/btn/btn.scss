@@ -111,11 +111,40 @@
         border: none;
         color: #fff;
         font-size: 1.66rem;
-    font-family: 'SourceSansPro-Regular';
+        font-family: 'SourceSansPro-Regular';
         transition: all 0.3s ease;
     
         &:hover{
             background: #ff8c25;
+            transition: all 0.3 ease;
+        }
+    }
+
+}
+
+// CHECKIN__PAGE //
+
+.checkinCheckinPage{
+
+    &__btn-wrap{
+        margin-top: 2.66rem;
+        padding-bottom: 2.66rem;
+    }
+
+    &__btn{
+        padding: 1.44rem 2.22rem;
+        background: #ff8c25;
+        // background: #a1ce31;
+        text-transform: uppercase;
+        border: none;
+        color: #fff;
+        font-size: 1.66rem;
+        font-family: 'SourceSansPro-Regular';
+        transition: all 0.3s ease;
+    
+        &:hover{
+            // background: #ff8c25;
+            background: #a1ce31;
             transition: all 0.3 ease;
         }
     }

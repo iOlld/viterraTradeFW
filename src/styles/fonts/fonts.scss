@@ -311,12 +311,68 @@
         // font-family: 'Source Sans Pro', sans-serif;
         font-weight: bold;
         color: #000;
+        margin-bottom: 3.44rem;
+        line-height: 1.2;
     }
 
     &__profileForm-text, &__emailForm-text, &__loginlForm-text, &__phoneForm-text{
         font-size: 1.66rem;
         font-family: 'SourceSansPro-Regular';
         color: #000;
+        margin-bottom: 0.88rem;
+        line-height: 1.2;
+    }
+
+    &__termsOfAgreement-link{
+        font-size: 1.55rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-decoration: underline;
+        color: #317fce;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        line-height: 1.2;
+
+        &:hover{
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+    }
+
+}
+
+.centerCheckinPage{
+
+    &__quantity-number{
+        font-size: 5.33rem;
+        font-family: 'SourceSansPro-Regular';
+        color: #fff;
+        font-weight: bolder;
+        line-height: 1.2;
+    }
+
+    &__quantity-text{
+        font-size: 2rem;
+        font-family: 'SourceSansPro-Regular';
+        color: #fff;
+        line-height: 1.2;
+    }
+
+    &__bottomSectionLeft-titleText{
+        font-size: 2.66rem;
+        font-family: 'SourceSansPro-Regular';
+        font-weight: bold;
+        color: #000;
+        margin-top: 6.66rem;
+        margin-bottom: 3rem;
+        line-height: 1.2;
+    }
+
+    &__bottomSectionLeft-subTitleText{
+        font-size: 2rem;
+        font-family: 'SourceSansPro-Regular';
+        color: #000;
+        line-height: 1.2;
     }
 
 }

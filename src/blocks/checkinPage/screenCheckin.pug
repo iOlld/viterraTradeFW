@@ -3,12 +3,18 @@ section.centerCheckinPage
 
         .centerCheckinPage__leftSection
             .centerCheckinPage__leftSection-wrap
-                .checkinCheckinPage__wrap
 
+                .checkinCheckinPage__wrap
                     p.checkinCheckinPage__title|Регистрация
                     form(action="", method="post").checkinCheckinPage__form
                         .checkinCheckinPage__profileForm-wrap
                             p.checkinCheckinPage__profileForm-text|Профиль
+                            select.checkinCheckinPage__selectForm(name="selectProfile")
+                                option(value="1")|Животноводство 1
+                                option(value="2")|Животноводство 2
+                                option(value="3")|Животноводство 3
+                                option(value="4")|Животноводство 4
+                                option(value="5")|Животноводство 5
                         .checkinCheckinPage__emailForm-wrap
                             p.checkinCheckinPage__emailForm-text|Email
                             input.checkinCheckinPage__emailForm-input(type="email", id="checkinPageEmail" name="email")
@@ -19,11 +25,11 @@ section.centerCheckinPage
                             p.checkinCheckinPage__phoneForm-text|Телефон
                             input.checkinCheckinPage__phoneForm-input(type="number", id="checkinPageNumber" name="number")
                         .checkinCheckinPage__checkBox-wrap
-                            input(class="checkinCheckinPage__checkbox" type="checkbox", name="termsOfAgreement" id="checkinPageTermsOfAgreement" checked)
-                            label(for="checkinCheckinPageTermsOfAgreement")|Принимаю условия 
+                            input(class="checkbox checkinCheckinPageCheckbox" type="checkbox", name="termsOfAgreement" id="checkinPageTermsOfAgreement" checked)
+                            label(for="checkinPageTermsOfAgreement")|Принимаю условия 
                             a.checkinCheckinPage__termsOfAgreement-link|пользовательского соглашения
                         .checkinCheckinPage__btn-wrap
-                            button.checkinCheckinPage__btn(value="продолжить")
+                            button.checkinCheckinPage__btn|продолжить
 
         .centerCheckinPage__rightSection
             .centerCheckinPage__rightSection-wrap
@@ -45,12 +51,45 @@ section.centerCheckinPage
 
                         .centerCheckinPage__bottomSectionLeft
                             .centerCheckinPage__bottomSectionLeft-wrap
-                                p.centerCheckinPage__bottomSectionLeft-titleText|Зарегистрируйтесь и сможете
-                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Видеть контакты компаний
-                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Добавлять тендеры
-                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Использовать электронные документы
-                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Учавствовать в рейтинге
-                                p.centerCheckinPage__bottomSectionLeft-subTitleText|Общаться на форуме
+                                p.centerCheckinPage__bottomSectionLeft-titleText|Зарегистрируйтесь
+                                                                                br
+                                                                                |и сможете
+
+                                .centerCheckinPage__bottomSectionLeft-textWrap
+                                    p.centerCheckinPage__bottomSectionLeft-subTitleText|Видеть контакты компаний
+                                    use.centerCheckinPage__bottomSectionLeft-svgTextWrap
+                                        <svg class="centerCheckinPage__bottomSectionLeft-svgTextIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44">
+                                            <path d="m22,0c-12.2,0-22,9.8-22,22s9.8,22 22,22 22-9.8 22-22-9.8-22-22-22zm12.7,15.1l0,0-16,16.6c-0.2,0.2-0.4,0.3-0.7,0.3-0.3,0-0.6-0.1-0.7-0.3l-7.8-8.4-.2-.2c-0.2-0.2-0.3-0.5-0.3-0.7s0.1-0.5 0.3-0.7l1.4-1.4c0.4-0.4 1-0.4 1.4,0l.1,.1 5.5,5.9c0.2,0.2 0.5,0.2 0.7,0l13.4-13.9h0.1c0.4-0.4 1-0.4 1.4,0l1.4,1.4c0.4,0.3 0.4,0.9 0,1.3z"/>
+                                        </svg>
+
+                                .centerCheckinPage__bottomSectionLeft-textWrap
+                                    p.centerCheckinPage__bottomSectionLeft-subTitleText|Добавлять тендеры
+                                    use.centerCheckinPage__bottomSectionLeft-svgTextWrap
+                                        <svg class="centerCheckinPage__bottomSectionLeft-svgTextIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44">
+                                            <path d="m22,0c-12.2,0-22,9.8-22,22s9.8,22 22,22 22-9.8 22-22-9.8-22-22-22zm12.7,15.1l0,0-16,16.6c-0.2,0.2-0.4,0.3-0.7,0.3-0.3,0-0.6-0.1-0.7-0.3l-7.8-8.4-.2-.2c-0.2-0.2-0.3-0.5-0.3-0.7s0.1-0.5 0.3-0.7l1.4-1.4c0.4-0.4 1-0.4 1.4,0l.1,.1 5.5,5.9c0.2,0.2 0.5,0.2 0.7,0l13.4-13.9h0.1c0.4-0.4 1-0.4 1.4,0l1.4,1.4c0.4,0.3 0.4,0.9 0,1.3z"/>
+                                        </svg>
+
+                                .centerCheckinPage__bottomSectionLeft-textWrap
+                                    p.centerCheckinPage__bottomSectionLeft-subTitleText|Использовать электронные документы
+                                    use.centerCheckinPage__bottomSectionLeft-svgTextWrap
+                                        <svg class="centerCheckinPage__bottomSectionLeft-svgTextIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44">
+                                            <path d="m22,0c-12.2,0-22,9.8-22,22s9.8,22 22,22 22-9.8 22-22-9.8-22-22-22zm12.7,15.1l0,0-16,16.6c-0.2,0.2-0.4,0.3-0.7,0.3-0.3,0-0.6-0.1-0.7-0.3l-7.8-8.4-.2-.2c-0.2-0.2-0.3-0.5-0.3-0.7s0.1-0.5 0.3-0.7l1.4-1.4c0.4-0.4 1-0.4 1.4,0l.1,.1 5.5,5.9c0.2,0.2 0.5,0.2 0.7,0l13.4-13.9h0.1c0.4-0.4 1-0.4 1.4,0l1.4,1.4c0.4,0.3 0.4,0.9 0,1.3z"/>
+                                        </svg>
+
+                                .centerCheckinPage__bottomSectionLeft-textWrap
+                                    p.centerCheckinPage__bottomSectionLeft-subTitleText|Учавствовать в рейтинге
+                                    use.centerCheckinPage__bottomSectionLeft-svgTextWrap
+                                        <svg class="centerCheckinPage__bottomSectionLeft-svgTextIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44">
+                                            <path d="m22,0c-12.2,0-22,9.8-22,22s9.8,22 22,22 22-9.8 22-22-9.8-22-22-22zm12.7,15.1l0,0-16,16.6c-0.2,0.2-0.4,0.3-0.7,0.3-0.3,0-0.6-0.1-0.7-0.3l-7.8-8.4-.2-.2c-0.2-0.2-0.3-0.5-0.3-0.7s0.1-0.5 0.3-0.7l1.4-1.4c0.4-0.4 1-0.4 1.4,0l.1,.1 5.5,5.9c0.2,0.2 0.5,0.2 0.7,0l13.4-13.9h0.1c0.4-0.4 1-0.4 1.4,0l1.4,1.4c0.4,0.3 0.4,0.9 0,1.3z"/>
+                                        </svg>
+
+                                .centerCheckinPage__bottomSectionLeft-textWrap
+                                    p.centerCheckinPage__bottomSectionLeft-subTitleText|Общаться на форуме
+                                    use.centerCheckinPage__bottomSectionLeft-svgTextWrap
+                                        <svg class="centerCheckinPage__bottomSectionLeft-svgTextIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44">
+                                            <path d="m22,0c-12.2,0-22,9.8-22,22s9.8,22 22,22 22-9.8 22-22-9.8-22-22-22zm12.7,15.1l0,0-16,16.6c-0.2,0.2-0.4,0.3-0.7,0.3-0.3,0-0.6-0.1-0.7-0.3l-7.8-8.4-.2-.2c-0.2-0.2-0.3-0.5-0.3-0.7s0.1-0.5 0.3-0.7l1.4-1.4c0.4-0.4 1-0.4 1.4,0l.1,.1 5.5,5.9c0.2,0.2 0.5,0.2 0.7,0l13.4-13.9h0.1c0.4-0.4 1-0.4 1.4,0l1.4,1.4c0.4,0.3 0.4,0.9 0,1.3z"/>
+                                        </svg>
+
                                 
                         .centerCheckinPage__bottomSectionRight
                             .centerCheckinPage__bottomSectionRight-wrap

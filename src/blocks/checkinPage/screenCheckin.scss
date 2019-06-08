@@ -1,3 +1,5 @@
+// BACKGROUND__PAGE //
+
 .checkinPage__wrap{
     display: flex;
     flex-direction: column;
@@ -9,12 +11,21 @@
 
 }
 
+
+// STYLE__TO__LEFT__BLOCK //
+
 .centerCheckinPage{
 
     &__wrap{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    
+    &__leftSection{
+        // margin-right: 2.88rem;
+        margin-right: 0.6rem;
     }
 
     // &__leftSection{
@@ -25,32 +36,108 @@
 
     // }
 
-    &__bottomSectionRight-wrap{
-        display: flex;
-        background: url('../img/farmMan.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-        // width: 5rem;
-        // height: 10rem;
-        width: 29rem;
-        height: 48rem;
-    }
-
 }
 
+// STYLE__TO__CHECKIN__FORM //
+
 .checkinCheckinPage{
+
+    // &__leftSection{
+    //     margin-right: 2.88rem;
+    // }
 
     &__wrap{
         display: flex;
         flex-direction: column;
         width: 41.66rem;
         background: #fff;
-        padding: 5.33rem 6rem;
+        padding: 5.33rem 5.88rem;
         margin-top: 4.66rem;
         margin-bottom: 5.55rem;
-        height: 530px;
+        height: 58.88rem;
+    }
+
+    &__phoneForm-wrap {
+        margin-bottom: 1.55rem;
+    }
+
+    &__emailForm-wrap, &__loginlForm-text, &__phoneForm-text{
+        margin-top: 1.66rem;
+    }
+
+    &__selectForm, &__emailForm-input, &__loginForm-input, &__phoneForm-input{
+        width: 29.77rem;
+        height: 4.22rem;
+        border: 0.11rem solid #dddddd;
+        border-radius: 0.5rem;
+    }
+
+    &__selectForm{
+        padding-left: 1.77rem;
+        // padding-right: 1.77rem;
+    }
+
+}
+
+.checkinCheckinPageCheckbox + label {
+    font-size: 1.33rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999999;
+}
+
+// STYLE__TO__RIGHT__BLOCK //
+
+.centerCheckinPage{
+
+    &__rightSection{
+        margin-top: 8.88rem;
+        margin-left: 4.22rem;
+    }
+
+    &__topSection-wrap{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__quantity{
+        margin-right: 5rem;
+    }
+
+    &__bottomSection-wrap{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    &__bottomSectionLeft-textWrap{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 1.33rem;
+    }
+
+    &__bottomSectionLeft-svgTextWrap{
+        margin: 0rem 1.33rem 0rem 0rem;
+    }
+
+    &__bottomSectionLeft-svgTextIcon{
+        width: 2.77rem;
+        fill: #fff;
+        opacity: 0.8;
+        margin: 0;
+    }
+
+    &__bottomSectionRight-wrap{
+        display: flex;
+        background: url('../img/farmMan.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 20.88rem;
+        height: 47.77rem;
+        margin-top: 3.88rem;
+        margin-left: 2rem;
     }
 
 }

@@ -51,10 +51,10 @@
         flex-direction: column;
         width: 41.66rem;
         background: #fff;
-        padding: 5.33rem 5.88rem;
+        padding: 5.33rem 5.88rem 4.8rem 5.88rem;
         margin-top: 4.66rem;
         margin-bottom: 5.55rem;
-        height: 58.88rem;
+        // height: 58.88rem;
     }
 
     &__phoneForm-wrap {
@@ -67,7 +67,7 @@
 
     &__selectForm, &__emailForm-input, &__loginForm-input, &__phoneForm-input{
         width: 29.77rem;
-        height: 4.22rem;
+        height: 4rem;
         border: 0.11rem solid #dddddd;
         border-radius: 0.5rem;
     }

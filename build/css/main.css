@@ -271,15 +271,13 @@ table {
   font-family: 'SourceSansPro-Regular';
   font-weight: bold;
   color: #000;
-  margin-bottom: 3.44rem;
-  line-height: 1.2; }
+  margin-bottom: 3.44rem; }
 
 .checkinCheckinPage__profileForm-text, .checkinCheckinPage__emailForm-text, .checkinCheckinPage__loginlForm-text, .checkinCheckinPage__phoneForm-text {
   font-size: 1.66rem;
   font-family: 'SourceSansPro-Regular';
   color: #000;
-  margin-bottom: 0.88rem;
-  line-height: 1.2; }
+  margin-bottom: 0.88rem; }
 
 .checkinCheckinPage__termsOfAgreement-link {
   font-size: 1.55rem;
@@ -289,8 +287,7 @@ table {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  cursor: pointer;
-  line-height: 1.2; }
+  cursor: pointer; }
   .checkinCheckinPage__termsOfAgreement-link:hover {
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
@@ -342,30 +339,6 @@ table {
   .footer__nav-title {
     padding-top: 4rem;
     padding-bottom: 0.5rem; } }
-
-@media screen and (max-width: 568px) {
-  .screenOne__title-text {
-    font-size: 3rem; }
-  .screenOne__subtitle-text {
-    font-size: 4.3rem;
-    font-weight: bold; } }
-
-@media screen and (max-width: 568px) {
-  .screenTwo__head-title {
-    font-size: 3rem; }
-  .screenTwo__productCards-link-font, .screenTwo__requestCards-link-font, .screenTwo__tenderCards-link {
-    font-size: 2.1rem;
-    font-weight: bold; }
-  .screenTwo__productCards-description-text, .screenTwo__requestCards-description-text {
-    font-size: 1.9rem; }
-  .screenTwo__tenderCards-date-text, .screenTwo__tenderCards-priceTender {
-    font-size: 1.7rem; }
-    .screenTwo__tenderCards-date-text::before, .screenTwo__tenderCards-priceTender::before {
-      font-size: 2rem; }
-  .screenThree__form-agreement-text {
-    font-size: 1.7rem; }
-  .screenThree__title-fonts {
-    font-size: 2rem; } }
 
 html {
   font-size: 9px; }
@@ -892,8 +865,7 @@ a, button, input {
     transition: all 0.3 ease; }
 
 .checkinCheckinPage__btn-wrap {
-  margin-top: 2.66rem;
-  padding-bottom: 2.66rem; }
+  margin-top: 2.66rem; }
 
 .checkinCheckinPage__btn {
   padding: 1.44rem 2.22rem;
@@ -3540,6 +3512,8 @@ a, button, input {
             flex-direction: row; }
   .screenThree__form-inputMinPrice-wrap, .screenThree__form-inputMaxPrice-wrap {
     position: relative; }
+  .screenThree__form-email {
+    padding-top: 3.55rem; }
   .screenThree__currencySymbol {
     position: absolute;
     color: #999999;
@@ -3587,7 +3561,8 @@ a, button, input {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .screenThree__form-email {
-    width: 36.67%; }
+    width: 36.67%;
+    padding-top: 0rem; }
   .screenThree__form-btn-wrap {
     width: 22.56%; }
   .screenThree__form-inputKeyword, .screenThree__form-inputIndustry, .screenThree__form-inputRegion, .screenThree__form-inputMinPrice, .screenThree__form-inputMaxPrice, .screenThree__form-inputEmail {
@@ -3945,15 +3920,6 @@ a, button, input {
   .form-block__warning {
     line-height: 2.2rem;
     padding-bottom: 4.4rem; } }
-
-@media screen and (max-width: 568px) {
-  .news-block__title {
-    font-size: 2rem;
-    font-weight: bold; }
-  .news-column__title {
-    font-size: 2.7rem; }
-  .form-block__warning {
-    font-size: 1.82rem; } }
 
 @media screen and (max-width: 550px) {
   .news-column {
@@ -4650,10 +4616,9 @@ a, button, input {
           flex-direction: column;
   width: 41.66rem;
   background: #fff;
-  padding: 5.33rem 5.88rem;
+  padding: 5.33rem 5.88rem 4.8rem 5.88rem;
   margin-top: 4.66rem;
-  margin-bottom: 5.55rem;
-  height: 58.88rem; }
+  margin-bottom: 5.55rem; }
 
 .checkinCheckinPage__phoneForm-wrap {
   margin-bottom: 1.55rem; }
@@ -4663,7 +4628,7 @@ a, button, input {
 
 .checkinCheckinPage__selectForm, .checkinCheckinPage__emailForm-input, .checkinCheckinPage__loginForm-input, .checkinCheckinPage__phoneForm-input {
   width: 29.77rem;
-  height: 4.22rem;
+  height: 4rem;
   border: 0.11rem solid #dddddd;
   -webkit-border-radius: 0.5rem;
           border-radius: 0.5rem; }

@@ -312,7 +312,7 @@
         font-weight: bold;
         color: #000;
         margin-bottom: 3.44rem;
-        line-height: 1.2;
+        // line-height: 1.2;
     }
 
     &__profileForm-text, &__emailForm-text, &__loginlForm-text, &__phoneForm-text{
@@ -320,7 +320,7 @@
         font-family: 'SourceSansPro-Regular';
         color: #000;
         margin-bottom: 0.88rem;
-        line-height: 1.2;
+        // line-height: 1.2;
     }
 
     &__termsOfAgreement-link{
@@ -330,7 +330,7 @@
         color: #317fce;
         transition: all 0.3s ease;
         cursor: pointer;
-        line-height: 1.2;
+        // line-height: 1.2;
 
         &:hover{
             text-decoration: none;

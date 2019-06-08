@@ -38,66 +38,66 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+// @media screen and (max-width: 568px) {
 
-    .screenOne{
+//     .screenOne{
 
-        &__title-text{
-            font-size: 3rem;
-        }
+//         &__title-text{
+//             font-size: 3rem;
+//         }
 
-        &__subtitle-text{
-            font-size: 4.3rem;
-            font-weight: bold;
-        }
+//         &__subtitle-text{
+//             font-size: 4.3rem;
+//             font-weight: bold;
+//         }
 
-    }
+//     }
 
-}
+// }
 
-@media screen and (max-width: 568px) {
+// @media screen and (max-width: 568px) {
 
-    .screenTwo{
+//     .screenTwo{
 
-        &__head-title{
-            font-size: 3rem;
-        }
+//         &__head-title{
+//             font-size: 3rem;
+//         }
 
-        &__productCards-link-font, &__requestCards-link-font, &__tenderCards-link{
-            font-size: 2.1rem;
-            font-weight: bold;
-        }
+//         &__productCards-link-font, &__requestCards-link-font, &__tenderCards-link{
+//             font-size: 2.1rem;
+//             font-weight: bold;
+//         }
 
-        &__productCards-description-text, &__requestCards-description-text{
-            font-size: 1.9rem;
-        }
+//         &__productCards-description-text, &__requestCards-description-text{
+//             font-size: 1.9rem;
+//         }
 
-        &__tenderCards-date-text, &__tenderCards-priceTender{
-            font-size: 1.7rem;
+//         &__tenderCards-date-text, &__tenderCards-priceTender{
+//             font-size: 1.7rem;
 
-            &::before{
-                font-size: 2rem;
-            }
+//             &::before{
+//                 font-size: 2rem;
+//             }
 
-        }
+//         }
 
         
 
-    }
+//     }
 
-    .screenThree{
+//     .screenThree{
 
-        &__form-agreement-text{
-            font-size: 1.7rem;
-        }
+//         &__form-agreement-text{
+//             font-size: 1.7rem;
+//         }
 
-        &__title-fonts{
-            font-size: 2rem;
-        }
+//         &__title-fonts{
+//             font-size: 2rem;
+//         }
 
-    }
+//     }
 
-}
+// }
 
 // @media screen and (max-width: 320px) {
 

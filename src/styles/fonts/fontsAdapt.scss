@@ -36,24 +36,57 @@
             padding-bottom: 0.5rem;
         }
     }
+
+        // CHECKIN__PAGE //
+
+    .checkinCheckinPage{
+
+        &__title-text{
+            font-size: 3.55rem;
+        }
+
+        &__profileForm-text, &__emailForm-text, &__loginlForm-text, &__phoneForm-text{
+            font-size: 2.22rem;
+        }
+
+    }
+
+    .centerCheckinPage{
+
+        &__quantity-number{
+            font-size: 4.74rem;
+        }
+
+        &__quantity-text{
+            font-size: 2.66rem;
+        }
+
+    }
 }
 
-// @media screen and (max-width: 568px) {
+@media screen and (max-width: 600px) {
 
-//     .screenOne{
+    .checkinCheckinPage{
+        
+        &__title-link{
+            display: flex;
+            font-size: 2.07rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-decoration: underline;
+            color: #317fce;
+            transition: all 0.3s ease;
+            cursor: pointer;
 
-//         &__title-text{
-//             font-size: 3rem;
-//         }
+            &:hover{
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
 
-//         &__subtitle-text{
-//             font-size: 4.3rem;
-//             font-weight: bold;
-//         }
+        }
 
-//     }
+    }
 
-// }
+}
 
 // @media screen and (max-width: 568px) {
 

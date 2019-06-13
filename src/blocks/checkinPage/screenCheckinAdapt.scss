@@ -1,19 +1,106 @@
 @media screen and (max-width: 980px) {
 
-    // .checkinCheckinPage{
+    .checkinPage__wrap{
+        background: none;
+    }
 
-    //     &__wrap{
+    .centerCheckinPage{
+            margin-top: 11rem;
 
-    //     }
+        &__wrap{
+            background: url('../img/Группа\ 7.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-    // }
+        &__topSection-wrap{
+            margin-right: 2.44rem;
+        }
+
+        &__quantity{
+            margin-right: 2rem;
+        }
+
+        // &__topSection-wrap{
+
+        // }
+
+        // &__bottomSectionRight{
+        //     position: absolute;
+        //     right: 4rem;
+        // }
+
+        &__bottomSection-wrap{
+            position: relative;
+        }
+
+        &__bottomSectionLeft{
+            z-index: 1;
+        }
+
+        &__bottomSectionRight-wrap{
+            // position: fixed;
+            position: absolute;
+            right: 4.44rem;
+            // top: 26rem;
+            top: 0rem;
+            z-index: 0;
+            height: 45.62rem;
+            width: 20.14rem;
+        }
+
+
+    }
+
+    .checkinCheckinPage{
+
+        &__wrap{
+            margin-left: 4.44rem;
+            // height: 73.77rem;
+        }
+
+        &__selectForm, &__emailForm-input, &__loginForm-input, &__phoneForm-input{
+            height: 5.63rem;
+        }
+
+    }
 
 }
 
 @media screen and (max-width: 600px) {
 
-    .centerCheckinPage__rightSection{
-        display: none;
+    .centerCheckinPage{
+
+        &__rightSection{
+            display: none;
+        }
+
+        &__leftSection{
+            margin-right: 0rem;
+            width: 100%;
+        }
+
+    }
+
+    .checkinCheckinPage{
+
+        &__wrap{
+            margin: 0;
+            width: 100%;
+        }
+
+        &__title-wrap{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        &__selectForm, &__emailForm-input, &__loginForm-input, &__phoneForm-input{
+            width: 100%;
+        }
+        
     }
 
 }

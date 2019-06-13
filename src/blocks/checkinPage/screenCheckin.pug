@@ -5,7 +5,9 @@ section.centerCheckinPage
             .centerCheckinPage__leftSection-wrap
 
                 .checkinCheckinPage__wrap
-                    p.checkinCheckinPage__title|Регистрация
+                    .checkinCheckinPage__title-wrap
+                        p.checkinCheckinPage__title-text|Регистрация
+                        a.checkinCheckinPage__title-link(href="#")|Вход
                     form(action="", method="post").checkinCheckinPage__form
                         .checkinCheckinPage__profileForm-wrap
                             p.checkinCheckinPage__profileForm-text|Профиль
@@ -27,7 +29,9 @@ section.centerCheckinPage
                         .checkinCheckinPage__checkBox-wrap
                             input(class="checkbox checkinCheckinPageCheckbox" type="checkbox", name="termsOfAgreement" id="checkinPageTermsOfAgreement" checked)
                             label(for="checkinPageTermsOfAgreement")|Принимаю условия 
-                            a.checkinCheckinPage__termsOfAgreement-link|пользовательского соглашения
+                            a.checkinCheckinPage__termsOfAgreement-link|пользовательского
+                                                                        br
+                                                                        | соглашения
                         .checkinCheckinPage__btn-wrap
                             button.checkinCheckinPage__btn|продолжить
 

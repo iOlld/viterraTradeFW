@@ -89,6 +89,7 @@
     &__topSection-wrap{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     &__quantity{

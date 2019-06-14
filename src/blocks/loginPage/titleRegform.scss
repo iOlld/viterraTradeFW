@@ -1,3 +1,11 @@
+.regForm__title-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
 .regForm__title-text{
     font-size: 2.66rem;
     font-family: 'SourceSansPro-Regular';
@@ -6,6 +14,10 @@
     color: #000;
     text-align: left;
     padding-bottom: 2.22rem;
+}
+
+.regForm__title-link{
+    display: none;
 }
 
 @import './titleRegFormAdapt.scss';

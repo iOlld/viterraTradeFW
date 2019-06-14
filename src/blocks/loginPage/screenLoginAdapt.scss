@@ -1,4 +1,39 @@
+@media screen and (max-width: 980px) {
+
+    .loginPage__wrap{
+        background-size: auto;
+        background-position: bottom;
+        // background: none;
+    }
+
+    .centerLoginPage{
+        // background: url('../img/Группа\ 7.png');
+        // background-size: cover;
+        // background-position: center;
+        // background-repeat: no-repeat;
+
+        &__wrap{
+            padding-top: 16rem;
+        }
+
+    }
+
+    .farmerLoginPage__wrap{
+        width: 25.77rem;
+        height: 42rem;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
+
+    .centerLoginPage{
+        
+        &__wrap{
+            padding-top: 0rem;
+        }
+
+    }
 
     .checkinLoginPage, .farmerLoginPage{
         display: none;
